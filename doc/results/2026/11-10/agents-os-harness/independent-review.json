@@ -1,0 +1,20 @@
+{
+  "verified": true,
+  "status": "passed",
+  "sourceCommit": "73ba33c407782e08b94b6ce0cc6f26af9617c5bf",
+  "workflowCommit": "344ac7aae367460296dfb4473b91533d00e0186b",
+  "files": 161,
+  "bytes": 2449941,
+  "cases": 27,
+  "errors": [],
+  "cleanup": {
+    "activeChildren": 0,
+    "remainingOriginalGroups": [],
+    "remainingOwnedProcesses": 0,
+    "remainingOriginalWorkers": 0,
+    "allStreamsComplete": true,
+    "databaseRemoved": true,
+    "listenerClosed": true,
+    "rootRemoved": true
+  }
+}

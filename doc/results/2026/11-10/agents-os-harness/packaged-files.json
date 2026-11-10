@@ -1,0 +1,52 @@
+{
+  "sourceCommit": "73ba33c407782e08b94b6ce0cc6f26af9617c5bf",
+  "name": "@alvarovillalbaa/agents-os-harness",
+  "version": "0.1.0",
+  "integrity": "sha512-RgGMem9/kOOoCk9Q9umVS/Z/BQWhjSnMbLIJBzX82l2ez557uyWVJx5B7hrRBYYmL35G1NyjjWiiKbGw2QhMJg==",
+  "archiveBytes": 216942,
+  "archiveSha256": "26bc15b4a89264d347e740c82b14fa851355c6f7994f436d43932abc76a31c35",
+  "files": [
+    {
+      "path": "LICENSE",
+      "bytes": 1133,
+      "sha256": "1b368f04e5cac49dcc93d743ca016be8f34b48288564f0d327e14b3a3a704fc8",
+      "mode": 420
+    },
+    {
+      "path": "README.md",
+      "bytes": 2867,
+      "sha256": "7eee10453a5481eb01f695b9f77ab529a657e2fcfd664b608b4340621c2ac752",
+      "mode": 420
+    },
+    {
+      "path": "dist/manifest.js",
+      "bytes": 5017,
+      "sha256": "6ac832957e3464a7aa3dddfc9638107d8f77aa00cd942c840f722626200cf5cf",
+      "mode": 420
+    },
+    {
+      "path": "dist/THIRD_PARTY_LICENSES.txt",
+      "bytes": 3275,
+      "sha256": "9179aa66f1f4506fe301a85fd4010df1c53a317eaf71c286e7b99bfb2eff6087",
+      "mode": 420
+    },
+    {
+      "path": "dist/ui/index.js",
+      "bytes": 11624,
+      "sha256": "21fde6add631d0789e7989f1c63eb3a30b446c2863074878fc1d5ff8767a297c",
+      "mode": 420
+    },
+    {
+      "path": "dist/worker.js",
+      "bytes": 1293087,
+      "sha256": "4054a183093e34a82ca55c47b2112e85856e94c1186f62df98b42b20093b66c7",
+      "mode": 420
+    },
+    {
+      "path": "package.json",
+      "bytes": 794,
+      "sha256": "53e2491af403d1106846cb1091c97702bd5c45061f337b42aa9818ed59fb0cc6",
+      "mode": 420
+    }
+  ]
+}

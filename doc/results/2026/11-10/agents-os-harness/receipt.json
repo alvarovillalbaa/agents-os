@@ -1,0 +1,1006 @@
+{
+  "schemaVersion": "agents-os.harness-checks.v1",
+  "sourceCommit": "73ba33c407782e08b94b6ce0cc6f26af9617c5bf",
+  "workflowCommit": "344ac7aae367460296dfb4473b91533d00e0186b",
+  "status": "passed",
+  "startedAt": "2026-11-10T21:47:21.311Z",
+  "upstream": {
+    "version": "2026.1106.0",
+    "commit": "d69631b01b9c658f80bf8bed389863dce82643e1"
+  },
+  "commands": [
+    {
+      "label": "tools-install",
+      "command": "npm",
+      "args": [
+        "install",
+        "--prefix",
+        "/home/runner/work/_temp/agents-os-harness-dwYXQ6/tools",
+        "--ignore-scripts",
+        "--omit=optional",
+        "--save-exact",
+        "--no-audit",
+        "--no-fund",
+        "paperclipai@2026.1106.0",
+        "playwright@1.65.0",
+        "postgres@3.4.9",
+        "@img/sharp-linux-x64@0.35.5",
+        "@img/sharp-libvips-linux-x64@1.3.4",
+        "@esbuild/linux-x64@0.28.2"
+      ],
+      "startedAt": "2026-11-10T21:47:21.616Z",
+      "signals": [],
+      "streams": [
+        {
+          "name": "tools-install.stdout.txt",
+          "bytes": 26,
+          "sha256": "a52f468a9176b3f63dd4d497a5d64add9c93832c635c9a36d019f6a71642751c",
+          "complete": true
+        },
+        {
+          "name": "tools-install.stderr.txt",
+          "bytes": 218,
+          "sha256": "09787a8109dd6c244c7a5b53e1a3d6cf10893d91435a2e411cebfe0b37f0dd98",
+          "complete": true
+        }
+      ],
+      "pid": 3342,
+      "identity": {
+        "pid": 3342,
+        "uid": 1001,
+        "pgid": 3342,
+        "sid": 3342,
+        "start": "4133"
+      },
+      "exitCode": 0,
+      "signal": null,
+      "closeObserved": true,
+      "completedAt": "2026-11-10T21:48:29.548Z",
+      "originalGroupAbsent": true
+    },
+    {
+      "label": "chromium-install",
+      "command": "/home/runner/work/_temp/agents-os-harness-dwYXQ6/tools/node_modules/.bin/playwright",
+      "args": [
+        "install",
+        "chromium"
+      ],
+      "startedAt": "2026-11-10T21:48:30.240Z",
+      "signals": [],
+      "streams": [
+        {
+          "name": "chromium-install.stdout.txt",
+          "bytes": 6916,
+          "sha256": "b561abd719b6e7625fa0b8a7e893c3cb4b5904d52d19adcdcc0b9044c402ddf1",
+          "complete": true
+        },
+        {
+          "name": "chromium-install.stderr.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "complete": true
+        }
+      ],
+      "pid": 3654,
+      "identity": {
+        "pid": 3654,
+        "uid": 1001,
+        "pgid": 3654,
+        "sid": 3654,
+        "start": "10995"
+      },
+      "exitCode": 0,
+      "signal": null,
+      "closeObserved": true,
+      "completedAt": "2026-11-10T21:48:39.724Z",
+      "originalGroupAbsent": true
+    },
+    {
+      "label": "plugin-dependencies",
+      "command": "npm",
+      "args": [
+        "install",
+        "--include=optional",
+        "--ignore-scripts",
+        "--no-audit",
+        "--no-fund"
+      ],
+      "startedAt": "2026-11-10T21:48:39.724Z",
+      "signals": [],
+      "streams": [
+        {
+          "name": "plugin-dependencies.stdout.txt",
+          "bytes": 25,
+          "sha256": "44a784cc08b1e73a44c0bf704e56a742f67527e48ac8e6f114f8d5124754fa77",
+          "complete": true
+        },
+        {
+          "name": "plugin-dependencies.stderr.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "complete": true
+        }
+      ],
+      "pid": 3745,
+      "identity": {
+        "pid": 3745,
+        "uid": 1001,
+        "pgid": 3745,
+        "sid": 3745,
+        "start": "11944"
+      },
+      "exitCode": 0,
+      "signal": null,
+      "closeObserved": true,
+      "completedAt": "2026-11-10T21:48:42.594Z",
+      "originalGroupAbsent": true
+    },
+    {
+      "label": "plugin-typecheck",
+      "command": "npm",
+      "args": [
+        "run",
+        "typecheck"
+      ],
+      "startedAt": "2026-11-10T21:48:42.595Z",
+      "signals": [],
+      "streams": [
+        {
+          "name": "plugin-typecheck.stdout.txt",
+          "bytes": 70,
+          "sha256": "9a253cc53023f527d7d48a2b3e0f36c5734ce19d5cec24f3346b411d20b9f42c",
+          "complete": true
+        },
+        {
+          "name": "plugin-typecheck.stderr.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "complete": true
+        }
+      ],
+      "pid": 3758,
+      "identity": {
+        "pid": 3758,
+        "uid": 1001,
+        "pgid": 3758,
+        "sid": 3758,
+        "start": "12231"
+      },
+      "exitCode": 0,
+      "signal": null,
+      "closeObserved": true,
+      "completedAt": "2026-11-10T21:48:44.566Z",
+      "originalGroupAbsent": true
+    },
+    {
+      "label": "plugin-domain",
+      "command": "npm",
+      "args": [
+        "test"
+      ],
+      "startedAt": "2026-11-10T21:48:44.566Z",
+      "signals": [],
+      "streams": [
+        {
+          "name": "plugin-domain.stdout.txt",
+          "bytes": 2487,
+          "sha256": "1d0d80929dcf65f7b674283724956729f54894f8aea1200fba34d9ea7e5a9665",
+          "complete": true
+        },
+        {
+          "name": "plugin-domain.stderr.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "complete": true
+        }
+      ],
+      "pid": 3806,
+      "identity": {
+        "pid": 3806,
+        "uid": 1001,
+        "pgid": 3806,
+        "sid": 3806,
+        "start": "12428"
+      },
+      "exitCode": 0,
+      "signal": null,
+      "closeObserved": true,
+      "completedAt": "2026-11-10T21:48:45.070Z",
+      "originalGroupAbsent": true
+    },
+    {
+      "label": "plugin-build",
+      "command": "npm",
+      "args": [
+        "run",
+        "build"
+      ],
+      "startedAt": "2026-11-10T21:48:45.071Z",
+      "signals": [],
+      "streams": [
+        {
+          "name": "plugin-build.stdout.txt",
+          "bytes": 68,
+          "sha256": "b5b8ef0cc1dfd173f1fa96c0b8ad69262370b04457777df5d2b04e453b89e697",
+          "complete": true
+        },
+        {
+          "name": "plugin-build.stderr.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "complete": true
+        }
+      ],
+      "pid": 3854,
+      "identity": {
+        "pid": 3854,
+        "uid": 1001,
+        "pgid": 3854,
+        "sid": 3854,
+        "start": "12478"
+      },
+      "exitCode": 0,
+      "signal": null,
+      "closeObserved": true,
+      "completedAt": "2026-11-10T21:48:45.351Z",
+      "originalGroupAbsent": true
+    },
+    {
+      "label": "plugin-pack",
+      "command": "npm",
+      "args": [
+        "pack",
+        "--ignore-scripts",
+        "--json",
+        "--pack-destination",
+        "/home/runner/work/_temp/agents-os-harness-dwYXQ6/artifacts"
+      ],
+      "startedAt": "2026-11-10T21:48:45.351Z",
+      "signals": [],
+      "streams": [
+        {
+          "name": "plugin-pack.stdout.txt",
+          "bytes": 1145,
+          "sha256": "a6e4ab08a04f82059e43d8f02bf6b66ea96a2a7323d4b7150f8b798d8c0ba1e0",
+          "complete": true
+        },
+        {
+          "name": "plugin-pack.stderr.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "complete": true
+        }
+      ],
+      "pid": 3882,
+      "identity": {
+        "pid": 3882,
+        "uid": 1001,
+        "pgid": 3882,
+        "sid": 3882,
+        "start": "12507"
+      },
+      "exitCode": 0,
+      "signal": null,
+      "closeObserved": true,
+      "completedAt": "2026-11-10T21:48:45.738Z",
+      "originalGroupAbsent": true
+    },
+    {
+      "label": "package-list",
+      "command": "tar",
+      "args": [
+        "-tzf",
+        "/home/runner/work/_temp/agents-os-harness-dwYXQ6/artifacts/alvarovillalbaa-agents-os-harness-0.1.0.tgz"
+      ],
+      "startedAt": "2026-11-10T21:48:45.739Z",
+      "signals": [],
+      "streams": [
+        {
+          "name": "package-list.stdout.txt",
+          "bytes": 166,
+          "sha256": "2a73543dba6d98e087b01da9f114f19e4695bcde85cff2d0cc758c193c98ec62",
+          "complete": true
+        },
+        {
+          "name": "package-list.stderr.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "complete": true
+        }
+      ],
+      "pid": 3894,
+      "identity": {
+        "pid": 3894,
+        "uid": 1001,
+        "pgid": 3894,
+        "sid": 3894,
+        "start": "12545"
+      },
+      "exitCode": 0,
+      "signal": null,
+      "closeObserved": true,
+      "completedAt": "2026-11-10T21:48:45.750Z",
+      "originalGroupAbsent": true
+    },
+    {
+      "label": "package-extract",
+      "command": "tar",
+      "args": [
+        "-xzf",
+        "/home/runner/work/_temp/agents-os-harness-dwYXQ6/artifacts/alvarovillalbaa-agents-os-harness-0.1.0.tgz",
+        "-m",
+        "-C",
+        "/home/runner/work/_temp/agents-os-harness-dwYXQ6/installed"
+      ],
+      "startedAt": "2026-11-10T21:48:45.751Z",
+      "signals": [],
+      "streams": [
+        {
+          "name": "package-extract.stdout.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "complete": true
+        },
+        {
+          "name": "package-extract.stderr.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "complete": true
+        }
+      ],
+      "pid": 3896,
+      "identity": {
+        "pid": 3896,
+        "uid": 1001,
+        "pgid": 3896,
+        "sid": 3896,
+        "start": "12547"
+      },
+      "exitCode": 0,
+      "signal": null,
+      "closeObserved": true,
+      "completedAt": "2026-11-10T21:48:45.761Z",
+      "originalGroupAbsent": true
+    },
+    {
+      "label": "previous-package-download",
+      "command": "/opt/hostedtoolcache/node/24.22.2/x64/bin/node",
+      "args": [
+        "checks/previous-package.mjs"
+      ],
+      "startedAt": "2026-11-10T21:48:45.904Z",
+      "signals": [],
+      "streams": [
+        {
+          "name": "previous-package-download.stdout.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "complete": true
+        },
+        {
+          "name": "previous-package-download.stderr.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "complete": true
+        }
+      ],
+      "pid": 3903,
+      "identity": {
+        "pid": 3903,
+        "uid": 1001,
+        "pgid": 3903,
+        "sid": 3903,
+        "start": "12562"
+      },
+      "exitCode": 0,
+      "signal": null,
+      "closeObserved": true,
+      "completedAt": "2026-11-10T21:48:46.320Z",
+      "originalGroupAbsent": true
+    },
+    {
+      "label": "previous-package-list",
+      "command": "tar",
+      "args": [
+        "-tzf",
+        "/home/runner/work/_temp/agents-os-harness-dwYXQ6/artifacts/missions-0.2.0.tgz"
+      ],
+      "startedAt": "2026-11-10T21:48:46.320Z",
+      "signals": [],
+      "streams": [
+        {
+          "name": "previous-package-list.stdout.txt",
+          "bytes": 238,
+          "sha256": "191b0ab4294531cb60bc5e17d436b27021aec81f3063b11a094d467a74be6e96",
+          "complete": true
+        },
+        {
+          "name": "previous-package-list.stderr.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "complete": true
+        }
+      ],
+      "pid": 3915,
+      "identity": {
+        "pid": 3915,
+        "uid": 1001,
+        "pgid": 3915,
+        "sid": 3915,
+        "start": "12603"
+      },
+      "exitCode": 0,
+      "signal": null,
+      "closeObserved": true,
+      "completedAt": "2026-11-10T21:48:46.332Z",
+      "originalGroupAbsent": true
+    },
+    {
+      "label": "previous-package-extract",
+      "command": "tar",
+      "args": [
+        "-xzf",
+        "/home/runner/work/_temp/agents-os-harness-dwYXQ6/artifacts/missions-0.2.0.tgz",
+        "-C",
+        "/home/runner/work/_temp/agents-os-harness-dwYXQ6/previous"
+      ],
+      "startedAt": "2026-11-10T21:48:46.332Z",
+      "signals": [],
+      "streams": [
+        {
+          "name": "previous-package-extract.stdout.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "complete": true
+        },
+        {
+          "name": "previous-package-extract.stderr.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "complete": true
+        }
+      ],
+      "pid": 3917,
+      "identity": {
+        "pid": 3917,
+        "uid": 1001,
+        "pgid": 3917,
+        "sid": 3917,
+        "start": "12605"
+      },
+      "exitCode": 0,
+      "signal": null,
+      "closeObserved": true,
+      "completedAt": "2026-11-10T21:48:46.343Z",
+      "originalGroupAbsent": true
+    },
+    {
+      "label": "paperclip-first",
+      "command": "/opt/hostedtoolcache/node/24.22.2/x64/bin/node",
+      "args": [
+        "/home/runner/work/_temp/agents-os-harness-dwYXQ6/tools/start-paperclip.mjs"
+      ],
+      "startedAt": "2026-11-10T21:48:46.425Z",
+      "signals": [
+        "SIGTERM"
+      ],
+      "streams": [
+        {
+          "name": "paperclip-first.stdout.txt",
+          "bytes": 79100,
+          "sha256": "ddea292993ddc4ad484c6dd955bd863a8b744256d1e91a7f8180b27f2e52081b",
+          "complete": true
+        },
+        {
+          "name": "paperclip-first.stderr.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "complete": true
+        }
+      ],
+      "pid": 3922,
+      "identity": {
+        "pid": 3922,
+        "uid": 1001,
+        "pgid": 3922,
+        "sid": 3922,
+        "start": "12614"
+      },
+      "exitCode": 0,
+      "signal": null,
+      "closeObserved": true,
+      "completedAt": "2026-11-10T21:49:03.936Z",
+      "originalGroupAbsent": true
+    },
+    {
+      "label": "harness-api-core",
+      "command": "/opt/hostedtoolcache/node/24.22.2/x64/bin/node",
+      "args": [
+        "checks/api.mjs",
+        "core"
+      ],
+      "startedAt": "2026-11-10T21:48:58.533Z",
+      "signals": [],
+      "streams": [
+        {
+          "name": "harness-api-core.stdout.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "complete": true
+        },
+        {
+          "name": "harness-api-core.stderr.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "complete": true
+        }
+      ],
+      "pid": 3999,
+      "identity": {
+        "pid": 3999,
+        "uid": 1001,
+        "pgid": 3999,
+        "sid": 3999,
+        "start": "13825"
+      },
+      "exitCode": 0,
+      "signal": null,
+      "closeObserved": true,
+      "completedAt": "2026-11-10T21:49:03.690Z",
+      "originalGroupAbsent": true
+    },
+    {
+      "label": "paperclip-restarted",
+      "command": "/opt/hostedtoolcache/node/24.22.2/x64/bin/node",
+      "args": [
+        "/home/runner/work/_temp/agents-os-harness-dwYXQ6/tools/start-paperclip.mjs"
+      ],
+      "startedAt": "2026-11-10T21:49:03.938Z",
+      "signals": [
+        "SIGTERM"
+      ],
+      "streams": [
+        {
+          "name": "paperclip-restarted.stdout.txt",
+          "bytes": 437422,
+          "sha256": "60813ef8512acd9393993d4a579ab394f505d1619c85cda90da16d0723689dc9",
+          "complete": true
+        },
+        {
+          "name": "paperclip-restarted.stderr.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "complete": true
+        }
+      ],
+      "pid": 4051,
+      "identity": {
+        "pid": 4051,
+        "uid": 1001,
+        "pgid": 4051,
+        "sid": 4051,
+        "start": "14365"
+      },
+      "exitCode": 0,
+      "signal": null,
+      "closeObserved": true,
+      "completedAt": "2026-11-10T21:49:41.190Z",
+      "originalGroupAbsent": true
+    },
+    {
+      "label": "harness-api-restart",
+      "command": "/opt/hostedtoolcache/node/24.22.2/x64/bin/node",
+      "args": [
+        "checks/api.mjs",
+        "restart"
+      ],
+      "startedAt": "2026-11-10T21:49:11.564Z",
+      "signals": [],
+      "streams": [
+        {
+          "name": "harness-api-restart.stdout.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "complete": true
+        },
+        {
+          "name": "harness-api-restart.stderr.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "complete": true
+        }
+      ],
+      "pid": 4132,
+      "identity": {
+        "pid": 4132,
+        "uid": 1001,
+        "pgid": 4132,
+        "sid": 4132,
+        "start": "15128"
+      },
+      "exitCode": 0,
+      "signal": null,
+      "closeObserved": true,
+      "completedAt": "2026-11-10T21:49:12.227Z",
+      "originalGroupAbsent": true
+    },
+    {
+      "label": "harness-browser",
+      "command": "/opt/hostedtoolcache/node/24.22.2/x64/bin/node",
+      "args": [
+        "checks/browser.mjs"
+      ],
+      "startedAt": "2026-11-10T21:49:12.377Z",
+      "signals": [],
+      "streams": [
+        {
+          "name": "harness-browser.stdout.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "complete": true
+        },
+        {
+          "name": "harness-browser.stderr.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "complete": true
+        }
+      ],
+      "pid": 4149,
+      "identity": {
+        "pid": 4149,
+        "uid": 1001,
+        "pgid": 4149,
+        "sid": 4149,
+        "start": "15209"
+      },
+      "exitCode": 0,
+      "signal": null,
+      "closeObserved": true,
+      "completedAt": "2026-11-10T21:49:40.873Z",
+      "originalGroupAbsent": true
+    }
+  ],
+  "cases": [
+    {
+      "id": "H01",
+      "passed": true
+    },
+    {
+      "id": "H02",
+      "passed": true
+    },
+    {
+      "id": "H03",
+      "passed": true
+    },
+    {
+      "id": "H04",
+      "passed": true
+    },
+    {
+      "id": "H05",
+      "passed": true
+    },
+    {
+      "id": "H06",
+      "passed": true
+    },
+    {
+      "id": "H07",
+      "passed": true
+    },
+    {
+      "id": "H08",
+      "passed": true
+    },
+    {
+      "id": "H09",
+      "passed": true
+    },
+    {
+      "id": "H10",
+      "passed": true
+    },
+    {
+      "id": "H11",
+      "passed": true
+    },
+    {
+      "id": "H12",
+      "passed": true
+    },
+    {
+      "id": "J01",
+      "passed": true,
+      "actualPackages": [
+        "Missions0.2.0",
+        "SharedHarness0.1.0"
+      ],
+      "worker": {
+        "pid": 4036,
+        "start": "13888",
+        "pgid": 3922,
+        "sid": 3922
+      },
+      "oldWorker": {
+        "pid": 4008,
+        "start": "13847",
+        "pgid": 3922,
+        "sid": 3922
+      }
+    },
+    {
+      "id": "J02",
+      "passed": true,
+      "readOnly": true,
+      "rejectedRequests": 3
+    },
+    {
+      "id": "J03",
+      "passed": true,
+      "companyId": "0f8a7ddc-96df-4249-b5de-64bfddb34df3",
+      "skillId": "01f77dab-9b20-4c5b-a7bc-1e85bdf0ec16",
+      "agentIds": [
+        "6c2ce70c-b4a9-446f-9591-ebba71f667d0",
+        "77d54769-b04b-4a91-917b-2aa8d5210550"
+      ],
+      "pausedAndHeartbeatsOff": true
+    },
+    {
+      "id": "J04",
+      "passed": true,
+      "attachedAgents": 2,
+      "sharedSkillSha256": "8d08ccdcd43c047b3d11ae69e501dae6ab60f2494ed4f6113fae0517d9d8d99c",
+      "nativeSkillSnapshots": 2,
+      "instructionSha256": [
+        "99bd9ecf0dee4a60966e6e283f77a3d536e85f66c712e9c19b1e0c24a125971b",
+        "32270f59086987d6c4896709614c8e3bf777e98a187b5a33ea58022a13ebafaa"
+      ]
+    },
+    {
+      "id": "J05",
+      "passed": true,
+      "simultaneousRequests": 3,
+      "nativeAgentCount": 2
+    },
+    {
+      "id": "J06",
+      "passed": true,
+      "changedInstructionsPreserved": true,
+      "forkContentPreserved": true,
+      "alternativeSelectionPreserved": true,
+      "packagedSkillReadOnly": true,
+      "deliberateDeselectionPreserved": true,
+      "privateAdapterCanaryWithheld": true
+    },
+    {
+      "id": "J07",
+      "passed": true,
+      "companyIsolation": true,
+      "nativeHireApprovals": 2,
+      "nativeApprovalIds": [
+        "fe788ce5-0820-4e08-adc1-3a1762e0006e",
+        "c501f936-2708-42c5-bece-5c58626e6a50"
+      ],
+      "validAgentAuthentication": true,
+      "deniedAgentRoutes": 4,
+      "keyRevoked": true
+    },
+    {
+      "id": "J08",
+      "passed": true,
+      "foreignSkill404": true,
+      "companyResolutionRequired": true,
+      "missingCompany404": true,
+      "exactDtoBoundary": true
+    },
+    {
+      "id": "J09",
+      "passed": true,
+      "unchangedContact": "7a5f85f9-cb66-4802-a7c0-4400653818e1",
+      "unchangedMission": "12928a7b-6f47-443d-8c98-188add5c5c39",
+      "nativeAssignedTask": "c3549ba7-70f1-4da8-848d-b310f04f216e",
+      "noHeartbeatRuns": true
+    },
+    {
+      "id": "J10",
+      "passed": true,
+      "nativeWorkersReplaced": 2,
+      "nativeBindingsAndCustomizationsDurable": true,
+      "crmAndMissionPreserved": true
+    },
+    {
+      "id": "J11",
+      "passed": true,
+      "retryAfterRestartPreservedBindings": true,
+      "twoManagedAgentsAndOneAuthFixture": true,
+      "noHeartbeatRuns": true
+    },
+    {
+      "id": "HB01",
+      "passed": true,
+      "width": 1280,
+      "contextsClosed": 1
+    },
+    {
+      "id": "HB02",
+      "passed": true,
+      "width": 390,
+      "contextsClosed": 1
+    },
+    {
+      "id": "HB03",
+      "passed": true,
+      "width": 1280,
+      "contextsClosed": 1
+    },
+    {
+      "id": "HB04",
+      "passed": true,
+      "width": 1280,
+      "contextsClosed": 1
+    }
+  ],
+  "guards": [
+    {
+      "label": "before-install",
+      "canonicalFiles": 1477,
+      "canonicalVectorSha256": "fdc007de15d6f38e9ee47a7cee213ba6bc526df0d5d56de6cb097661637fcd7a",
+      "protectedFiles": 21,
+      "protectedVectorSha256": "cec6a701f880a44828ec2700d9c666ad91d9aae60fa915b91ae19fd85737ae5d",
+      "workingSourceVectorSha256": "cec6a701f880a44828ec2700d9c666ad91d9aae60fa915b91ae19fd85737ae5d"
+    },
+    {
+      "label": "after-host-install",
+      "canonicalFiles": 1477,
+      "canonicalVectorSha256": "fdc007de15d6f38e9ee47a7cee213ba6bc526df0d5d56de6cb097661637fcd7a",
+      "protectedFiles": 21,
+      "protectedVectorSha256": "cec6a701f880a44828ec2700d9c666ad91d9aae60fa915b91ae19fd85737ae5d",
+      "workingSourceVectorSha256": "cec6a701f880a44828ec2700d9c666ad91d9aae60fa915b91ae19fd85737ae5d"
+    },
+    {
+      "label": "after-package-build",
+      "canonicalFiles": 1477,
+      "canonicalVectorSha256": "fdc007de15d6f38e9ee47a7cee213ba6bc526df0d5d56de6cb097661637fcd7a",
+      "protectedFiles": 21,
+      "protectedVectorSha256": "cec6a701f880a44828ec2700d9c666ad91d9aae60fa915b91ae19fd85737ae5d",
+      "workingSourceVectorSha256": "cec6a701f880a44828ec2700d9c666ad91d9aae60fa915b91ae19fd85737ae5d"
+    },
+    {
+      "label": "after-harness-api",
+      "canonicalFiles": 1477,
+      "canonicalVectorSha256": "fdc007de15d6f38e9ee47a7cee213ba6bc526df0d5d56de6cb097661637fcd7a",
+      "protectedFiles": 21,
+      "protectedVectorSha256": "cec6a701f880a44828ec2700d9c666ad91d9aae60fa915b91ae19fd85737ae5d",
+      "workingSourceVectorSha256": "cec6a701f880a44828ec2700d9c666ad91d9aae60fa915b91ae19fd85737ae5d"
+    },
+    {
+      "label": "after-restart",
+      "canonicalFiles": 1477,
+      "canonicalVectorSha256": "fdc007de15d6f38e9ee47a7cee213ba6bc526df0d5d56de6cb097661637fcd7a",
+      "protectedFiles": 21,
+      "protectedVectorSha256": "cec6a701f880a44828ec2700d9c666ad91d9aae60fa915b91ae19fd85737ae5d",
+      "workingSourceVectorSha256": "cec6a701f880a44828ec2700d9c666ad91d9aae60fa915b91ae19fd85737ae5d"
+    },
+    {
+      "label": "after-browser",
+      "canonicalFiles": 1477,
+      "canonicalVectorSha256": "fdc007de15d6f38e9ee47a7cee213ba6bc526df0d5d56de6cb097661637fcd7a",
+      "protectedFiles": 21,
+      "protectedVectorSha256": "cec6a701f880a44828ec2700d9c666ad91d9aae60fa915b91ae19fd85737ae5d",
+      "workingSourceVectorSha256": "cec6a701f880a44828ec2700d9c666ad91d9aae60fa915b91ae19fd85737ae5d"
+    },
+    {
+      "label": "terminal-source-check",
+      "canonicalFiles": 1477,
+      "canonicalVectorSha256": "fdc007de15d6f38e9ee47a7cee213ba6bc526df0d5d56de6cb097661637fcd7a",
+      "protectedFiles": 21,
+      "protectedVectorSha256": "cec6a701f880a44828ec2700d9c666ad91d9aae60fa915b91ae19fd85737ae5d",
+      "workingSourceVectorSha256": "cec6a701f880a44828ec2700d9c666ad91d9aae60fa915b91ae19fd85737ae5d"
+    }
+  ],
+  "errors": [],
+  "database": {
+    "created": true,
+    "removed": true,
+    "name": "agents_os_harness_42908360229_1",
+    "ownerMarkerSha256": "7838c7ab203bfaa61628de4500c5c7aa7d60902c936f5b4d2adb5dc70bb4404e",
+    "bytes": 31089167
+  },
+  "cleanup": {
+    "activeChildren": 0,
+    "remainingOriginalGroups": [],
+    "remainingOwnedProcesses": 0,
+    "remainingOriginalWorkers": 0,
+    "allStreamsComplete": true,
+    "databaseRemoved": true,
+    "listenerClosed": true,
+    "rootRemoved": true
+  },
+  "proofLimits": [
+    "Shared native agent/skill configuration and materialization only; model execution quality, production and finished Agents OS remain open.",
+    "Loopback local_trusted/private authored fixture only; no public deployment, real account/contact data, model/provider call or paid resource.",
+    "One generated disposable agent-key body is explicitly withheld; all other safe originals and full command streams are retained."
+  ],
+  "export": {
+    "files": 21,
+    "bytes": 107249
+  },
+  "host": {
+    "packages": [
+      {
+        "name": "paperclipai",
+        "version": "2026.1106.0",
+        "integrity": "sha512-jcZrSB5DItxeDJGO7TccI0WcYca2IbBJxpbaKZN6kZp+isNIbVF2AgmfFQq394mjXD+TTHwS5P3AT6jjpqXbng==",
+        "resolved": "https://registry.npmjs.org/paperclipai/-/paperclipai-2026.1106.0.tgz",
+        "entryFile": "dist/index.js",
+        "entryBytes": 2602496,
+        "entrySha256": "56dbf3a353f1dff7fb8ba12fa5805d07c4673a090e842303f51ca5c1d97023b4"
+      },
+      {
+        "name": "@paperclipai/server",
+        "version": "2026.1106.0",
+        "integrity": "sha512-OqG0qydn5Pky3iHmTgL3fvAh47m77CYgkuM3CgV6ciw6tY/AmBgkO3greyr0LinLFk7x1FdLkF1sfVVukZo/YA==",
+        "resolved": "https://registry.npmjs.org/@paperclipai/server/-/server-2026.1106.0.tgz",
+        "entryFile": "dist/index.js",
+        "entryBytes": 110287,
+        "entrySha256": "cde8cd927214edb31edf173aec7667dd86b174799a58c822f6abf41089786480"
+      },
+      {
+        "name": "@img/sharp-linux-x64",
+        "version": "0.35.5",
+        "integrity": "sha512-SxFtLTeJInhAA9Q836kux2vZNeOBQEx658qvbboZScr0wIARym3IcGmW7KpVD5sbVg0Ojy+udFQdayYIZyoNog==",
+        "resolved": "https://registry.npmjs.org/@img/sharp-linux-x64/-/sharp-linux-x64-0.35.5.tgz",
+        "entryFile": "lib/sharp-linux-x64-0.35.5.node",
+        "entryBytes": 415112,
+        "entrySha256": "cf896cc1b7f3ae9c3e8eb3d7b2b198b8de2824ff7d0681d684bab5a825def335"
+      },
+      {
+        "name": "@img/sharp-libvips-linux-x64",
+        "version": "1.3.4",
+        "integrity": "sha512-GJ//SSXbnwSDes02umB3nDJLFcQzw8a18V8fyhqr6tV515tOEMdImjjxj1AoafMRz56F3PHgftnj1QEKSU1zkw==",
+        "resolved": "https://registry.npmjs.org/@img/sharp-libvips-linux-x64/-/sharp-libvips-linux-x64-1.3.4.tgz",
+        "entryFile": "lib/libvips-cpp.so.8.18.7",
+        "entryBytes": 18699288,
+        "entrySha256": "4aa73553408c3964071728f4a231a8e86918e39bc49f1fbae75355f7ea933ea9"
+      },
+      {
+        "name": "@esbuild/linux-x64",
+        "version": "0.28.2",
+        "integrity": "sha512-4xTZr1FUmSoQW4XIWmit3tzQrUTZM+N3P0XV8xROKYF50XfI7xeO90+1bZvNwxIufQ9hDQVRJH5YhgPVF8A/HQ==",
+        "resolved": "https://registry.npmjs.org/@esbuild/linux-x64/-/linux-x64-0.28.2.tgz",
+        "entryFile": "bin/esbuild",
+        "entryBytes": 11427952,
+        "entrySha256": "e1698a3d5c6c0798fee4fd3b5cc816651f460c63d390a7a26ea4beb0b1884100"
+      }
+    ],
+    "unmodifiedPublishedEntrypoint": true,
+    "origin": "http://127.0.0.1:4315",
+    "mode": "local_trusted/private"
+  },
+  "runtime": {
+    "bytes": 2798509072,
+    "files": 78223
+  },
+  "unit": {
+    "tests": 12,
+    "passed": 12,
+    "failed": 0
+  },
+  "package": {
+    "archive": "agents-os-harness-0.1.0.tgz",
+    "integrity": "sha512-RgGMem9/kOOoCk9Q9umVS/Z/BQWhjSnMbLIJBzX82l2ez557uyWVJx5B7hrRBYYmL35G1NyjjWiiKbGw2QhMJg==",
+    "files": 7,
+    "sha256": "26bc15b4a89264d347e740c82b14fa851355c6f7994f436d43932abc76a31c35",
+    "actualExtractedPackage": true
+  },
+  "browser": {
+    "version": "158.0.8127.18",
+    "cases": 4,
+    "dom": 8,
+    "png": 4,
+    "browserClosed": true
+  },
+  "completedAt": "2026-11-10T21:49:48.862Z"
+}
