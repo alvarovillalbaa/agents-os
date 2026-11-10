@@ -1,0 +1,56 @@
+{
+  "sourceCommit": "a12df8a64efd1e7c82256527d6d397606c9f4a37",
+  "run": 42898322307,
+  "inspectedAllEightOriginalPngs": true,
+  "captures": [
+    {
+      "file": "missions-mb01-completed.png",
+      "bytes": 106146,
+      "sha256": "cc5d00316e0f8d4a09f162e27d2f5a302cd3f99756f0ed30c2043b324a6dab5b",
+      "inspection": "Desktop completed Mission, objective, full progress and reviewed checkpoint readable."
+    },
+    {
+      "file": "missions-mb02-paused.png",
+      "bytes": 34129,
+      "sha256": "3cfc0281128416f76b4587366de9cd9b0829fd6c83e5041724c349335733d214",
+      "inspection": "390px paused Mission and 120-character unbroken title wrap within viewport."
+    },
+    {
+      "file": "missions-mb03-conflict.png",
+      "bytes": 85002,
+      "sha256": "94d8957ae00ad1f461ee7d6a6a9e963377afe5ebc0a51bfb2418e6a38d11df45",
+      "inspection": "Stale Mission objective stays editable with explicit saved-load control."
+    },
+    {
+      "file": "missions-mb04-uncertain.png",
+      "bytes": 90373,
+      "sha256": "4920d6f4f6d7e816c9a850a179bd0d2b4bb85a97bd7738e1dcf66f6c9d9b6679",
+      "inspection": "Unconfirmed Mission plan retains its data and retry/load controls."
+    },
+    {
+      "file": "crm-b01-saved.png",
+      "bytes": 98265,
+      "sha256": "ccd861aa4920a81985647813cc24a42dab78290c8ac5661099655180154538fa",
+      "inspection": "CRM saved contact/list remain readable after upgrade."
+    },
+    {
+      "file": "crm-b02-archived.png",
+      "bytes": 32616,
+      "sha256": "ce2f31f2e07c9a05681e5c012fe9e30c52160ce922d020f14a37d0a1504fa8c5",
+      "inspection": "390px CRM archived contact and long title wrap."
+    },
+    {
+      "file": "crm-b03-conflict.png",
+      "bytes": 90764,
+      "sha256": "39a554557ab7ad6bfde9d111668d9340994cb8e10fa6a1072b7b33e42e81e9bd",
+      "inspection": "CRM stale draft and saved-load control remain visible."
+    },
+    {
+      "file": "crm-b04-uncertain.png",
+      "bytes": 94395,
+      "sha256": "3fc56b359a6fd0299c214eb354d6220cd6dc9c168f5d9dffb241f342ee663b30",
+      "inspection": "CRM retained draft and retry/load recovery controls remain visible."
+    }
+  ],
+  "limits": "Chromium viewport emulation, not physical touch or accessibility audit."
+}

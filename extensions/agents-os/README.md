@@ -5,12 +5,20 @@ notes and native task links. Contact edits have optimistic revisions; stale
 writes retain the draft. Archive/restore is reversible. An unconfirmed request
 keeps its original operation ID so retry can confirm the saved result.
 
+Missions 0.2.0 adds ordered native Task checkpoints, version-bound evidence
+reviews, pause/resume, replanning, reopening and explicit final completion.
+All 51 [focused checks](https://github.com/alvarovillalbaa/agents-os/blob/master/extensions/agents-os/checks/MISSIONS.md)
+passed, including native CRM 0.1.0 upgrade and CRM regressions. Download the
+[tested package](https://github.com/alvarovillalbaa/agents-os/releases/tag/agents-os-missions-v0.2.0)
+and follow the [installation/results guide](https://github.com/alvarovillalbaa/agents-os/blob/master/doc/results/2026/11-10/agents-os-missions.md).
+The CRM 0.1.0 results below remain historical.
+
 CRM 0.1.0 passed its 20-case package/API/restart/browser scope in
 [run42885925784](https://github.com/alvarovillalbaa/agents-os/actions/runs/42885925784).
 The [verified download and evidence](https://github.com/alvarovillalbaa/agents-os/releases/tag/agents-os-crm-v0.1.0)
 and [installation/results](https://github.com/alvarovillalbaa/agents-os/blob/master/doc/results/2026/11-10/agents-os-crm.md)
-identify the exact tested candidate. Missions,shared-harness workflows and
-production hosting remain unfinished.
+identify the exact tested CRM candidate. Shared Harness, real-provider execution
+and production hosting remain unfinished.
 
 ## Host and installation
 

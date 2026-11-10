@@ -1,0 +1,64 @@
+{
+  "sourceCommit": "a12df8a64efd1e7c82256527d6d397606c9f4a37",
+  "name": "@alvarovillalbaa/agents-os",
+  "version": "0.2.0",
+  "integrity": "sha512-bZzZdzMi17rOioVePiRF+bxhJNssbqm5GYbLfkRCjB4FusxhIyauCrbLqxlAPK+Keq6hH2pvun2pi5FtBjSzhg==",
+  "archiveBytes": 230638,
+  "archiveSha256": "354c175bb5ca7739e7c0dd70e44e3b08b18762ad49fa943ea8970136264a2cda",
+  "files": [
+    {
+      "path": "LICENSE",
+      "bytes": 1133,
+      "sha256": "1b368f04e5cac49dcc93d743ca016be8f34b48288564f0d327e14b3a3a704fc8",
+      "mode": 420
+    },
+    {
+      "path": "README.md",
+      "bytes": 3922,
+      "sha256": "20583b0d65a3127a0f89fcd7e2ae087bed8d3ca50a6ac0328b41332e1490bbfd",
+      "mode": 420
+    },
+    {
+      "path": "dist/manifest.js",
+      "bytes": 1932,
+      "sha256": "5fe8d1b288805fbf242d4640c9e72a603cdd2897df386fd6f34669f158b8a2f9",
+      "mode": 420
+    },
+    {
+      "path": "dist/THIRD_PARTY_LICENSES.txt",
+      "bytes": 3275,
+      "sha256": "9179aa66f1f4506fe301a85fd4010df1c53a317eaf71c286e7b99bfb2eff6087",
+      "mode": 420
+    },
+    {
+      "path": "dist/ui/index.js",
+      "bytes": 61690,
+      "sha256": "05084d5872ed7247ecb63389f5fdad563bf5c5c9727554137b71a5c8102a06c4",
+      "mode": 420
+    },
+    {
+      "path": "dist/worker.js",
+      "bytes": 1318628,
+      "sha256": "093a4b21759d4470f2c279771d2963521b2c4bbc2e48248ba10613089d09738a",
+      "mode": 420
+    },
+    {
+      "path": "migrations/001_contacts.sql",
+      "bytes": 840,
+      "sha256": "f977d149cc0d160a5f26e771002dc67db0e958b3848a021336e3c10d97c90bdf",
+      "mode": 420
+    },
+    {
+      "path": "migrations/002_missions.sql",
+      "bytes": 750,
+      "sha256": "d33c29c379ae1cf3e19e80d757c44b0634a45b0824956a34275d8a67e4b5fbc5",
+      "mode": 420
+    },
+    {
+      "path": "package.json",
+      "bytes": 847,
+      "sha256": "7ba7849c73672e57d80b8228d5dd4d71a1e277e81b69206a67e749d7906a574f",
+      "mode": 420
+    }
+  ]
+}

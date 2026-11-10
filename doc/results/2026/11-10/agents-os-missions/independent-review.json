@@ -1,0 +1,92 @@
+{
+  "acceptedAttempt": 4,
+  "attempts": [
+    {
+      "verified": true,
+      "status": "failed",
+      "sourceCommit": "0784779759234f00ba3709a97b1abe6706887e2e",
+      "workflowCommit": "4fd92a089a5834da462b942c53c29de39c174fac",
+      "files": 14,
+      "bytes": 452271,
+      "cases": 0,
+      "errors": [
+        "plugin-typecheck_failed"
+      ],
+      "cleanup": {
+        "activeChildren": 0,
+        "remainingOriginalGroups": [],
+        "remainingOwnedProcesses": 0,
+        "remainingOriginalWorkers": 0,
+        "allStreamsComplete": true,
+        "databaseRemoved": true,
+        "listenerClosed": true,
+        "rootRemoved": true
+      }
+    },
+    {
+      "verified": true,
+      "status": "failed",
+      "sourceCommit": "b50c91842434c1283ae3373da35ec77a6a186a27",
+      "workflowCommit": "4fd92a089a5834da462b942c53c29de39c174fac",
+      "files": 14,
+      "bytes": 452352,
+      "cases": 0,
+      "errors": [
+        "plugin-typecheck_failed"
+      ],
+      "cleanup": {
+        "activeChildren": 0,
+        "remainingOriginalGroups": [],
+        "remainingOwnedProcesses": 0,
+        "remainingOriginalWorkers": 0,
+        "allStreamsComplete": true,
+        "databaseRemoved": true,
+        "listenerClosed": true,
+        "rootRemoved": true
+      }
+    },
+    {
+      "verified": true,
+      "status": "failed",
+      "sourceCommit": "820c1358ad2d01c7da59c1a1e3349f425890c285",
+      "workflowCommit": "4fd92a089a5834da462b942c53c29de39c174fac",
+      "files": 51,
+      "bytes": 976910,
+      "cases": 18,
+      "errors": [
+        "upgrade-activate_failed"
+      ],
+      "cleanup": {
+        "activeChildren": 0,
+        "remainingOriginalGroups": [],
+        "remainingOwnedProcesses": 0,
+        "remainingOriginalWorkers": 0,
+        "allStreamsComplete": true,
+        "databaseRemoved": true,
+        "listenerClosed": true,
+        "rootRemoved": true
+      }
+    },
+    {
+      "verified": true,
+      "status": "passed",
+      "sourceCommit": "a12df8a64efd1e7c82256527d6d397606c9f4a37",
+      "workflowCommit": "4fd92a089a5834da462b942c53c29de39c174fac",
+      "files": 302,
+      "bytes": 4351726,
+      "cases": 51,
+      "errors": [],
+      "cleanup": {
+        "activeChildren": 0,
+        "remainingOriginalGroups": [],
+        "remainingOwnedProcesses": 0,
+        "remainingOriginalWorkers": 0,
+        "allStreamsComplete": true,
+        "databaseRemoved": true,
+        "listenerClosed": true,
+        "rootRemoved": true
+      }
+    }
+  ],
+  "method": "Every manifest/stream and recorded Git vector checked; accepted 51 cases/22 commands/11 guards, actual archive/SRI/modes, previous package identity, API/browser originals, named TAP cases and teardown verified."
+}
