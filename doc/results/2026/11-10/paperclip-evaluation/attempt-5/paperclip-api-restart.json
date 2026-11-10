@@ -1,0 +1,74 @@
+{
+  "mode": "restart",
+  "sourceCommit": "ce86d576295c8fbf8ae9510d389b23e896fcc56c",
+  "passed": true,
+  "cases": [
+    {
+      "id": "P06",
+      "passed": true,
+      "actualServerRestart": true,
+      "records": 6,
+      "commentRetained": true,
+      "processExecutions": 1
+    }
+  ],
+  "requests": [
+    {
+      "method": "GET",
+      "route": "/companies/9b57ed44-0b8b-4dc7-85e4-ef6be9882f9e",
+      "status": 200,
+      "body": "api-restart-001.json",
+      "bytes": 616,
+      "sha256": "2176281002a18919be12f3f3f5bd86795a80c1a34fbf8726421517106e44b369"
+    },
+    {
+      "method": "GET",
+      "route": "/goals/12efc3f4-4114-40a4-9127-bb9c34c1273b",
+      "status": 200,
+      "body": "api-restart-002.json",
+      "bytes": 355,
+      "sha256": "cd42aa09d515c546ef9e340eb17f1cf3bb5b1a26a2a1ab45c16c0b256c19bbf6"
+    },
+    {
+      "method": "GET",
+      "route": "/projects/d6f4f8f7-4282-4a53-8c15-68e7b9fefd42",
+      "status": 200,
+      "body": "api-restart-003.json",
+      "bytes": 1456,
+      "sha256": "55c8893669fe53ccc2d7a639196c14eddfef8fca481cb82828a80dc587675eef"
+    },
+    {
+      "method": "GET",
+      "route": "/issues/1522688b-9487-4dcc-b757-5f0a53473a85",
+      "status": 200,
+      "body": "api-restart-004.json",
+      "bytes": 4516,
+      "sha256": "15b6b56b1eb298b9e81b31946c279c564ae6bc495efa143485a7202d5ad19043"
+    },
+    {
+      "method": "GET",
+      "route": "/agents/5f35040e-1073-43b2-82bd-25b64565b35e",
+      "status": 200,
+      "body": "api-restart-005.json",
+      "bytes": 6964,
+      "sha256": "bb8aeb12703aefe77e28b703d9cbab31ea93ce84564cf365f9142ab639b3a1dd"
+    },
+    {
+      "method": "GET",
+      "route": "/heartbeat-runs/c2bee4e3-8b84-493b-ae18-fe1f963e7897",
+      "status": 200,
+      "body": "api-restart-006.json",
+      "bytes": 12665,
+      "sha256": "9694514f723a250e45ac7cb6064a5fba7259b1e5988d5f26ed539d5012f00d5c"
+    },
+    {
+      "method": "GET",
+      "route": "/issues/1522688b-9487-4dcc-b757-5f0a53473a85/comments",
+      "status": 200,
+      "body": "api-restart-007.json",
+      "bytes": 794,
+      "sha256": "c9747f5c42b48a8660f978abfe7c74b09097284d577a9cb0129aa3ebbf643d93"
+    }
+  ],
+  "errors": []
+}

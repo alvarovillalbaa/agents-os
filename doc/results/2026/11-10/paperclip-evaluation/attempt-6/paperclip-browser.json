@@ -1,0 +1,1545 @@
+{
+  "sourceCommit": "437831ce0d5f5637ec581d949a9cb6c3401b7dd2",
+  "passed": true,
+  "cases": [
+    {
+      "id": "P07",
+      "width": 1280,
+      "captures": [
+        {
+          "label": "task",
+          "route": "/AGE/issues/bdbb8d76-f27f-49cb-bae6-2c60e5800a32",
+          "geometry": {
+            "width": 1280,
+            "scroll": 1280,
+            "body": 1280
+          },
+          "dom": "paperclip-p07-task.dom.json",
+          "png": "paperclip-p07-task.png"
+        },
+        {
+          "label": "agent-run",
+          "route": "/AGE/agents/4b208139-103b-4c10-b573-f6fb661a086c/runs/ec2363f9-7c12-48e3-90cd-77ada3270cbf",
+          "geometry": {
+            "width": 1280,
+            "scroll": 1280,
+            "body": 1280
+          },
+          "dom": "paperclip-p07-agent-run.dom.json",
+          "png": "paperclip-p07-agent-run.png"
+        },
+        {
+          "label": "goals",
+          "route": "/AGE/goals",
+          "geometry": {
+            "width": 1280,
+            "scroll": 1280,
+            "body": 1280
+          },
+          "dom": "paperclip-p07-goals.dom.json",
+          "png": null
+        },
+        {
+          "label": "skills",
+          "route": "/AGE/skills",
+          "geometry": {
+            "width": 1280,
+            "scroll": 1280,
+            "body": 1280
+          },
+          "dom": "paperclip-p07-skills.dom.json",
+          "png": null
+        }
+      ],
+      "errors": [],
+      "requests": [
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/AGE/issues/bdbb8d76-f27f-49cb-bae6-2c60e5800a32"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/assets/index-DH1ydvyl.js"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/assets/rolldown-runtime-DhZMWcEn.js"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/assets/index-Dbyu_v18.css"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/assets/issue-detail-D93stO87.js"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/auth/get-session"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/health"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/instance/settings/experimental"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies?scope=accessible"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/plugins/ui-contributions"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/cli-auth/me"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/issues/bdbb8d76-f27f-49cb-bae6-2c60e5800a32"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/issues/bdbb8d76-f27f-49cb-bae6-2c60e5800a32/activity"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/issues/bdbb8d76-f27f-49cb-bae6-2c60e5800a32/runs"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/issues/bdbb8d76-f27f-49cb-bae6-2c60e5800a32/comments?order=desc&limit=50"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/issues/bdbb8d76-f27f-49cb-bae6-2c60e5800a32/interactions"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/issues/bdbb8d76-f27f-49cb-bae6-2c60e5800a32/attachments"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/issues/bdbb8d76-f27f-49cb-bae6-2c60e5800a32/work-products"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/issues/bdbb8d76-f27f-49cb-bae6-2c60e5800a32/live-runs"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/issues/bdbb8d76-f27f-49cb-bae6-2c60e5800a32/feedback-votes"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/instance/settings/general"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/issues/bdbb8d76-f27f-49cb-bae6-2c60e5800a32/tree-control/state"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/projects"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/resource-memberships/me"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/agents"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/live-runs"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/inbox-dismissals"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/approvals"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/join-requests?status=pending_approval"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/dashboard"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/issues?status=backlog%2Ctodo%2Cin_progress%2Cin_review%2Cblocked%2Cdone&touchedByUserId=me&inboxArchivedByUserId=me&limit=500"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/heartbeat-runs?limit=200&summary=true"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/user-directory"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/issues?limit=100&sortField=updated&sortDir=desc"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/sidebar-preferences/me"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/announcements/current"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/primary-agent/me"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/skills"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/routines"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/sidebar-preferences/me"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/issues/bdbb8d76-f27f-49cb-bae6-2c60e5800a32/tree-holds?status=active&mode=cancel"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/instance/settings/experimental"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/cli-auth/me"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies?scope=accessible"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/plugins/ui-contributions"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/agent-avatars/cap-v1/coral-mint/rest.png?size=16&scale=1"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/issues?descendantOf=bdbb8d76-f27f-49cb-bae6-2c60e5800a32&includeBlockedBy=true&limit=500&sortField=id&sortDir=asc"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/issues?createdFromIssueId=bdbb8d76-f27f-49cb-bae6-2c60e5800a32&includeRoutineExecutions=true&limit=500&sortField=id&sortDir=asc"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/issues/bdbb8d76-f27f-49cb-bae6-2c60e5800a32/browsers"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/issues/summaries?ids=bdbb8d76-f27f-49cb-bae6-2c60e5800a32"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/issues/bdbb8d76-f27f-49cb-bae6-2c60e5800a32/accepted-plan-decompositions"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/issues/bdbb8d76-f27f-49cb-bae6-2c60e5800a32/work-products"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/issues/bdbb8d76-f27f-49cb-bae6-2c60e5800a32/documents"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/projects?includeArchived=true"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/labels"
+        },
+        {
+          "method": "POST",
+          "url": "http://127.0.0.1:4315/api/issues/bdbb8d76-f27f-49cb-bae6-2c60e5800a32/read"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/issues?status=backlog%2Ctodo%2Cin_progress%2Cin_review%2Cblocked%2Cdone&touchedByUserId=me&inboxArchivedByUserId=me&limit=500"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/email/tasks/bdbb8d76-f27f-49cb-bae6-2c60e5800a32"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/issues/bdbb8d76-f27f-49cb-bae6-2c60e5800a32/runner-goal"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/issues/AGE-1/activity"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/issues/AGE-1/live-runs"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/issues/AGE-1/runs"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/issues/AGE-1/comments?order=desc&limit=50"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/issues/AGE-1/interactions"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/issues/AGE-1/attachments"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/issues/AGE-1/work-products"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/issues/AGE-1/feedback-votes"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/issues/AGE-1/tree-control/state"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/issues/AGE-1/tree-holds?status=active&mode=cancel"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/dashboard"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/issues?status=backlog%2Ctodo%2Cin_progress%2Cin_review%2Cblocked%2Cdone&touchedByUserId=me&inboxArchivedByUserId=me&limit=500"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/issues?limit=100&sortField=updated&sortDir=desc"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/labels"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/issues?descendantOf=bdbb8d76-f27f-49cb-bae6-2c60e5800a32&includeBlockedBy=true&limit=500&sortField=id&sortDir=asc"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/issues?createdFromIssueId=bdbb8d76-f27f-49cb-bae6-2c60e5800a32&includeRoutineExecutions=true&limit=500&sortField=id&sortDir=asc"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/issues/summaries?ids=bdbb8d76-f27f-49cb-bae6-2c60e5800a32"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/issues/AGE-1"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/issues/AGE-1/activity"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/issues/AGE-1/live-runs"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/auth/get-session"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/health"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/instance/settings/experimental"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies?scope=accessible"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/plugins/ui-contributions"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/cli-auth/me"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/projects"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/resource-memberships/me"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/agents"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/live-runs"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/issues/summaries?ids=bdbb8d76-f27f-49cb-bae6-2c60e5800a32"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/inbox-dismissals"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/approvals"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/join-requests?status=pending_approval"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/dashboard"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/issues?status=backlog%2Ctodo%2Cin_progress%2Cin_review%2Cblocked%2Cdone&touchedByUserId=me&inboxArchivedByUserId=me&limit=500"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/heartbeat-runs?limit=200&summary=true"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/agents/4b208139-103b-4c10-b573-f6fb661a086c?companyId=62784d37-599a-4ca3-94ab-bdd1ebab60b6"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/announcements/current"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/primary-agent/me"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/skills"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/routines"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/sidebar-preferences/me"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/instance/settings/experimental"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/cli-auth/me"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies?scope=accessible"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/plugins/ui-contributions"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/heartbeat-runs/ec2363f9-7c12-48e3-90cd-77ada3270cbf"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/agents/4b208139-103b-4c10-b573-f6fb661a086c?companyId=62784d37-599a-4ca3-94ab-bdd1ebab60b6"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/heartbeat-runs?agentId=4b208139-103b-4c10-b573-f6fb661a086c&limit=200"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/agent-avatars/cap-v1/coral-mint/rest.png?size=16&scale=1"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/agent-avatars/cap-v1/coral-mint/rest.png?size=256&scale=1"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/agents/fixture-coordinator?companyId=62784d37-599a-4ca3-94ab-bdd1ebab60b6"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/heartbeat-runs/ec2363f9-7c12-48e3-90cd-77ada3270cbf/workspace-operations"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/heartbeat-runs/ec2363f9-7c12-48e3-90cd-77ada3270cbf/events?afterSeq=0&limit=200"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/heartbeat-runs/ec2363f9-7c12-48e3-90cd-77ada3270cbf/log?offset=0&limitBytes=256000"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/instance/settings/general"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/tools/runs/ec2363f9-7c12-48e3-90cd-77ada3270cbf/decisions"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/provider-traces?runIds=ec2363f9-7c12-48e3-90cd-77ada3270cbf"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/user-directory"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/heartbeat-runs/ec2363f9-7c12-48e3-90cd-77ada3270cbf/issues"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/dashboard"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies?scope=accessible"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/auth/get-session"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/health"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/instance/settings/experimental"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies?scope=accessible"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/plugins/ui-contributions"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/cli-auth/me"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/sidebar-preferences/me"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/projects"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/resource-memberships/me"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/agents"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/live-runs"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/issues/summaries?ids=bdbb8d76-f27f-49cb-bae6-2c60e5800a32"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/inbox-dismissals"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/approvals"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/join-requests?status=pending_approval"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/dashboard"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/issues?status=backlog%2Ctodo%2Cin_progress%2Cin_review%2Cblocked%2Cdone&touchedByUserId=me&inboxArchivedByUserId=me&limit=500"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/heartbeat-runs?limit=200&summary=true"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/goals"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/announcements/current"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/primary-agent/me"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/skills"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/routines"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/instance/settings/experimental"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/cli-auth/me"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies?scope=accessible"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/plugins/ui-contributions"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/agent-avatars/cap-v1/coral-mint/rest.png?size=16&scale=1"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/auth/get-session"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/health"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/instance/settings/experimental"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies?scope=accessible"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/plugins/ui-contributions"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/cli-auth/me"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/sidebar-preferences/me"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/projects"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/resource-memberships/me"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/agents"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/live-runs"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/issues/summaries?ids=bdbb8d76-f27f-49cb-bae6-2c60e5800a32"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/inbox-dismissals"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/approvals"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/join-requests?status=pending_approval"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/dashboard"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/issues?status=backlog%2Ctodo%2Cin_progress%2Cin_review%2Cblocked%2Cdone&touchedByUserId=me&inboxArchivedByUserId=me&limit=500"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/heartbeat-runs?limit=200&summary=true"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/adapters"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/skills"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/folders?kind=skill"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/skills/catalog"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/announcements/current"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/primary-agent/me"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/routines"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/instance/settings/experimental"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/cli-auth/me"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies?scope=accessible"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/plugins/ui-contributions"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/agent-avatars/cap-v1/coral-mint/rest.png?size=16&scale=1"
+        }
+      ],
+      "contextClosed": true,
+      "navigation": {
+        "from": "http://127.0.0.1:4315/AGE/issues/AGE-1",
+        "followed": "http://127.0.0.1:4315/AGE/projects/45fee12e-c0ed-4900-92f2-bfa272bddb8d",
+        "returned": "http://127.0.0.1:4315/AGE/issues/AGE-1"
+      },
+      "passed": true
+    },
+    {
+      "id": "P08",
+      "width": 390,
+      "captures": [
+        {
+          "label": "task",
+          "route": "/AGE/issues/bdbb8d76-f27f-49cb-bae6-2c60e5800a32",
+          "geometry": {
+            "width": 390,
+            "scroll": 390,
+            "body": 390
+          },
+          "dom": "paperclip-p08-task.dom.json",
+          "png": "paperclip-p08-task.png"
+        },
+        {
+          "label": "agent-run",
+          "route": "/AGE/agents/4b208139-103b-4c10-b573-f6fb661a086c/runs/ec2363f9-7c12-48e3-90cd-77ada3270cbf",
+          "geometry": {
+            "width": 390,
+            "scroll": 390,
+            "body": 390
+          },
+          "dom": "paperclip-p08-agent-run.dom.json",
+          "png": "paperclip-p08-agent-run.png"
+        },
+        {
+          "label": "goals",
+          "route": "/AGE/goals",
+          "geometry": {
+            "width": 390,
+            "scroll": 390,
+            "body": 390
+          },
+          "dom": "paperclip-p08-goals.dom.json",
+          "png": null
+        },
+        {
+          "label": "skills",
+          "route": "/AGE/skills",
+          "geometry": {
+            "width": 390,
+            "scroll": 390,
+            "body": 390
+          },
+          "dom": "paperclip-p08-skills.dom.json",
+          "png": null
+        }
+      ],
+      "errors": [],
+      "requests": [
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/AGE/issues/bdbb8d76-f27f-49cb-bae6-2c60e5800a32"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/assets/index-DH1ydvyl.js"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/assets/rolldown-runtime-DhZMWcEn.js"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/assets/index-Dbyu_v18.css"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/assets/issue-detail-D93stO87.js"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/auth/get-session"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/health"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/instance/settings/experimental"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies?scope=accessible"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/plugins/ui-contributions"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/cli-auth/me"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/issues/bdbb8d76-f27f-49cb-bae6-2c60e5800a32"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/issues/bdbb8d76-f27f-49cb-bae6-2c60e5800a32/activity"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/issues/bdbb8d76-f27f-49cb-bae6-2c60e5800a32/runs"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/issues/bdbb8d76-f27f-49cb-bae6-2c60e5800a32/comments?order=desc&limit=50"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/issues/bdbb8d76-f27f-49cb-bae6-2c60e5800a32/interactions"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/issues/bdbb8d76-f27f-49cb-bae6-2c60e5800a32/attachments"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/issues/bdbb8d76-f27f-49cb-bae6-2c60e5800a32/work-products"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/issues/bdbb8d76-f27f-49cb-bae6-2c60e5800a32/live-runs"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/issues/bdbb8d76-f27f-49cb-bae6-2c60e5800a32/feedback-votes"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/instance/settings/general"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/issues/bdbb8d76-f27f-49cb-bae6-2c60e5800a32/tree-control/state"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/projects"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/resource-memberships/me"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/agents"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/live-runs"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/inbox-dismissals"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/approvals"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/join-requests?status=pending_approval"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/dashboard"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/issues?status=backlog%2Ctodo%2Cin_progress%2Cin_review%2Cblocked%2Cdone&touchedByUserId=me&inboxArchivedByUserId=me&limit=500"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/heartbeat-runs?limit=200&summary=true"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/user-directory"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/issues?limit=100&sortField=updated&sortDir=desc"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/sidebar-preferences/me"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/announcements/current"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/primary-agent/me"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/skills"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/routines"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/sidebar-preferences/me"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/issues/bdbb8d76-f27f-49cb-bae6-2c60e5800a32/tree-holds?status=active&mode=cancel"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/instance/settings/experimental"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/cli-auth/me"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies?scope=accessible"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/plugins/ui-contributions"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/agent-avatars/cap-v1/coral-mint/rest.png?size=16&scale=1"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/issues?descendantOf=bdbb8d76-f27f-49cb-bae6-2c60e5800a32&includeBlockedBy=true&limit=500&sortField=id&sortDir=asc"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/issues?createdFromIssueId=bdbb8d76-f27f-49cb-bae6-2c60e5800a32&includeRoutineExecutions=true&limit=500&sortField=id&sortDir=asc"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/issues/bdbb8d76-f27f-49cb-bae6-2c60e5800a32/browsers"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/issues/summaries?ids=bdbb8d76-f27f-49cb-bae6-2c60e5800a32"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/issues/bdbb8d76-f27f-49cb-bae6-2c60e5800a32/accepted-plan-decompositions"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/issues/bdbb8d76-f27f-49cb-bae6-2c60e5800a32/work-products"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/issues/bdbb8d76-f27f-49cb-bae6-2c60e5800a32/documents"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/projects?includeArchived=true"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/labels"
+        },
+        {
+          "method": "POST",
+          "url": "http://127.0.0.1:4315/api/issues/bdbb8d76-f27f-49cb-bae6-2c60e5800a32/read"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/issues?status=backlog%2Ctodo%2Cin_progress%2Cin_review%2Cblocked%2Cdone&touchedByUserId=me&inboxArchivedByUserId=me&limit=500"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/email/tasks/bdbb8d76-f27f-49cb-bae6-2c60e5800a32"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/issues/bdbb8d76-f27f-49cb-bae6-2c60e5800a32/runner-goal"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/issues/AGE-1/activity"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/issues/AGE-1/live-runs"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/issues/AGE-1/runs"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/issues/AGE-1/comments?order=desc&limit=50"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/issues/AGE-1/interactions"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/issues/AGE-1/attachments"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/issues/AGE-1/work-products"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/issues/AGE-1/feedback-votes"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/issues/AGE-1/tree-control/state"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/issues/AGE-1/tree-holds?status=active&mode=cancel"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/dashboard"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/issues?status=backlog%2Ctodo%2Cin_progress%2Cin_review%2Cblocked%2Cdone&touchedByUserId=me&inboxArchivedByUserId=me&limit=500"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/issues?limit=100&sortField=updated&sortDir=desc"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/labels"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/issues?descendantOf=bdbb8d76-f27f-49cb-bae6-2c60e5800a32&includeBlockedBy=true&limit=500&sortField=id&sortDir=asc"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/issues?createdFromIssueId=bdbb8d76-f27f-49cb-bae6-2c60e5800a32&includeRoutineExecutions=true&limit=500&sortField=id&sortDir=asc"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/issues/summaries?ids=bdbb8d76-f27f-49cb-bae6-2c60e5800a32"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/issues/AGE-1"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/issues/AGE-1/activity"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/auth/get-session"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/health"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/instance/settings/experimental"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies?scope=accessible"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/cli-auth/me"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/plugins/ui-contributions"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/agents/4b208139-103b-4c10-b573-f6fb661a086c?companyId=62784d37-599a-4ca3-94ab-bdd1ebab60b6"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/resource-memberships/me"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/inbox-dismissals"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/approvals"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/join-requests?status=pending_approval"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/dashboard"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/issues?status=backlog%2Ctodo%2Cin_progress%2Cin_review%2Cblocked%2Cdone&touchedByUserId=me&inboxArchivedByUserId=me&limit=500"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/heartbeat-runs?limit=200&summary=true"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/announcements/current"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/primary-agent/me"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/agents"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/skills"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/routines"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/instance/settings/experimental"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/cli-auth/me"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies?scope=accessible"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/plugins/ui-contributions"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/heartbeat-runs/ec2363f9-7c12-48e3-90cd-77ada3270cbf"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/agents/4b208139-103b-4c10-b573-f6fb661a086c?companyId=62784d37-599a-4ca3-94ab-bdd1ebab60b6"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/heartbeat-runs?agentId=4b208139-103b-4c10-b573-f6fb661a086c&limit=200"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/agent-avatars/cap-v1/coral-mint/rest.png?size=256&scale=1"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/agents/fixture-coordinator?companyId=62784d37-599a-4ca3-94ab-bdd1ebab60b6"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/heartbeat-runs/ec2363f9-7c12-48e3-90cd-77ada3270cbf/workspace-operations"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/heartbeat-runs/ec2363f9-7c12-48e3-90cd-77ada3270cbf/events?afterSeq=0&limit=200"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/heartbeat-runs/ec2363f9-7c12-48e3-90cd-77ada3270cbf/log?offset=0&limitBytes=256000"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/instance/settings/general"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/tools/runs/ec2363f9-7c12-48e3-90cd-77ada3270cbf/decisions"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/provider-traces?runIds=ec2363f9-7c12-48e3-90cd-77ada3270cbf"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/user-directory"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/heartbeat-runs/ec2363f9-7c12-48e3-90cd-77ada3270cbf/issues"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/dashboard"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies?scope=accessible"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/auth/get-session"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/health"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/instance/settings/experimental"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies?scope=accessible"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/plugins/ui-contributions"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/cli-auth/me"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/projects"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/resource-memberships/me"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/agents"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/live-runs"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/issues/summaries?ids=bdbb8d76-f27f-49cb-bae6-2c60e5800a32"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/inbox-dismissals"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/approvals"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/join-requests?status=pending_approval"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/dashboard"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/issues?status=backlog%2Ctodo%2Cin_progress%2Cin_review%2Cblocked%2Cdone&touchedByUserId=me&inboxArchivedByUserId=me&limit=500"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/heartbeat-runs?limit=200&summary=true"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/goals"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/announcements/current"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/primary-agent/me"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/skills"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/routines"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/sidebar-preferences/me"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/instance/settings/experimental"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/cli-auth/me"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies?scope=accessible"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/plugins/ui-contributions"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/agent-avatars/cap-v1/coral-mint/rest.png?size=16&scale=1"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/auth/get-session"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/health"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/instance/settings/experimental"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies?scope=accessible"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/plugins/ui-contributions"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/cli-auth/me"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/projects"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/resource-memberships/me"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/agents"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/live-runs"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/issues/summaries?ids=bdbb8d76-f27f-49cb-bae6-2c60e5800a32"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/inbox-dismissals"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/approvals"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/join-requests?status=pending_approval"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/dashboard"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/issues?status=backlog%2Ctodo%2Cin_progress%2Cin_review%2Cblocked%2Cdone&touchedByUserId=me&inboxArchivedByUserId=me&limit=500"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/heartbeat-runs?limit=200&summary=true"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/announcements/current"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/primary-agent/me"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/skills"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/routines"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/sidebar-preferences/me"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/adapters"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/folders?kind=skill"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/skills/catalog"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/instance/settings/experimental"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/cli-auth/me"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/companies?scope=accessible"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/plugins/ui-contributions"
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4315/api/agent-avatars/cap-v1/coral-mint/rest.png?size=16&scale=1"
+        }
+      ],
+      "contextClosed": true,
+      "navigation": {
+        "from": "http://127.0.0.1:4315/AGE/issues/AGE-1",
+        "followed": "http://127.0.0.1:4315/AGE/projects/45fee12e-c0ed-4900-92f2-bfa272bddb8d",
+        "returned": "http://127.0.0.1:4315/AGE/issues/AGE-1"
+      },
+      "passed": true
+    }
+  ],
+  "browserClosed": true,
+  "errors": [],
+  "version": "158.0.8127.18"
+}

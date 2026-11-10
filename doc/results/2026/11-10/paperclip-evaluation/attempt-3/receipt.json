@@ -1,0 +1,103 @@
+{
+  "schemaVersion": "agents-os.paperclip-evaluation.v1",
+  "sourceCommit": "b3cfa7cdb6c374e1d65cdcc94803cf2892511472",
+  "workflowCommit": "f0f480e3f8849110ce957a5821819dc8c64cc63f",
+  "status": "failed",
+  "startedAt": "2026-11-10T17:38:16.699Z",
+  "upstream": {
+    "version": "2026.1106.0",
+    "commit": "d69631b01b9c658f80bf8bed389863dce82643e1"
+  },
+  "commands": [
+    {
+      "label": "tools-install",
+      "command": "npm",
+      "args": [
+        "install",
+        "--prefix",
+        "/home/runner/work/_temp/agents-os-paperclip-7h71p6/tools",
+        "--ignore-scripts",
+        "--omit=optional",
+        "--save-exact",
+        "--no-audit",
+        "--no-fund",
+        "paperclipai@2026.1106.0",
+        "playwright@1.65.0",
+        "postgres@3.4.9",
+        "@img/sharp-linux-x64@0.35.5",
+        "@img/sharp-libvips-linux-x64@1.3.4"
+      ],
+      "startedAt": "2026-11-10T17:38:16.851Z",
+      "signals": [],
+      "streams": [
+        {
+          "name": "tools-install.stdout.txt",
+          "bytes": 27,
+          "sha256": "b269c8df588af67eda076e6803fad9c822db85f05c6da9558c9d1fde0db2a1cc",
+          "complete": true
+        },
+        {
+          "name": "tools-install.stderr.txt",
+          "bytes": 218,
+          "sha256": "09787a8109dd6c244c7a5b53e1a3d6cf10893d91435a2e411cebfe0b37f0dd98",
+          "complete": true
+        }
+      ],
+      "pid": 2636,
+      "identity": {
+        "pid": 2636,
+        "uid": 1001,
+        "pgid": 2636,
+        "sid": 2636,
+        "start": "3126"
+      },
+      "exitCode": 0,
+      "signal": null,
+      "closeObserved": true,
+      "completedAt": "2026-11-10T17:39:12.145Z",
+      "originalGroupAbsent": true
+    }
+  ],
+  "cases": [],
+  "guards": [
+    {
+      "label": "before-install",
+      "canonicalFiles": 1213,
+      "canonicalVectorSha256": "cd736808aec41c61d00c8acde2e055d86294a83c76ef135cb77f5a3da7a28b13",
+      "protectedFiles": 9,
+      "protectedVectorSha256": "f07ab6ea9f3685320cd4231ac95672c01e0067988c8766c85f9806cb6af4603c"
+    },
+    {
+      "label": "terminal-source-check",
+      "canonicalFiles": 1213,
+      "canonicalVectorSha256": "cd736808aec41c61d00c8acde2e055d86294a83c76ef135cb77f5a3da7a28b13",
+      "protectedFiles": 9,
+      "protectedVectorSha256": "f07ab6ea9f3685320cd4231ac95672c01e0067988c8766c85f9806cb6af4603c"
+    }
+  ],
+  "errors": [
+    "controller_error"
+  ],
+  "database": {
+    "created": false,
+    "removed": false
+  },
+  "cleanup": {
+    "activeChildren": 0,
+    "remainingOriginalGroups": [],
+    "remainingOwnedProcesses": 0,
+    "allStreamsComplete": true,
+    "databaseRemoved": true,
+    "listenerClosed": true,
+    "rootRemoved": true
+  },
+  "proofLimits": [
+    "Paperclip prerequisite evaluation only. Authored operator tasks and one deterministic process establish no model quality, CRM, Missions or finished Agents OS.",
+    "Loopback local_trusted/private fixture only; no public deployment, real account, customer/contact data, model/provider call or paid resource."
+  ],
+  "export": {
+    "files": 9,
+    "bytes": 55000
+  },
+  "completedAt": "2026-11-10T17:39:14.031Z"
+}

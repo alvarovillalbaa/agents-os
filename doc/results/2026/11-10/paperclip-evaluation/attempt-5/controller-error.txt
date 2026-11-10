@@ -1,0 +1,5 @@
+Error: paperclip-browser_failed
+    at need (file:///home/runner/work/agents-os/agents-os/evaluations/paperclip/scripts/run-paperclip-evaluation.mjs:8:54)
+    at run (file:///home/runner/work/agents-os/agents-os/evaluations/paperclip/scripts/run-paperclip-evaluation.mjs:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async file:///home/runner/work/agents-os/agents-os/evaluations/paperclip/scripts/run-paperclip-evaluation.mjs:226:3

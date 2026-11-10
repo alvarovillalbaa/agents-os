@@ -1,0 +1,7 @@
+Error: ENOENT: no such file or directory, open '/home/runner/work/_temp/agents-os-paperclip-7h71p6/tools/node_modules/@img/sharp-linux-x64/lib/sharp-linux-x64.node'
+    at Object.openSync (node:fs:621:18)
+    at Object.readFileSync (node:fs:487:35)
+    at file:///home/runner/work/agents-os/agents-os/evaluations/paperclip/scripts/run-paperclip-evaluation.mjs:195:27
+    at Array.map (<anonymous>)
+    at file:///home/runner/work/agents-os/agents-os/evaluations/paperclip/scripts/run-paperclip-evaluation.mjs:191:25
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)

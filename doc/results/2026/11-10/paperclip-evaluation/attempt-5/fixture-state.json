@@ -1,0 +1,38 @@
+{
+  "sourceCommit": "ce86d576295c8fbf8ae9510d389b23e896fcc56c",
+  "company": {
+    "id": "9b57ed44-0b8b-4dc7-85e4-ef6be9882f9e",
+    "name": "Agents OS Evaluation",
+    "issuePrefix": "AGE"
+  },
+  "goal": {
+    "id": "12efc3f4-4114-40a4-9127-bb9c34c1273b",
+    "title": "Evaluate the control plane"
+  },
+  "project": {
+    "id": "d6f4f8f7-4282-4a53-8c15-68e7b9fefd42",
+    "name": "Agents OS prerequisite"
+  },
+  "task": {
+    "id": "1522688b-9487-4dcc-b757-5f0a53473a85",
+    "title": "Review the Paperclip prerequisite"
+  },
+  "agent": {
+    "id": "5f35040e-1073-43b2-82bd-25b64565b35e",
+    "name": "Fixture Coordinator"
+  },
+  "run": {
+    "id": "c2bee4e3-8b84-493b-ae18-fe1f963e7897"
+  },
+  "worker": {
+    "companyId": "9b57ed44-0b8b-4dc7-85e4-ef6be9882f9e",
+    "agentId": "5f35040e-1073-43b2-82bd-25b64565b35e",
+    "runId": "c2bee4e3-8b84-493b-ae18-fe1f963e7897",
+    "pid": 3064,
+    "pgid": 3064,
+    "sid": 3064,
+    "start": "9887",
+    "apiCredentialInjected": true
+  },
+  "comment": "Authored operator review: the deterministic fixture is complete; no AI result is claimed."
+}

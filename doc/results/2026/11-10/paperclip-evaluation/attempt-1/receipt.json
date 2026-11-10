@@ -1,0 +1,212 @@
+{
+  "schemaVersion": "agents-os.paperclip-evaluation.v1",
+  "sourceCommit": "e201c98a029a866be5c5ddeb76a0515dff602d69",
+  "workflowCommit": "f0f480e3f8849110ce957a5821819dc8c64cc63f",
+  "status": "failed",
+  "startedAt": "2026-11-10T17:30:11.280Z",
+  "upstream": {
+    "version": "2026.1106.0",
+    "commit": "d69631b01b9c658f80bf8bed389863dce82643e1"
+  },
+  "commands": [
+    {
+      "label": "tools-install",
+      "command": "npm",
+      "args": [
+        "install",
+        "--prefix",
+        "/home/runner/work/_temp/agents-os-paperclip-LcBxrp/tools",
+        "--ignore-scripts",
+        "--omit=optional",
+        "--save-exact",
+        "--no-audit",
+        "--no-fund",
+        "paperclipai@2026.1106.0",
+        "playwright@1.65.0",
+        "postgres@3.4.9"
+      ],
+      "startedAt": "2026-11-10T17:30:11.522Z",
+      "signals": [],
+      "streams": [
+        {
+          "name": "tools-install.stdout.txt",
+          "bytes": 26,
+          "sha256": "b012e66ca0be4c0841a84aa65c6e108a08c459bc0126a6b31a6a6ffc01ff6206",
+          "complete": true
+        },
+        {
+          "name": "tools-install.stderr.txt",
+          "bytes": 218,
+          "sha256": "09787a8109dd6c244c7a5b53e1a3d6cf10893d91435a2e411cebfe0b37f0dd98",
+          "complete": true
+        }
+      ],
+      "pid": 3394,
+      "identity": {
+        "pid": 3394,
+        "uid": 1001,
+        "pgid": 3394,
+        "sid": 3394,
+        "start": "10636"
+      },
+      "exitCode": 0,
+      "signal": null,
+      "closeObserved": true,
+      "completedAt": "2026-11-10T17:31:20.502Z",
+      "originalGroupAbsent": true
+    },
+    {
+      "label": "chromium-install",
+      "command": "/home/runner/work/_temp/agents-os-paperclip-LcBxrp/tools/node_modules/.bin/playwright",
+      "args": [
+        "install",
+        "chromium"
+      ],
+      "startedAt": "2026-11-10T17:31:21.115Z",
+      "signals": [],
+      "streams": [
+        {
+          "name": "chromium-install.stdout.txt",
+          "bytes": 6922,
+          "sha256": "9687cc084ce9ccb15a06be59f21d5024f4ce7238b11f3a1207fbbfec7ae39085",
+          "complete": true
+        },
+        {
+          "name": "chromium-install.stderr.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "complete": true
+        }
+      ],
+      "pid": 3683,
+      "identity": {
+        "pid": 3683,
+        "uid": 1001,
+        "pgid": 3683,
+        "sid": 3683,
+        "start": "17596"
+      },
+      "exitCode": 0,
+      "signal": null,
+      "closeObserved": true,
+      "completedAt": "2026-11-10T17:31:30.303Z",
+      "originalGroupAbsent": true
+    },
+    {
+      "label": "paperclip-first",
+      "command": "/opt/hostedtoolcache/node/24.22.2/x64/bin/node",
+      "args": [
+        "/home/runner/work/_temp/agents-os-paperclip-LcBxrp/tools/start-paperclip.mjs"
+      ],
+      "startedAt": "2026-11-10T17:31:30.379Z",
+      "signals": [],
+      "streams": [
+        {
+          "name": "paperclip-first.stdout.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "complete": true
+        },
+        {
+          "name": "paperclip-first.stderr.txt",
+          "bytes": 1046,
+          "sha256": "0625b359f82397414d5b85251cab045d1af693e5bab22f8aba3f08ac12f5b593",
+          "complete": true
+        }
+      ],
+      "pid": 3775,
+      "identity": {
+        "pid": 3775,
+        "uid": 1001,
+        "pgid": 3775,
+        "sid": 3775,
+        "start": "18522"
+      },
+      "exitCode": 1,
+      "signal": null,
+      "closeObserved": true,
+      "completedAt": "2026-11-10T17:31:35.504Z",
+      "originalGroupAbsent": true
+    }
+  ],
+  "cases": [
+    {
+      "id": "P01",
+      "passed": true,
+      "packages": [
+        {
+          "name": "paperclipai",
+          "version": "2026.1106.0",
+          "integrity": "sha512-jcZrSB5DItxeDJGO7TccI0WcYca2IbBJxpbaKZN6kZp+isNIbVF2AgmfFQq394mjXD+TTHwS5P3AT6jjpqXbng==",
+          "resolved": "https://registry.npmjs.org/paperclipai/-/paperclipai-2026.1106.0.tgz",
+          "entryBytes": 2602496,
+          "entrySha256": "56dbf3a353f1dff7fb8ba12fa5805d07c4673a090e842303f51ca5c1d97023b4"
+        },
+        {
+          "name": "@paperclipai/server",
+          "version": "2026.1106.0",
+          "integrity": "sha512-OqG0qydn5Pky3iHmTgL3fvAh47m77CYgkuM3CgV6ciw6tY/AmBgkO3greyr0LinLFk7x1FdLkF1sfVVukZo/YA==",
+          "resolved": "https://registry.npmjs.org/@paperclipai/server/-/server-2026.1106.0.tgz",
+          "entryBytes": 110287,
+          "entrySha256": "cde8cd927214edb31edf173aec7667dd86b174799a58c822f6abf41089786480"
+        }
+      ],
+      "unmodifiedPublishedEntrypoint": true
+    }
+  ],
+  "guards": [
+    {
+      "label": "before-install",
+      "canonicalFiles": 1213,
+      "canonicalVectorSha256": "cecefdcc16f733b78bb23a44cbab832ef6d6d1b602a082551d62dec9e3c0690b",
+      "protectedFiles": 9,
+      "protectedVectorSha256": "67a939f01fc49e6c5b0788eb99a3b52b63c44a9e9506d33d510bc60ce45baf79"
+    },
+    {
+      "label": "after-install",
+      "canonicalFiles": 1213,
+      "canonicalVectorSha256": "cecefdcc16f733b78bb23a44cbab832ef6d6d1b602a082551d62dec9e3c0690b",
+      "protectedFiles": 9,
+      "protectedVectorSha256": "67a939f01fc49e6c5b0788eb99a3b52b63c44a9e9506d33d510bc60ce45baf79"
+    },
+    {
+      "label": "terminal-source-check",
+      "canonicalFiles": 1213,
+      "canonicalVectorSha256": "cecefdcc16f733b78bb23a44cbab832ef6d6d1b602a082551d62dec9e3c0690b",
+      "protectedFiles": 9,
+      "protectedVectorSha256": "67a939f01fc49e6c5b0788eb99a3b52b63c44a9e9506d33d510bc60ce45baf79"
+    }
+  ],
+  "errors": [
+    "server_stopped_before_health",
+    "server_shutdown_failed"
+  ],
+  "database": {
+    "created": true,
+    "removed": true,
+    "name": "agents_os_eval_42865528995_1",
+    "ownerMarkerSha256": "6a09ca771d3385ffe3fa9d1fd4a5096135e83c7e4a13c9b666003adbc26a1e4b"
+  },
+  "cleanup": {
+    "activeChildren": 0,
+    "remainingOriginalGroups": [],
+    "remainingOwnedProcesses": 0,
+    "allStreamsComplete": true,
+    "databaseRemoved": true,
+    "listenerClosed": true,
+    "rootRemoved": true
+  },
+  "proofLimits": [
+    "Paperclip prerequisite evaluation only. Authored operator tasks and one deterministic process establish no model quality, CRM, Missions or finished Agents OS.",
+    "Loopback local_trusted/private fixture only; no public deployment, real account, customer/contact data, model/provider call or paid resource."
+  ],
+  "export": {
+    "files": 9,
+    "bytes": 53776
+  },
+  "runtime": {
+    "bytes": 1917057508,
+    "files": 72779
+  },
+  "completedAt": "2026-11-10T17:31:43.355Z"
+}

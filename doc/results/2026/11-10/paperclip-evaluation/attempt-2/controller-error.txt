@@ -1,0 +1,11 @@
+Error: runtime_scratch_bound
+    at need (file:///home/runner/work/agents-os/agents-os/evaluations/paperclip/scripts/run-paperclip-evaluation.mjs:8:54)
+    at walk (file:///home/runner/work/agents-os/agents-os/evaluations/paperclip/scripts/run-paperclip-evaluation.mjs:168:100)
+    at walk (file:///home/runner/work/agents-os/agents-os/evaluations/paperclip/scripts/run-paperclip-evaluation.mjs:168:29)
+    at walk (file:///home/runner/work/agents-os/agents-os/evaluations/paperclip/scripts/run-paperclip-evaluation.mjs:168:29)
+    at walk (file:///home/runner/work/agents-os/agents-os/evaluations/paperclip/scripts/run-paperclip-evaluation.mjs:168:29)
+    at walk (file:///home/runner/work/agents-os/agents-os/evaluations/paperclip/scripts/run-paperclip-evaluation.mjs:168:29)
+    at walk (file:///home/runner/work/agents-os/agents-os/evaluations/paperclip/scripts/run-paperclip-evaluation.mjs:168:29)
+    at walk (file:///home/runner/work/agents-os/agents-os/evaluations/paperclip/scripts/run-paperclip-evaluation.mjs:168:29)
+    at walk (file:///home/runner/work/agents-os/agents-os/evaluations/paperclip/scripts/run-paperclip-evaluation.mjs:168:29)
+    at walk (file:///home/runner/work/agents-os/agents-os/evaluations/paperclip/scripts/run-paperclip-evaluation.mjs:168:29)

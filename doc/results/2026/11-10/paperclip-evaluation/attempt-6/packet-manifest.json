@@ -1,0 +1,321 @@
+{
+  "sourceCommit": "437831ce0d5f5637ec581d949a9cb6c3401b7dd2",
+  "workflowCommit": "f0f480e3f8849110ce957a5821819dc8c64cc63f",
+  "files": [
+    {
+      "name": "api-core-001.json",
+      "bytes": 616,
+      "sha256": "438af0e1dead8457e92965ee928ca2869b189b728b2612a10d28939842e9fc84"
+    },
+    {
+      "name": "api-core-002.json",
+      "bytes": 355,
+      "sha256": "513e29a770e0699b5b360182e1ce8a90e217d4b02152f1e2d36b34b4f05d878c"
+    },
+    {
+      "name": "api-core-003.json",
+      "bytes": 1456,
+      "sha256": "4715111d11e7209da581c535ba576866d29d887a38625f0b2f196a8d25653d81"
+    },
+    {
+      "name": "api-core-004.json",
+      "bytes": 2027,
+      "sha256": "a0ea727a7da05a4d11fd712280d96f0d1516bed4fc80923cde80ead9023c9035"
+    },
+    {
+      "name": "api-core-005.json",
+      "bytes": 2117,
+      "sha256": "39b63be92da303080fb29b9a0b7922d4832acecb8a6f507377ecac7b24ebb6a1"
+    },
+    {
+      "name": "api-core-006.json",
+      "bytes": 2997,
+      "sha256": "f88e4343e4982fa86f5bffd95f839cb8c9226378ceac30f4bf0d9c7c1acd3b66"
+    },
+    {
+      "name": "api-core-007.json",
+      "bytes": 4516,
+      "sha256": "c4e2f5974b5fff75e621917043465b61fe16ea9f40bbe3fce386fd2991c6dd02"
+    },
+    {
+      "name": "api-core-008.json",
+      "bytes": 794,
+      "sha256": "0ac2d1a1e82cdd1dd0c4f416f4d5ced0f9a941aa93114891651c549895a7e542"
+    },
+    {
+      "name": "api-core-009.json",
+      "bytes": 1846,
+      "sha256": "c5748c631fde5fa0491132f0e696ab40ed9a18401e5b76a886a787cfbb31160c"
+    },
+    {
+      "name": "api-core-010.json",
+      "bytes": 6895,
+      "sha256": "f5ff8a6347d7bd39f275804c57ee66dfe492e8ab8331ceeee9848d8397bee0a7"
+    },
+    {
+      "name": "api-core-011.json",
+      "bytes": 6887,
+      "sha256": "b39a0ff630b76e6da0952882dae5bf819a5ed32a41e83c02fd5bef91ba1b16f8"
+    },
+    {
+      "name": "api-core-012.json",
+      "bytes": 2144,
+      "sha256": "10f1832f328a2cccb7fecfbd7d373bbee0cf2376b3d035b50e6bd691b69d9357"
+    },
+    {
+      "name": "api-core-013.json",
+      "bytes": 3077,
+      "sha256": "199852d2dd7ae2d9256b1ccce748b51096482321d3757bdcd84cb7b2c02b8b82"
+    },
+    {
+      "name": "api-core-014.json",
+      "bytes": 12309,
+      "sha256": "0f3c1b3dd4adbda3397cef4b353a5d74ab2680918616a880c8bb2eae840c3f08"
+    },
+    {
+      "name": "api-core-015.json",
+      "bytes": 799,
+      "sha256": "595e54643af991b276bf48e7ff40ff90b80c67207461b0d24aa21e026e3e8ed8"
+    },
+    {
+      "name": "api-core-016.json",
+      "bytes": 1886,
+      "sha256": "7fbb27bfeeba91f0053aee1a63f766c73194cd571652d8e88e03c5f53327fa1b"
+    },
+    {
+      "name": "api-core-017.json",
+      "bytes": 6935,
+      "sha256": "0715fe8d524b2dee048173ab06c3f3e7714e3ca7d1cef630ccc325fa329a9196"
+    },
+    {
+      "name": "api-core-018.json",
+      "bytes": 199,
+      "sha256": "19534ce6c945332dc9072b8efa7f02eb02ae100c44dd40b38ce0fda2f8a0b77f"
+    },
+    {
+      "name": "api-core-019.json",
+      "bytes": 3882,
+      "sha256": "2f7812d941f363d6cc74bb25850589707a11587f8c49fdaf0c264e9ce3e1089b"
+    },
+    {
+      "name": "api-restart-001.json",
+      "bytes": 616,
+      "sha256": "10f53e3948147a1ed9ceb366598cda04e875c5f6827769be0ea417a1b78a8d0f"
+    },
+    {
+      "name": "api-restart-002.json",
+      "bytes": 355,
+      "sha256": "513e29a770e0699b5b360182e1ce8a90e217d4b02152f1e2d36b34b4f05d878c"
+    },
+    {
+      "name": "api-restart-003.json",
+      "bytes": 1456,
+      "sha256": "4715111d11e7209da581c535ba576866d29d887a38625f0b2f196a8d25653d81"
+    },
+    {
+      "name": "api-restart-004.json",
+      "bytes": 4516,
+      "sha256": "c4e2f5974b5fff75e621917043465b61fe16ea9f40bbe3fce386fd2991c6dd02"
+    },
+    {
+      "name": "api-restart-005.json",
+      "bytes": 6934,
+      "sha256": "c946404c3d0ee26f54bc5e36f272fece8a0d4909f5831a634693a75ab15f2b72"
+    },
+    {
+      "name": "api-restart-006.json",
+      "bytes": 12665,
+      "sha256": "ca9f5ed7049e9ea4f0529592a22eb5c59d6a08d810f46a96bbf08bc12e24bee6"
+    },
+    {
+      "name": "api-restart-007.json",
+      "bytes": 794,
+      "sha256": "0ac2d1a1e82cdd1dd0c4f416f4d5ced0f9a941aa93114891651c549895a7e542"
+    },
+    {
+      "name": "chromium-install.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "chromium-install.stdout.txt",
+      "bytes": 6922,
+      "sha256": "bad4fa0bb6558c7bd3cd32e521dfc1a4ac93950ac5ad2357e44b192409eb44ad"
+    },
+    {
+      "name": "fixture-state.json",
+      "bytes": 1093,
+      "sha256": "0a8c11acd884a38d3cdd01cae3acda111d23254d313e6cdc2605a9be83a14936"
+    },
+    {
+      "name": "package-identities.json",
+      "bytes": 2175,
+      "sha256": "21f637e2375b52ca11f1a003ba8bcf38606a45e620bd6bc952fca82629148aac"
+    },
+    {
+      "name": "paperclip-api-core.json",
+      "bytes": 6427,
+      "sha256": "667344e2877e3e01abea5de2739812ac7dfc01275de5e146da30636e119438e5"
+    },
+    {
+      "name": "paperclip-api-core.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "paperclip-api-core.stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "paperclip-api-restart.json",
+      "bytes": 2179,
+      "sha256": "3d0a106f3b498337aae1d15e64d8e8e6269918ceca009b81e6b244a609c56798"
+    },
+    {
+      "name": "paperclip-api-restart.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "paperclip-api-restart.stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "paperclip-browser.json",
+      "bytes": 56149,
+      "sha256": "5363bcc51813b1fdbc9580cf765c68b4a85d4e50b4b56db5af036a5b3063058d"
+    },
+    {
+      "name": "paperclip-browser.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "paperclip-browser.stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "paperclip-first-health.json",
+      "bytes": 912,
+      "sha256": "5fa7a1d89451ea360f4be0610a6802e0ede0fc1fec976d9459c954306295a0ac"
+    },
+    {
+      "name": "paperclip-first-index.html",
+      "bytes": 5819,
+      "sha256": "2e0c5a05cc411fb25e8ef8ed9c332ac51359d9e3d7a2167a87d9f2cad9254ff1"
+    },
+    {
+      "name": "paperclip-first.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "paperclip-first.stdout.txt",
+      "bytes": 32225,
+      "sha256": "0f12cd77c943ff1f56780d29fc3b39b854ed9f840d37873252d7acd977610ea8"
+    },
+    {
+      "name": "paperclip-p07-agent-run.dom.json",
+      "bytes": 75628,
+      "sha256": "304aa33fd2541ba9b8b2e6b931d5a411cb5cb9428c9a4a46133fe802a0e7ce2f"
+    },
+    {
+      "name": "paperclip-p07-agent-run.png",
+      "bytes": 119685,
+      "sha256": "215a9b9c2ca144b3cd67b7e2f6eac6ffd5b8559f207a014411ab74e306ecc36d"
+    },
+    {
+      "name": "paperclip-p07-goals.dom.json",
+      "bytes": 37678,
+      "sha256": "8aef1bc8fd10a326ad04614bb8e9a2d52be7b28da352aab179877c37456264f2"
+    },
+    {
+      "name": "paperclip-p07-skills.dom.json",
+      "bytes": 73671,
+      "sha256": "3fececac7ee98036f39bf7307831577b2b85786073c3b44344ea18ced4a91325"
+    },
+    {
+      "name": "paperclip-p07-task.dom.json",
+      "bytes": 83123,
+      "sha256": "d4acdae4ad253001ccf37f9cb3c56b417014bd2943e25b14e6adb8760d43ea0b"
+    },
+    {
+      "name": "paperclip-p07-task.png",
+      "bytes": 99065,
+      "sha256": "89a259f1a2a12dc1e84d41af3844c099b5fe8974fbb06835951e5f48ce42d2d3"
+    },
+    {
+      "name": "paperclip-p08-agent-run.dom.json",
+      "bytes": 53589,
+      "sha256": "0238ac474be2c0798cf95cd2ecfec9324ece524585676cce40204b7e7fc5518b"
+    },
+    {
+      "name": "paperclip-p08-agent-run.png",
+      "bytes": 51599,
+      "sha256": "1425817e3fa3a2fe13a12f021b5d8be39aa2734d5fa598aabfb3403a4e03365a"
+    },
+    {
+      "name": "paperclip-p08-goals.dom.json",
+      "bytes": 42205,
+      "sha256": "7bb0b07975d06593c94e67a345c075325931208f4069de24f50f32528d2b0945"
+    },
+    {
+      "name": "paperclip-p08-skills.dom.json",
+      "bytes": 78198,
+      "sha256": "222d308e5bb5bdb3038783aba33cde2cd639357981c78e5cac20e5c98bef71c6"
+    },
+    {
+      "name": "paperclip-p08-task.dom.json",
+      "bytes": 82929,
+      "sha256": "09b625d44c013a49f78c7b94ee3cf50bcdb89d2639bf4d04ef8e0cbaf54e139a"
+    },
+    {
+      "name": "paperclip-p08-task.png",
+      "bytes": 32900,
+      "sha256": "cc4fc5fef30fda14d170880fe1e2f3dc66b6b1fcb02419f7277290bdd5287eb5"
+    },
+    {
+      "name": "paperclip-restarted-health.json",
+      "bytes": 912,
+      "sha256": "bf997f5548e06a51d7a2fc0517750846d855a435625105424fc5aa2412bd81ba"
+    },
+    {
+      "name": "paperclip-restarted-index.html",
+      "bytes": 5819,
+      "sha256": "2e0c5a05cc411fb25e8ef8ed9c332ac51359d9e3d7a2167a87d9f2cad9254ff1"
+    },
+    {
+      "name": "paperclip-restarted.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "paperclip-restarted.stdout.txt",
+      "bytes": 523769,
+      "sha256": "f74815ec41008cce43eba61e8a4cd651846380a061cc884a0ed340f1f50e629b"
+    },
+    {
+      "name": "receipt.json",
+      "bytes": 15402,
+      "sha256": "0d317f6208927a1ba1eb6147afac95671ff71dc9f4edd65d21e767fcd5e7b447"
+    },
+    {
+      "name": "tool-package-lock.json",
+      "bytes": 399023,
+      "sha256": "e06eea86d10d8d421025fb869018ca75377e830d40d2e1585921d26ad5f7f343"
+    },
+    {
+      "name": "tools-install.stderr.txt",
+      "bytes": 218,
+      "sha256": "09787a8109dd6c244c7a5b53e1a3d6cf10893d91435a2e411cebfe0b37f0dd98"
+    },
+    {
+      "name": "tools-install.stdout.txt",
+      "bytes": 27,
+      "sha256": "0a8943fed3d320bba347bb93cd119a0c589ddde619b3cf7afd10108ec04b8de1"
+    }
+  ]
+}

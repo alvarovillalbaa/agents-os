@@ -1,0 +1,147 @@
+{
+  "schemaVersion": "agents-os.paperclip-independent-review.v1",
+  "recordedAt": "2026-11-10T17:54:50.174143+00:00",
+  "kind": "derived review record; original packets are unchanged",
+  "verifierSha256": "6de082fe9d3b31f61e374a8067100227428f8c8281a7e4f7227121e69d7b4eb0",
+  "acceptedRun": 42868725319,
+  "acceptedSource": "437831ce0d5f5637ec581d949a9cb6c3401b7dd2",
+  "workflowCommit": "f0f480e3f8849110ce957a5821819dc8c64cc63f",
+  "acceptedChecks": [
+    "all packet names, byte counts and SHA256",
+    "all fourteen complete command streams",
+    "six complete canonical and evaluator-export vectors rebuilt from Git blobs including symlinks/modes",
+    "eight ordered passing cases",
+    "API response digests and restart records/comment",
+    "both real browser navigation/back paths, eight DOM captures, four PNG signatures and four visual inspections",
+    "process identity/group absence, browser closure, owned DB drop, listener closure and scratch removal"
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "run": 42865528995,
+      "sourceCommit": "e201c98a029a866be5c5ddeb76a0515dff602d69",
+      "status": "failed",
+      "files": 11,
+      "bytes": 416735,
+      "manifestSha256": "ec7722cebb7f5309173c7aee6ceb6f2596c819c23868a620f815a43a4ec40bef",
+      "independentVerificationExitCode": 0,
+      "cleanup": {
+        "activeChildren": 0,
+        "remainingOriginalGroups": [],
+        "remainingOwnedProcesses": 0,
+        "allStreamsComplete": true,
+        "databaseRemoved": true,
+        "listenerClosed": true,
+        "rootRemoved": true
+      }
+    },
+    {
+      "attempt": 2,
+      "run": 42866117008,
+      "sourceCommit": "b519da2c8fe6ad7514f6bba1ccd36f88ffa42f4b",
+      "status": "failed",
+      "files": 7,
+      "bytes": 406668,
+      "manifestSha256": "bb1d0b4057f91a0b4d9f9baddf1df65c88d8f392e67c37e657fceb182cec4c5b",
+      "independentVerificationExitCode": 0,
+      "cleanup": {
+        "activeChildren": 0,
+        "remainingOriginalGroups": [],
+        "remainingOwnedProcesses": 0,
+        "allStreamsComplete": true,
+        "databaseRemoved": true,
+        "listenerClosed": true,
+        "rootRemoved": true
+      }
+    },
+    {
+      "attempt": 3,
+      "run": 42866928912,
+      "sourceCommit": "b3cfa7cdb6c374e1d65cdcc94803cf2892511472",
+      "status": "failed",
+      "files": 5,
+      "bytes": 4708,
+      "manifestSha256": "34be8e20ccce0b9140599a691948d8fa67b7939ca1fb66f11ae99988fdb753c5",
+      "independentVerificationExitCode": 0,
+      "cleanup": {
+        "activeChildren": 0,
+        "remainingOriginalGroups": [],
+        "remainingOwnedProcesses": 0,
+        "allStreamsComplete": true,
+        "databaseRemoved": true,
+        "listenerClosed": true,
+        "rootRemoved": true
+      }
+    },
+    {
+      "attempt": 4,
+      "run": 42867501529,
+      "sourceCommit": "ff94e51f0c1f7bb89a26b780205662b54ed70436",
+      "status": "failed",
+      "files": 21,
+      "bytes": 455551,
+      "manifestSha256": "169eecbfa4609851a218c3c70c88a3e7dfaffde28d338deb1117a38128531cba",
+      "independentVerificationExitCode": 0,
+      "cleanup": {
+        "activeChildren": 0,
+        "remainingOriginalGroups": [],
+        "remainingOwnedProcesses": 0,
+        "allStreamsComplete": true,
+        "databaseRemoved": true,
+        "listenerClosed": true,
+        "rootRemoved": true
+      }
+    },
+    {
+      "attempt": 5,
+      "run": 42868071665,
+      "sourceCommit": "ce86d576295c8fbf8ae9510d389b23e896fcc56c",
+      "status": "failed",
+      "files": 61,
+      "bytes": 1466389,
+      "manifestSha256": "6873c745abbbaa0c1dda578cbb53caf4d0a62b40eadd9c5713498a2786229903",
+      "independentVerificationExitCode": 0,
+      "cleanup": {
+        "activeChildren": 0,
+        "remainingOriginalGroups": [],
+        "remainingOwnedProcesses": 0,
+        "allStreamsComplete": true,
+        "databaseRemoved": true,
+        "listenerClosed": true,
+        "rootRemoved": true
+      }
+    },
+    {
+      "attempt": 6,
+      "run": 42868725319,
+      "sourceCommit": "437831ce0d5f5637ec581d949a9cb6c3401b7dd2",
+      "status": "passed",
+      "files": 64,
+      "bytes": 1988492,
+      "manifestSha256": "6eba7503924317ff058aa569e0497fbfb843989f4ba4155bb396765f209d7000",
+      "independentVerificationExitCode": 0,
+      "cleanup": {
+        "activeChildren": 0,
+        "remainingOriginalGroups": [],
+        "remainingOwnedProcesses": 0,
+        "allStreamsComplete": true,
+        "databaseRemoved": true,
+        "listenerClosed": true,
+        "rootRemoved": true
+      }
+    }
+  ],
+  "totalOriginalFiles": 169,
+  "totalOriginalBytes": 4738543,
+  "workflowRetirement": {
+    "id": 413582333,
+    "state": "disabled_manually",
+    "observedAt": "2026-11-10T17:53:02Z",
+    "definitionRemovalPolicy": "remove only after disabled confirmation; verify after publication"
+  },
+  "proofLimits": [
+    "Prerequisite evaluation only; CRM and Missions unimplemented.",
+    "No model/provider call or AI-quality claim.",
+    "Older fork build, plugin installation, production persistence/Auth and hosting unverified."
+  ]
+}

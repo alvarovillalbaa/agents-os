@@ -1,0 +1,51 @@
+{
+  "mode": "core",
+  "sourceCommit": "ff94e51f0c1f7bb89a26b780205662b54ed70436",
+  "passed": false,
+  "cases": [],
+  "requests": [
+    {
+      "method": "POST",
+      "route": "/companies",
+      "status": 201,
+      "body": "api-core-001.json",
+      "bytes": 616,
+      "sha256": "606fdc2b453fade43851ee460bc05b533f13f5f89b5cc3ac2938119d4922fead"
+    },
+    {
+      "method": "POST",
+      "route": "/companies/05a936ad-58f8-46bd-ab29-0d1a9a65f9f1/goals",
+      "status": 201,
+      "body": "api-core-002.json",
+      "bytes": 355,
+      "sha256": "6c74e3cbea1828f26fad0b3bab6b1569921e82c3d24d1db3e420f786a6370aac"
+    },
+    {
+      "method": "POST",
+      "route": "/companies/05a936ad-58f8-46bd-ab29-0d1a9a65f9f1/projects",
+      "status": 201,
+      "body": "api-core-003.json",
+      "bytes": 1456,
+      "sha256": "8db0ad5372a37775fcbf6c123178b4b03cb1d5ea31d429709671bb8e223d65eb"
+    },
+    {
+      "method": "POST",
+      "route": "/companies/05a936ad-58f8-46bd-ab29-0d1a9a65f9f1/issues",
+      "status": 201,
+      "body": "api-core-004.json",
+      "bytes": 2018,
+      "sha256": "febb2b5fcc6368858820ca55bc41aa3612a02d97db639c5f00c15259f17e00d4"
+    },
+    {
+      "method": "PATCH",
+      "route": "/issues/8d8ecc83-ea4f-44a9-8109-1d82810b27f6",
+      "status": 422,
+      "body": "api-core-005.json",
+      "bytes": 50,
+      "sha256": "1ef1ff75315071a7fc721ec1bc6db8e0bae91d4631b315a924b3f41f5b16550d"
+    }
+  ],
+  "errors": [
+    "Error: unexpected_api_status_422\n    at need (file:///home/runner/work/_temp/agents-os-paperclip-UqDcyu/source/tests/integration/paperclip-api.mjs:5:54)\n    at api (file:///home/runner/work/_temp/agents-os-paperclip-UqDcyu/source/tests/integration/paperclip-api.mjs:27:3)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async file:///home/runner/work/_temp/agents-os-paperclip-UqDcyu/source/tests/integration/paperclip-api.mjs:44:5"
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "schemaVersion": "agents-os.paperclip-evaluation.v1",
+  "sourceCommit": "b519da2c8fe6ad7514f6bba1ccd36f88ffa42f4b",
+  "workflowCommit": "f0f480e3f8849110ce957a5821819dc8c64cc63f",
+  "status": "failed",
+  "startedAt": "2026-11-10T17:33:28.480Z",
+  "upstream": {
+    "version": "2026.1106.0",
+    "commit": "d69631b01b9c658f80bf8bed389863dce82643e1"
+  },
+  "commands": [
+    {
+      "label": "tools-install",
+      "command": "npm",
+      "args": [
+        "install",
+        "--prefix",
+        "/home/runner/work/_temp/agents-os-paperclip-U7ONPr/tools",
+        "--ignore-scripts",
+        "--include=optional",
+        "--save-exact",
+        "--no-audit",
+        "--no-fund",
+        "paperclipai@2026.1106.0",
+        "playwright@1.65.0",
+        "postgres@3.4.9"
+      ],
+      "startedAt": "2026-11-10T17:33:28.707Z",
+      "signals": [],
+      "streams": [
+        {
+          "name": "tools-install.stdout.txt",
+          "bytes": 26,
+          "sha256": "fda3c3d1fdbca625ec18d35f44194c728155682cc16ac8e36e17e54b47a6e56a",
+          "complete": true
+        },
+        {
+          "name": "tools-install.stderr.txt",
+          "bytes": 218,
+          "sha256": "09787a8109dd6c244c7a5b53e1a3d6cf10893d91435a2e411cebfe0b37f0dd98",
+          "complete": true
+        }
+      ],
+      "pid": 2888,
+      "identity": {
+        "pid": 2888,
+        "uid": 1001,
+        "pgid": 2888,
+        "sid": 2888,
+        "start": "8282"
+      },
+      "exitCode": 0,
+      "signal": null,
+      "closeObserved": true,
+      "completedAt": "2026-11-10T17:34:54.812Z",
+      "originalGroupAbsent": true
+    }
+  ],
+  "cases": [
+    {
+      "id": "P01",
+      "passed": true,
+      "packages": [
+        {
+          "name": "paperclipai",
+          "version": "2026.1106.0",
+          "integrity": "sha512-jcZrSB5DItxeDJGO7TccI0WcYca2IbBJxpbaKZN6kZp+isNIbVF2AgmfFQq394mjXD+TTHwS5P3AT6jjpqXbng==",
+          "resolved": "https://registry.npmjs.org/paperclipai/-/paperclipai-2026.1106.0.tgz",
+          "entryBytes": 2602496,
+          "entrySha256": "56dbf3a353f1dff7fb8ba12fa5805d07c4673a090e842303f51ca5c1d97023b4"
+        },
+        {
+          "name": "@paperclipai/server",
+          "version": "2026.1106.0",
+          "integrity": "sha512-OqG0qydn5Pky3iHmTgL3fvAh47m77CYgkuM3CgV6ciw6tY/AmBgkO3greyr0LinLFk7x1FdLkF1sfVVukZo/YA==",
+          "resolved": "https://registry.npmjs.org/@paperclipai/server/-/server-2026.1106.0.tgz",
+          "entryBytes": 110287,
+          "entrySha256": "cde8cd927214edb31edf173aec7667dd86b174799a58c822f6abf41089786480"
+        }
+      ],
+      "unmodifiedPublishedEntrypoint": true
+    }
+  ],
+  "guards": [
+    {
+      "label": "before-install",
+      "canonicalFiles": 1213,
+      "canonicalVectorSha256": "dac49db582f0e2969ccac3c34964b09a26ec4c821454da47055fbef07ee9bf56",
+      "protectedFiles": 9,
+      "protectedVectorSha256": "f4b64c7ecee3980fd67d119cbb27391f0e7ea4152fec895449cc0089a080cf48"
+    },
+    {
+      "label": "after-install",
+      "canonicalFiles": 1213,
+      "canonicalVectorSha256": "dac49db582f0e2969ccac3c34964b09a26ec4c821454da47055fbef07ee9bf56",
+      "protectedFiles": 9,
+      "protectedVectorSha256": "f4b64c7ecee3980fd67d119cbb27391f0e7ea4152fec895449cc0089a080cf48"
+    },
+    {
+      "label": "terminal-source-check",
+      "canonicalFiles": 1213,
+      "canonicalVectorSha256": "dac49db582f0e2969ccac3c34964b09a26ec4c821454da47055fbef07ee9bf56",
+      "protectedFiles": 9,
+      "protectedVectorSha256": "f4b64c7ecee3980fd67d119cbb27391f0e7ea4152fec895449cc0089a080cf48"
+    }
+  ],
+  "errors": [
+    "runtime_scratch_bound"
+  ],
+  "database": {
+    "created": false,
+    "removed": false
+  },
+  "cleanup": {
+    "activeChildren": 0,
+    "remainingOriginalGroups": [],
+    "remainingOwnedProcesses": 0,
+    "allStreamsComplete": true,
+    "databaseRemoved": true,
+    "listenerClosed": true,
+    "rootRemoved": true
+  },
+  "proofLimits": [
+    "Paperclip prerequisite evaluation only. Authored operator tasks and one deterministic process establish no model quality, CRM, Missions or finished Agents OS.",
+    "Loopback local_trusted/private fixture only; no public deployment, real account, customer/contact data, model/provider call or paid resource."
+  ],
+  "export": {
+    "files": 9,
+    "bytes": 54012
+  },
+  "completedAt": "2026-11-10T17:35:02.831Z"
+}

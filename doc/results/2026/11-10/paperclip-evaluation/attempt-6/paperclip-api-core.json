@@ -1,0 +1,202 @@
+{
+  "mode": "core",
+  "sourceCommit": "437831ce0d5f5637ec581d949a9cb6c3401b7dd2",
+  "passed": true,
+  "cases": [
+    {
+      "id": "P03",
+      "passed": true,
+      "companyId": "62784d37-599a-4ca3-94ab-bdd1ebab60b6",
+      "goalId": "92538d5e-5d34-420e-94d6-0b3c793e3492",
+      "projectId": "45fee12e-c0ed-4900-92f2-bfa272bddb8d",
+      "taskId": "bdbb8d76-f27f-49cb-bae6-2c60e5800a32",
+      "manualOperatorTransitions": [
+        "todo",
+        "in_progress",
+        "done"
+      ]
+    },
+    {
+      "id": "P04",
+      "passed": true,
+      "companyId": "62784d37-599a-4ca3-94ab-bdd1ebab60b6",
+      "agentId": "4b208139-103b-4c10-b573-f6fb661a086c",
+      "runId": "ec2363f9-7c12-48e3-90cd-77ada3270cbf",
+      "status": "succeeded",
+      "worker": {
+        "companyId": "62784d37-599a-4ca3-94ab-bdd1ebab60b6",
+        "agentId": "4b208139-103b-4c10-b573-f6fb661a086c",
+        "runId": "ec2363f9-7c12-48e3-90cd-77ada3270cbf",
+        "pid": 3126,
+        "pgid": 3126,
+        "sid": 3126,
+        "start": "43557",
+        "apiCredentialInjected": true
+      },
+      "actualLogMarker": true
+    },
+    {
+      "id": "P05",
+      "passed": true,
+      "status": "paused",
+      "rejectedHttpStatus": 409,
+      "processExecutions": 1,
+      "runCount": 1
+    }
+  ],
+  "requests": [
+    {
+      "method": "POST",
+      "route": "/companies",
+      "status": 201,
+      "body": "api-core-001.json",
+      "bytes": 616,
+      "sha256": "438af0e1dead8457e92965ee928ca2869b189b728b2612a10d28939842e9fc84"
+    },
+    {
+      "method": "POST",
+      "route": "/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/goals",
+      "status": 201,
+      "body": "api-core-002.json",
+      "bytes": 355,
+      "sha256": "513e29a770e0699b5b360182e1ce8a90e217d4b02152f1e2d36b34b4f05d878c"
+    },
+    {
+      "method": "POST",
+      "route": "/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/projects",
+      "status": 201,
+      "body": "api-core-003.json",
+      "bytes": 1456,
+      "sha256": "4715111d11e7209da581c535ba576866d29d887a38625f0b2f196a8d25653d81"
+    },
+    {
+      "method": "POST",
+      "route": "/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/issues",
+      "status": 201,
+      "body": "api-core-004.json",
+      "bytes": 2027,
+      "sha256": "a0ea727a7da05a4d11fd712280d96f0d1516bed4fc80923cde80ead9023c9035"
+    },
+    {
+      "method": "PATCH",
+      "route": "/issues/bdbb8d76-f27f-49cb-bae6-2c60e5800a32",
+      "status": 200,
+      "body": "api-core-005.json",
+      "bytes": 2117,
+      "sha256": "39b63be92da303080fb29b9a0b7922d4832acecb8a6f507377ecac7b24ebb6a1"
+    },
+    {
+      "method": "PATCH",
+      "route": "/issues/bdbb8d76-f27f-49cb-bae6-2c60e5800a32",
+      "status": 200,
+      "body": "api-core-006.json",
+      "bytes": 2997,
+      "sha256": "f88e4343e4982fa86f5bffd95f839cb8c9226378ceac30f4bf0d9c7c1acd3b66"
+    },
+    {
+      "method": "GET",
+      "route": "/issues/bdbb8d76-f27f-49cb-bae6-2c60e5800a32",
+      "status": 200,
+      "body": "api-core-007.json",
+      "bytes": 4516,
+      "sha256": "c4e2f5974b5fff75e621917043465b61fe16ea9f40bbe3fce386fd2991c6dd02"
+    },
+    {
+      "method": "GET",
+      "route": "/issues/bdbb8d76-f27f-49cb-bae6-2c60e5800a32/comments",
+      "status": 200,
+      "body": "api-core-008.json",
+      "bytes": 794,
+      "sha256": "0ac2d1a1e82cdd1dd0c4f416f4d5ced0f9a941aa93114891651c549895a7e542"
+    },
+    {
+      "method": "POST",
+      "route": "/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/agents",
+      "status": 201,
+      "body": "api-core-009.json",
+      "bytes": 1846,
+      "sha256": "c5748c631fde5fa0491132f0e696ab40ed9a18401e5b76a886a787cfbb31160c"
+    },
+    {
+      "method": "GET",
+      "route": "/agents/4b208139-103b-4c10-b573-f6fb661a086c",
+      "status": 200,
+      "body": "api-core-010.json",
+      "bytes": 6895,
+      "sha256": "f5ff8a6347d7bd39f275804c57ee66dfe492e8ab8331ceeee9848d8397bee0a7"
+    },
+    {
+      "method": "GET",
+      "route": "/agents/4b208139-103b-4c10-b573-f6fb661a086c",
+      "status": 200,
+      "body": "api-core-011.json",
+      "bytes": 6887,
+      "sha256": "b39a0ff630b76e6da0952882dae5bf819a5ed32a41e83c02fd5bef91ba1b16f8"
+    },
+    {
+      "method": "POST",
+      "route": "/agents/4b208139-103b-4c10-b573-f6fb661a086c/heartbeat/invoke",
+      "status": 202,
+      "body": "api-core-012.json",
+      "bytes": 2144,
+      "sha256": "10f1832f328a2cccb7fecfbd7d373bbee0cf2376b3d035b50e6bd691b69d9357"
+    },
+    {
+      "method": "GET",
+      "route": "/heartbeat-runs/ec2363f9-7c12-48e3-90cd-77ada3270cbf",
+      "status": 200,
+      "body": "api-core-013.json",
+      "bytes": 3077,
+      "sha256": "199852d2dd7ae2d9256b1ccce748b51096482321d3757bdcd84cb7b2c02b8b82"
+    },
+    {
+      "method": "GET",
+      "route": "/heartbeat-runs/ec2363f9-7c12-48e3-90cd-77ada3270cbf",
+      "status": 200,
+      "body": "api-core-014.json",
+      "bytes": 12309,
+      "sha256": "0f3c1b3dd4adbda3397cef4b353a5d74ab2680918616a880c8bb2eae840c3f08"
+    },
+    {
+      "method": "GET",
+      "route": "/heartbeat-runs/ec2363f9-7c12-48e3-90cd-77ada3270cbf/log?offset=0&limitBytes=65536",
+      "status": 200,
+      "body": "api-core-015.json",
+      "bytes": 799,
+      "sha256": "595e54643af991b276bf48e7ff40ff90b80c67207461b0d24aa21e026e3e8ed8"
+    },
+    {
+      "method": "POST",
+      "route": "/agents/4b208139-103b-4c10-b573-f6fb661a086c/pause",
+      "status": 200,
+      "body": "api-core-016.json",
+      "bytes": 1886,
+      "sha256": "7fbb27bfeeba91f0053aee1a63f766c73194cd571652d8e88e03c5f53327fa1b"
+    },
+    {
+      "method": "GET",
+      "route": "/agents/4b208139-103b-4c10-b573-f6fb661a086c",
+      "status": 200,
+      "body": "api-core-017.json",
+      "bytes": 6935,
+      "sha256": "0715fe8d524b2dee048173ab06c3f3e7714e3ca7d1cef630ccc325fa329a9196"
+    },
+    {
+      "method": "POST",
+      "route": "/agents/4b208139-103b-4c10-b573-f6fb661a086c/heartbeat/invoke",
+      "status": 409,
+      "body": "api-core-018.json",
+      "bytes": 199,
+      "sha256": "19534ce6c945332dc9072b8efa7f02eb02ae100c44dd40b38ce0fda2f8a0b77f"
+    },
+    {
+      "method": "GET",
+      "route": "/companies/62784d37-599a-4ca3-94ab-bdd1ebab60b6/heartbeat-runs?agentId=4b208139-103b-4c10-b573-f6fb661a086c&limit=10",
+      "status": 200,
+      "body": "api-core-019.json",
+      "bytes": 3882,
+      "sha256": "2f7812d941f363d6cc74bb25850589707a11587f8c49fdaf0c264e9ce3e1089b"
+    }
+  ],
+  "errors": []
+}

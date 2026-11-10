@@ -1,0 +1,18 @@
+[
+  {
+    "name": "paperclipai",
+    "version": "2026.1106.0",
+    "integrity": "sha512-jcZrSB5DItxeDJGO7TccI0WcYca2IbBJxpbaKZN6kZp+isNIbVF2AgmfFQq394mjXD+TTHwS5P3AT6jjpqXbng==",
+    "resolved": "https://registry.npmjs.org/paperclipai/-/paperclipai-2026.1106.0.tgz",
+    "entryBytes": 2602496,
+    "entrySha256": "56dbf3a353f1dff7fb8ba12fa5805d07c4673a090e842303f51ca5c1d97023b4"
+  },
+  {
+    "name": "@paperclipai/server",
+    "version": "2026.1106.0",
+    "integrity": "sha512-OqG0qydn5Pky3iHmTgL3fvAh47m77CYgkuM3CgV6ciw6tY/AmBgkO3greyr0LinLFk7x1FdLkF1sfVVukZo/YA==",
+    "resolved": "https://registry.npmjs.org/@paperclipai/server/-/server-2026.1106.0.tgz",
+    "entryBytes": 110287,
+    "entrySha256": "cde8cd927214edb31edf173aec7667dd86b174799a58c822f6abf41089786480"
+  }
+]

@@ -1,0 +1,495 @@
+{
+  "schemaVersion": "agents-os.paperclip-evaluation.v1",
+  "sourceCommit": "437831ce0d5f5637ec581d949a9cb6c3401b7dd2",
+  "workflowCommit": "f0f480e3f8849110ce957a5821819dc8c64cc63f",
+  "status": "passed",
+  "startedAt": "2026-11-10T17:48:54.890Z",
+  "upstream": {
+    "version": "2026.1106.0",
+    "commit": "d69631b01b9c658f80bf8bed389863dce82643e1"
+  },
+  "commands": [
+    {
+      "label": "tools-install",
+      "command": "npm",
+      "args": [
+        "install",
+        "--prefix",
+        "/home/runner/work/_temp/agents-os-paperclip-F7EeX4/tools",
+        "--ignore-scripts",
+        "--omit=optional",
+        "--save-exact",
+        "--no-audit",
+        "--no-fund",
+        "paperclipai@2026.1106.0",
+        "playwright@1.65.0",
+        "postgres@3.4.9",
+        "@img/sharp-linux-x64@0.35.5",
+        "@img/sharp-libvips-linux-x64@1.3.4",
+        "@esbuild/linux-x64@0.28.2"
+      ],
+      "startedAt": "2026-11-10T17:48:55.041Z",
+      "signals": [],
+      "streams": [
+        {
+          "name": "tools-install.stdout.txt",
+          "bytes": 27,
+          "sha256": "0a8943fed3d320bba347bb93cd119a0c589ddde619b3cf7afd10108ec04b8de1",
+          "complete": true
+        },
+        {
+          "name": "tools-install.stderr.txt",
+          "bytes": 218,
+          "sha256": "09787a8109dd6c244c7a5b53e1a3d6cf10893d91435a2e411cebfe0b37f0dd98",
+          "complete": true
+        }
+      ],
+      "pid": 2708,
+      "identity": {
+        "pid": 2708,
+        "uid": 1001,
+        "pgid": 2708,
+        "sid": 2708,
+        "start": "36453"
+      },
+      "exitCode": 0,
+      "signal": null,
+      "closeObserved": true,
+      "completedAt": "2026-11-10T17:49:48.589Z",
+      "originalGroupAbsent": true
+    },
+    {
+      "label": "chromium-install",
+      "command": "/home/runner/work/_temp/agents-os-paperclip-F7EeX4/tools/node_modules/.bin/playwright",
+      "args": [
+        "install",
+        "chromium"
+      ],
+      "startedAt": "2026-11-10T17:49:49.133Z",
+      "signals": [],
+      "streams": [
+        {
+          "name": "chromium-install.stdout.txt",
+          "bytes": 6922,
+          "sha256": "bad4fa0bb6558c7bd3cd32e521dfc1a4ac93950ac5ad2357e44b192409eb44ad",
+          "complete": true
+        },
+        {
+          "name": "chromium-install.stderr.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "complete": true
+        }
+      ],
+      "pid": 2956,
+      "identity": {
+        "pid": 2956,
+        "uid": 1001,
+        "pgid": 2956,
+        "sid": 2956,
+        "start": "41862"
+      },
+      "exitCode": 0,
+      "signal": null,
+      "closeObserved": true,
+      "completedAt": "2026-11-10T17:49:56.525Z",
+      "originalGroupAbsent": true
+    },
+    {
+      "label": "paperclip-first",
+      "command": "/opt/hostedtoolcache/node/24.22.2/x64/bin/node",
+      "args": [
+        "/home/runner/work/_temp/agents-os-paperclip-F7EeX4/tools/start-paperclip.mjs"
+      ],
+      "startedAt": "2026-11-10T17:49:56.752Z",
+      "signals": [
+        "SIGTERM"
+      ],
+      "streams": [
+        {
+          "name": "paperclip-first.stdout.txt",
+          "bytes": 32225,
+          "sha256": "0f12cd77c943ff1f56780d29fc3b39b854ed9f840d37873252d7acd977610ea8",
+          "complete": true
+        },
+        {
+          "name": "paperclip-first.stderr.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "complete": true
+        }
+      ],
+      "pid": 3030,
+      "identity": {
+        "pid": 3030,
+        "uid": 1001,
+        "pgid": 3030,
+        "sid": 3030,
+        "start": "42624"
+      },
+      "exitCode": 0,
+      "signal": null,
+      "closeObserved": true,
+      "completedAt": "2026-11-10T17:50:06.437Z",
+      "originalGroupAbsent": true
+    },
+    {
+      "label": "paperclip-api-core",
+      "command": "/opt/hostedtoolcache/node/24.22.2/x64/bin/node",
+      "args": [
+        "tests/integration/paperclip-api.mjs",
+        "core"
+      ],
+      "startedAt": "2026-11-10T17:50:04.444Z",
+      "signals": [],
+      "streams": [
+        {
+          "name": "paperclip-api-core.stdout.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "complete": true
+        },
+        {
+          "name": "paperclip-api-core.stderr.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "complete": true
+        }
+      ],
+      "pid": 3104,
+      "identity": {
+        "pid": 3104,
+        "uid": 1001,
+        "pgid": 3104,
+        "sid": 3104,
+        "start": "43393"
+      },
+      "exitCode": 0,
+      "signal": null,
+      "closeObserved": true,
+      "completedAt": "2026-11-10T17:50:06.279Z",
+      "originalGroupAbsent": true
+    },
+    {
+      "label": "paperclip-restarted",
+      "command": "/opt/hostedtoolcache/node/24.22.2/x64/bin/node",
+      "args": [
+        "/home/runner/work/_temp/agents-os-paperclip-F7EeX4/tools/start-paperclip.mjs"
+      ],
+      "startedAt": "2026-11-10T17:50:06.438Z",
+      "signals": [
+        "SIGTERM"
+      ],
+      "streams": [
+        {
+          "name": "paperclip-restarted.stdout.txt",
+          "bytes": 523769,
+          "sha256": "f74815ec41008cce43eba61e8a4cd651846380a061cc884a0ed340f1f50e629b",
+          "complete": true
+        },
+        {
+          "name": "paperclip-restarted.stderr.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "complete": true
+        }
+      ],
+      "pid": 3139,
+      "identity": {
+        "pid": 3139,
+        "uid": 1001,
+        "pgid": 3139,
+        "sid": 3139,
+        "start": "43593"
+      },
+      "exitCode": 0,
+      "signal": null,
+      "closeObserved": true,
+      "completedAt": "2026-11-10T17:50:24.356Z",
+      "originalGroupAbsent": true
+    },
+    {
+      "label": "paperclip-api-restart",
+      "command": "/opt/hostedtoolcache/node/24.22.2/x64/bin/node",
+      "args": [
+        "tests/integration/paperclip-api.mjs",
+        "restart"
+      ],
+      "startedAt": "2026-11-10T17:50:11.056Z",
+      "signals": [],
+      "streams": [
+        {
+          "name": "paperclip-api-restart.stdout.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "complete": true
+        },
+        {
+          "name": "paperclip-api-restart.stderr.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "complete": true
+        }
+      ],
+      "pid": 3189,
+      "identity": {
+        "pid": 3189,
+        "uid": 1001,
+        "pgid": 3189,
+        "sid": 3189,
+        "start": "44055"
+      },
+      "exitCode": 0,
+      "signal": null,
+      "closeObserved": true,
+      "completedAt": "2026-11-10T17:50:11.319Z",
+      "originalGroupAbsent": true
+    },
+    {
+      "label": "paperclip-browser",
+      "command": "/opt/hostedtoolcache/node/24.22.2/x64/bin/node",
+      "args": [
+        "tests/e2e/paperclip-browser.mjs"
+      ],
+      "startedAt": "2026-11-10T17:50:11.403Z",
+      "signals": [],
+      "streams": [
+        {
+          "name": "paperclip-browser.stdout.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "complete": true
+        },
+        {
+          "name": "paperclip-browser.stderr.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "complete": true
+        }
+      ],
+      "pid": 3206,
+      "identity": {
+        "pid": 3206,
+        "uid": 1001,
+        "pgid": 3206,
+        "sid": 3206,
+        "start": "44089"
+      },
+      "exitCode": 0,
+      "signal": null,
+      "closeObserved": true,
+      "completedAt": "2026-11-10T17:50:24.156Z",
+      "originalGroupAbsent": true
+    }
+  ],
+  "cases": [
+    {
+      "id": "P01",
+      "passed": true,
+      "packages": [
+        {
+          "name": "paperclipai",
+          "version": "2026.1106.0",
+          "integrity": "sha512-jcZrSB5DItxeDJGO7TccI0WcYca2IbBJxpbaKZN6kZp+isNIbVF2AgmfFQq394mjXD+TTHwS5P3AT6jjpqXbng==",
+          "resolved": "https://registry.npmjs.org/paperclipai/-/paperclipai-2026.1106.0.tgz",
+          "entryFile": "dist/index.js",
+          "entryBytes": 2602496,
+          "entrySha256": "56dbf3a353f1dff7fb8ba12fa5805d07c4673a090e842303f51ca5c1d97023b4"
+        },
+        {
+          "name": "@paperclipai/server",
+          "version": "2026.1106.0",
+          "integrity": "sha512-OqG0qydn5Pky3iHmTgL3fvAh47m77CYgkuM3CgV6ciw6tY/AmBgkO3greyr0LinLFk7x1FdLkF1sfVVukZo/YA==",
+          "resolved": "https://registry.npmjs.org/@paperclipai/server/-/server-2026.1106.0.tgz",
+          "entryFile": "dist/index.js",
+          "entryBytes": 110287,
+          "entrySha256": "cde8cd927214edb31edf173aec7667dd86b174799a58c822f6abf41089786480"
+        },
+        {
+          "name": "@img/sharp-linux-x64",
+          "version": "0.35.5",
+          "integrity": "sha512-SxFtLTeJInhAA9Q836kux2vZNeOBQEx658qvbboZScr0wIARym3IcGmW7KpVD5sbVg0Ojy+udFQdayYIZyoNog==",
+          "resolved": "https://registry.npmjs.org/@img/sharp-linux-x64/-/sharp-linux-x64-0.35.5.tgz",
+          "entryFile": "lib/sharp-linux-x64-0.35.5.node",
+          "entryBytes": 415112,
+          "entrySha256": "cf896cc1b7f3ae9c3e8eb3d7b2b198b8de2824ff7d0681d684bab5a825def335"
+        },
+        {
+          "name": "@img/sharp-libvips-linux-x64",
+          "version": "1.3.4",
+          "integrity": "sha512-GJ//SSXbnwSDes02umB3nDJLFcQzw8a18V8fyhqr6tV515tOEMdImjjxj1AoafMRz56F3PHgftnj1QEKSU1zkw==",
+          "resolved": "https://registry.npmjs.org/@img/sharp-libvips-linux-x64/-/sharp-libvips-linux-x64-1.3.4.tgz",
+          "entryFile": "lib/libvips-cpp.so.8.18.7",
+          "entryBytes": 18699288,
+          "entrySha256": "4aa73553408c3964071728f4a231a8e86918e39bc49f1fbae75355f7ea933ea9"
+        },
+        {
+          "name": "@esbuild/linux-x64",
+          "version": "0.28.2",
+          "integrity": "sha512-4xTZr1FUmSoQW4XIWmit3tzQrUTZM+N3P0XV8xROKYF50XfI7xeO90+1bZvNwxIufQ9hDQVRJH5YhgPVF8A/HQ==",
+          "resolved": "https://registry.npmjs.org/@esbuild/linux-x64/-/linux-x64-0.28.2.tgz",
+          "entryFile": "bin/esbuild",
+          "entryBytes": 11427952,
+          "entrySha256": "e1698a3d5c6c0798fee4fd3b5cc816651f460c63d390a7a26ea4beb0b1884100"
+        }
+      ],
+      "unmodifiedPublishedEntrypoint": true
+    },
+    {
+      "id": "P02",
+      "passed": true,
+      "origin": "http://127.0.0.1:4315",
+      "deploymentMode": "local_trusted",
+      "exposure": "private",
+      "actualBundledUi": true,
+      "telemetry": false,
+      "announcements": false,
+      "updates": false
+    },
+    {
+      "id": "P03",
+      "passed": true,
+      "companyId": "62784d37-599a-4ca3-94ab-bdd1ebab60b6",
+      "goalId": "92538d5e-5d34-420e-94d6-0b3c793e3492",
+      "projectId": "45fee12e-c0ed-4900-92f2-bfa272bddb8d",
+      "taskId": "bdbb8d76-f27f-49cb-bae6-2c60e5800a32",
+      "manualOperatorTransitions": [
+        "todo",
+        "in_progress",
+        "done"
+      ]
+    },
+    {
+      "id": "P04",
+      "passed": true,
+      "companyId": "62784d37-599a-4ca3-94ab-bdd1ebab60b6",
+      "agentId": "4b208139-103b-4c10-b573-f6fb661a086c",
+      "runId": "ec2363f9-7c12-48e3-90cd-77ada3270cbf",
+      "status": "succeeded",
+      "worker": {
+        "companyId": "62784d37-599a-4ca3-94ab-bdd1ebab60b6",
+        "agentId": "4b208139-103b-4c10-b573-f6fb661a086c",
+        "runId": "ec2363f9-7c12-48e3-90cd-77ada3270cbf",
+        "pid": 3126,
+        "pgid": 3126,
+        "sid": 3126,
+        "start": "43557",
+        "apiCredentialInjected": true
+      },
+      "actualLogMarker": true
+    },
+    {
+      "id": "P05",
+      "passed": true,
+      "status": "paused",
+      "rejectedHttpStatus": 409,
+      "processExecutions": 1,
+      "runCount": 1
+    },
+    {
+      "id": "P06",
+      "passed": true,
+      "actualServerRestart": true,
+      "records": 6,
+      "commentRetained": true,
+      "processExecutions": 1
+    },
+    {
+      "id": "P07",
+      "passed": true,
+      "width": 1280,
+      "domCaptures": 4,
+      "pngs": 2,
+      "contextClosed": true
+    },
+    {
+      "id": "P08",
+      "passed": true,
+      "width": 390,
+      "domCaptures": 4,
+      "pngs": 2,
+      "contextClosed": true
+    }
+  ],
+  "guards": [
+    {
+      "label": "before-install",
+      "canonicalFiles": 1213,
+      "canonicalVectorSha256": "ecb032b96373a5ea93cfbed3a583a8bc2aa67f6c0645c394eb32aa6f85a5ef4a",
+      "protectedFiles": 9,
+      "protectedVectorSha256": "5ccf5ad0262b473f25793af93ed99c2213830e84cce9ab256bf0e5788a3a18d8"
+    },
+    {
+      "label": "after-install",
+      "canonicalFiles": 1213,
+      "canonicalVectorSha256": "ecb032b96373a5ea93cfbed3a583a8bc2aa67f6c0645c394eb32aa6f85a5ef4a",
+      "protectedFiles": 9,
+      "protectedVectorSha256": "5ccf5ad0262b473f25793af93ed99c2213830e84cce9ab256bf0e5788a3a18d8"
+    },
+    {
+      "label": "after-core",
+      "canonicalFiles": 1213,
+      "canonicalVectorSha256": "ecb032b96373a5ea93cfbed3a583a8bc2aa67f6c0645c394eb32aa6f85a5ef4a",
+      "protectedFiles": 9,
+      "protectedVectorSha256": "5ccf5ad0262b473f25793af93ed99c2213830e84cce9ab256bf0e5788a3a18d8"
+    },
+    {
+      "label": "after-restart",
+      "canonicalFiles": 1213,
+      "canonicalVectorSha256": "ecb032b96373a5ea93cfbed3a583a8bc2aa67f6c0645c394eb32aa6f85a5ef4a",
+      "protectedFiles": 9,
+      "protectedVectorSha256": "5ccf5ad0262b473f25793af93ed99c2213830e84cce9ab256bf0e5788a3a18d8"
+    },
+    {
+      "label": "after-browser",
+      "canonicalFiles": 1213,
+      "canonicalVectorSha256": "ecb032b96373a5ea93cfbed3a583a8bc2aa67f6c0645c394eb32aa6f85a5ef4a",
+      "protectedFiles": 9,
+      "protectedVectorSha256": "5ccf5ad0262b473f25793af93ed99c2213830e84cce9ab256bf0e5788a3a18d8"
+    },
+    {
+      "label": "terminal-source-check",
+      "canonicalFiles": 1213,
+      "canonicalVectorSha256": "ecb032b96373a5ea93cfbed3a583a8bc2aa67f6c0645c394eb32aa6f85a5ef4a",
+      "protectedFiles": 9,
+      "protectedVectorSha256": "5ccf5ad0262b473f25793af93ed99c2213830e84cce9ab256bf0e5788a3a18d8"
+    }
+  ],
+  "errors": [],
+  "database": {
+    "created": true,
+    "removed": true,
+    "name": "agents_os_eval_42868725319_1",
+    "ownerMarkerSha256": "68d2d9f266df4c148d608ff2bc1927e8cc61d89feeb44275af6ccbc6ee645e14",
+    "bytes": 30867983
+  },
+  "cleanup": {
+    "activeChildren": 0,
+    "remainingOriginalGroups": [],
+    "remainingOwnedProcesses": 0,
+    "allStreamsComplete": true,
+    "databaseRemoved": true,
+    "listenerClosed": true,
+    "rootRemoved": true
+  },
+  "proofLimits": [
+    "Paperclip prerequisite evaluation only. Authored operator tasks and one deterministic process establish no model quality, CRM, Missions or finished Agents OS.",
+    "Loopback local_trusted/private fixture only; no public deployment, real account, customer/contact data, model/provider call or paid resource."
+  ],
+  "export": {
+    "files": 9,
+    "bytes": 55603
+  },
+  "runtime": {
+    "bytes": 2695403955,
+    "files": 73606
+  },
+  "browser": {
+    "version": "158.0.8127.18",
+    "profiles": 2,
+    "dom": 8,
+    "png": 4,
+    "browserClosed": true
+  },
+  "completedAt": "2026-11-10T17:50:34.975Z"
+}

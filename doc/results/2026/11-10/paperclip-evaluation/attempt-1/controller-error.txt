@@ -1,0 +1,4 @@
+Error: server_stopped_before_health
+    at need (file:///home/runner/work/agents-os/agents-os/evaluations/paperclip/scripts/run-paperclip-evaluation.mjs:8:54)
+    at startServer (file:///home/runner/work/agents-os/agents-os/evaluations/paperclip/scripts/run-paperclip-evaluation.mjs:153:5)
+    at async file:///home/runner/work/agents-os/agents-os/evaluations/paperclip/scripts/run-paperclip-evaluation.mjs:215:3

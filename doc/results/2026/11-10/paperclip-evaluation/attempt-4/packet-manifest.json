@@ -1,0 +1,106 @@
+{
+  "sourceCommit": "ff94e51f0c1f7bb89a26b780205662b54ed70436",
+  "workflowCommit": "f0f480e3f8849110ce957a5821819dc8c64cc63f",
+  "files": [
+    {
+      "name": "api-core-001.json",
+      "bytes": 616,
+      "sha256": "606fdc2b453fade43851ee460bc05b533f13f5f89b5cc3ac2938119d4922fead"
+    },
+    {
+      "name": "api-core-002.json",
+      "bytes": 355,
+      "sha256": "6c74e3cbea1828f26fad0b3bab6b1569921e82c3d24d1db3e420f786a6370aac"
+    },
+    {
+      "name": "api-core-003.json",
+      "bytes": 1456,
+      "sha256": "8db0ad5372a37775fcbf6c123178b4b03cb1d5ea31d429709671bb8e223d65eb"
+    },
+    {
+      "name": "api-core-004.json",
+      "bytes": 2018,
+      "sha256": "febb2b5fcc6368858820ca55bc41aa3612a02d97db639c5f00c15259f17e00d4"
+    },
+    {
+      "name": "api-core-005.json",
+      "bytes": 50,
+      "sha256": "1ef1ff75315071a7fc721ec1bc6db8e0bae91d4631b315a924b3f41f5b16550d"
+    },
+    {
+      "name": "chromium-install.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "chromium-install.stdout.txt",
+      "bytes": 6922,
+      "sha256": "1cf2de422eeaff90230172d1880ddc85137d941e7a574d4668e8b92dbbad86cd"
+    },
+    {
+      "name": "controller-error.txt",
+      "bytes": 484,
+      "sha256": "b4c1cac94c54d3d6de5deb40cfde5f62e690efb18a91d5f88ca2103effff0581"
+    },
+    {
+      "name": "package-identities.json",
+      "bytes": 1757,
+      "sha256": "2175e5fcac8f0295977afef2e926dbf1a9fd616a15ef972afe30ae2fda5ec52c"
+    },
+    {
+      "name": "paperclip-api-core.json",
+      "bytes": 1934,
+      "sha256": "43ed8e58e10caa1a578106722ee787fe0ab0f26ab314f5f2dc1c2d47711ebb71"
+    },
+    {
+      "name": "paperclip-api-core.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "paperclip-api-core.stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "paperclip-first-health.json",
+      "bytes": 912,
+      "sha256": "082c4d48df310a3b6379a1e287fe22baae17cbf33ccf849b3beb881fd97f6085"
+    },
+    {
+      "name": "paperclip-first-index.html",
+      "bytes": 5819,
+      "sha256": "2e0c5a05cc411fb25e8ef8ed9c332ac51359d9e3d7a2167a87d9f2cad9254ff1"
+    },
+    {
+      "name": "paperclip-first.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "paperclip-first.stdout.txt",
+      "bytes": 21568,
+      "sha256": "4ae8c9a18e50550b152f8a9eedc7ca8c3b348287daf4fa2a2246fdca43a6a0c6"
+    },
+    {
+      "name": "receipt.json",
+      "bytes": 9131,
+      "sha256": "2604973b035198ef3e41b110c86268819705cbdc4964f201e561abbb21e1192a"
+    },
+    {
+      "name": "tool-package-lock.json",
+      "bytes": 399007,
+      "sha256": "d1aa161cf81178f6b5602f1cd350c6a931d36efc45e275d76bc9cc2448a06f19"
+    },
+    {
+      "name": "tools-install.stderr.txt",
+      "bytes": 218,
+      "sha256": "09787a8109dd6c244c7a5b53e1a3d6cf10893d91435a2e411cebfe0b37f0dd98"
+    },
+    {
+      "name": "tools-install.stdout.txt",
+      "bytes": 26,
+      "sha256": "c8e97572175e3954281f804c65f4d89e19b8e3c792c3f65ac4289a2e4315b4f3"
+    }
+  ]
+}
