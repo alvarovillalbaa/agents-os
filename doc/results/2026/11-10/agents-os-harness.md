@@ -70,3 +70,12 @@ Storage Guard failed locally, so no local install/build/server/browser/DB ran.
 No real data, new account, paid service, production Auth/DB binding or host patch.
 This qualifies shared native configuration/materialization and coordination;
 model execution quality, public hosting and finished Agents OS remain open.
+
+Publication is verified: [public byte readback](agents-os-harness/publication.json)
+records four anonymous HTTP200 downloads, matching asset metadata/local bytes,
+and every682 downloaded ZIP member. The release tag points to the accepted
+commit. [Cleanup](agents-os-harness/cleanup.json) records temporary workflow
+disable/removal, six QA refs retired atomically with exact leases, all five
+permanent workflows still active, and699 verified duplicate/index files totaling
+19,733,670 bytes removed after public proof and no-open-handle checks. All
+originals remain in the verified public ZIP; all source ancestry remains in Git.

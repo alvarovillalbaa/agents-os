@@ -1,0 +1,85 @@
+{
+  "recordedAt": "2026-11-10T21:57:13.681552+00:00",
+  "acceptedCommit": "fdd782c89574512e6c0ecff596215eae8c80fc7c",
+  "releaseId": 440957463,
+  "releaseUrl": "https://github.com/alvarovillalbaa/agents-os/releases/tag/agents-os-harness-v0.1.0",
+  "allFourPublicDownloadsByteEqual": true,
+  "allOriginalPacketFilesInVerifiedPublicZip": 682,
+  "evidenceZipSha256": "77c6480f1e2602bba08d2f4e257e35d116a1396984083539ae65e47524d75e07",
+  "unchangedBaselineBlobsAndModes": 1455,
+  "allBaselineFilesOutsideExtensionUnchanged": true,
+  "remoteCleanup": {
+    "observedAt": "2026-11-10 21:57:12 UTC",
+    "ownWorkflowRetired": true,
+    "ownWorkflow": {
+      "id": 413838888,
+      "name": "Agents OS Shared Harness checks",
+      "path": ".github/workflows/agents-os-harness-checks.yml",
+      "state": "deleted"
+    },
+    "disabledBeforeRemoval": "2026-11-10 21:51:47 UTC",
+    "permanentWorkflowsActive": true,
+    "permanentWorkflows": [
+      {
+        "id": 413582335,
+        "name": "E2E Tests",
+        "path": ".github/workflows/e2e.yml",
+        "state": "active"
+      },
+      {
+        "id": 413582337,
+        "name": "PR",
+        "path": ".github/workflows/pr.yml",
+        "state": "active"
+      },
+      {
+        "id": 413582338,
+        "name": "Refresh Lockfile",
+        "path": ".github/workflows/refresh-lockfile.yml",
+        "state": "active"
+      },
+      {
+        "id": 413582339,
+        "name": "Release Smoke",
+        "path": ".github/workflows/release-smoke.yml",
+        "state": "active"
+      },
+      {
+        "id": 413582342,
+        "name": "Release",
+        "path": ".github/workflows/release.yml",
+        "state": "active"
+      }
+    ],
+    "ownedQaRefsRetired": 6,
+    "ownedQaRefsRemaining": 0,
+    "atomicExactLeases": true,
+    "allSourceAncestorsRetained": true,
+    "acceptedCommit": "fdd782c89574512e6c0ecff596215eae8c80fc7c",
+    "releaseTagCommit": "fdd782c89574512e6c0ecff596215eae8c80fc7c"
+  },
+  "localCleanup": {
+    "noOpenHandlesObserved": true,
+    "removedFiles": 699,
+    "removedBytes": 19733670,
+    "categories": {
+      "publicly retained original packet copy": {
+        "files": 682,
+        "bytes": 8743641
+      },
+      "verified public release asset duplicate": {
+        "files": 8,
+        "bytes": 9462872
+      },
+      "reachable private index": {
+        "files": 9,
+        "bytes": 1527157
+      }
+    },
+    "privateInventorySha256": "65a3220cdbfb8da2b8782630ecf50f82458fa523a0eaca336eeb72980528c0be",
+    "onlyVerifiedDuplicatesAndReachablePrivateIndices": true
+  },
+  "limits": [
+    "Shared native configuration/materialization and UI only; model quality and production hosting remain open."
+  ]
+}
