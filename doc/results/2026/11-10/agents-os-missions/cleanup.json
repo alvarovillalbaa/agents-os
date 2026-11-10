@@ -1,0 +1,47 @@
+{
+  "recordedAt": "2026-11-10T20:57:38.747114+00:00",
+  "acceptedCommit": "37002818f6e39ed518891f505a5691cf135e0981",
+  "releaseId": 440899148,
+  "releaseUrl": "https://github.com/alvarovillalbaa/agents-os/releases/tag/agents-os-missions-v0.2.0",
+  "allFourPublicDownloadsByteEqual": true,
+  "all381OriginalPacketFilesRetainedInVerifiedPublicZip": true,
+  "evidenceZipSha256": "ffa4b9855535bc9fb752402519f311920abc3681283c2091d1f5ce019f3ff13a",
+  "unchangedBaselineBlobsAndModes": 1416,
+  "allBaselineFilesOutsideExtensionUnchanged": true,
+  "workflow": {
+    "id": 413786944,
+    "disabledBeforeRemoval": "2026-11-10T20:50:39Z",
+    "observedStateAfterPublication": "deleted",
+    "permanentWorkflowsAllActive": true
+  },
+  "ownedQaRefs": {
+    "retired": 4,
+    "remaining": 0,
+    "atomicExactLeases": true,
+    "allCheckedSourceAncestorsRetained": true
+  },
+  "localCleanup": {
+    "noOpenHandlesObserved": true,
+    "removedFiles": 395,
+    "removedBytes": 12472430,
+    "categories": {
+      "publicly retained original packet copy": {
+        "files": 381,
+        "bytes": 6233259
+      },
+      "verified public release asset duplicate": {
+        "files": 8,
+        "bytes": 5249966
+      },
+      "reachable private index": {
+        "files": 6,
+        "bytes": 989205
+      }
+    },
+    "privateInventorySha256": "b3a5871be18d8ca4630c8560bbd9c1ff8d7e17efc4e8fda6b4092bb2c9388398",
+    "onlyVerifiedDuplicatesAndReachablePrivateIndices": true
+  },
+  "limits": [
+    "Missions coordination and CRM scope; Shared Harness and production hosting remain open."
+  ]
+}

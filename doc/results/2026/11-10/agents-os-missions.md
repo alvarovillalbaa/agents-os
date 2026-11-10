@@ -146,6 +146,20 @@ host application files remain unchanged. Publication commits use the GitHub
 skip marker to avoid inherited npm-release/lockfile push side effects; this
 explicit dispatch executed every scoped check. Checked ancestry is preserved.
 
+All four public release assets were downloaded and compared byte for byte;
+every one of the381 evidence members matched its manifest. The standalone TGZ
+equals the installed archive in attempt4. See the
+[publication receipt](agents-os-missions/publication.json).
+
+After publication,all four owned QA refs were retired with atomic exact leases.
+The [cleanup receipt](agents-os-missions/cleanup.json) records removal of395
+verified duplicate/index files (12472430 bytes),with no open handles observed.
+All original packets and failures remain in the public verified ZIP. Native
+adoption compared all1453 accepted files,symlinks and modes before advancing
+the checkout. All baseline files outside the extension are unchanged;the six
+intentionally updated extension files match the checked candidate,apart from
+the README's subsequent acceptance wording.
+
 Storage Guard reported7.6GiB free against34GiB required, so no local install,
 build, server, browser or database ran. The older fork's broad build, production
 deployment, real providers, physical devices and full shared-harness workflows

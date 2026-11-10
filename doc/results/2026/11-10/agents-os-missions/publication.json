@@ -1,0 +1,61 @@
+{
+  "release": {
+    "assets": [
+      {
+        "browser_download_url": "https://github.com/alvarovillalbaa/agents-os/releases/download/agents-os-missions-v0.2.0/agents-os-0.2.0.tgz",
+        "digest": "sha256:354c175bb5ca7739e7c0dd70e44e3b08b18762ad49fa943ea8970136264a2cda",
+        "id": 732916362,
+        "name": "agents-os-0.2.0.tgz",
+        "size": 230638,
+        "state": "uploaded"
+      },
+      {
+        "browser_download_url": "https://github.com/alvarovillalbaa/agents-os/releases/download/agents-os-missions-v0.2.0/agents-os-missions-evidence.zip",
+        "digest": "sha256:ffa4b9855535bc9fb752402519f311920abc3681283c2091d1f5ce019f3ff13a",
+        "id": 732916439,
+        "name": "agents-os-missions-evidence.zip",
+        "size": 2318086,
+        "state": "uploaded"
+      },
+      {
+        "browser_download_url": "https://github.com/alvarovillalbaa/agents-os/releases/download/agents-os-missions-v0.2.0/checksums.sha256",
+        "digest": "sha256:6740ec460503205bb81437c6bd786d24b70f420714019fca2e8a69e4ca87bf44",
+        "id": 732916651,
+        "name": "checksums.sha256",
+        "size": 272,
+        "state": "uploaded"
+      },
+      {
+        "browser_download_url": "https://github.com/alvarovillalbaa/agents-os/releases/download/agents-os-missions-v0.2.0/release-manifest.json",
+        "digest": "sha256:c98ab8d5aeb8a3983a9f82998c5d99c2409f1dac4c6974c48e9297c5db0d677b",
+        "id": 732916574,
+        "name": "release-manifest.json",
+        "size": 75987,
+        "state": "uploaded"
+      }
+    ],
+    "draft": false,
+    "html_url": "https://github.com/alvarovillalbaa/agents-os/releases/tag/agents-os-missions-v0.2.0",
+    "id": 440899148,
+    "prerelease": true,
+    "published_at": "2026-11-10T20:55:14Z",
+    "tag_name": "agents-os-missions-v0.2.0",
+    "target_commitish": "37002818f6e39ed518891f505a5691cf135e0981"
+  },
+  "downloadVerification": {
+    "allFourPublicDownloadsByteEqual": true,
+    "all381DownloadedOriginalsVerified": true,
+    "standalonePackageEqualsAcceptedPacket": true,
+    "releaseId": 440899148
+  },
+  "nativeAdoption": {
+    "accepted": "37002818f6e39ed518891f505a5691cf135e0981",
+    "tree": "5d878a9525b77d45e043c68e79d0804fbd4eff33",
+    "allFilesAndModesMatchGit": true,
+    "clean": true,
+    "files": 1453,
+    "bytes": 22340256,
+    "unchangedBaselineBlobsAndModes": 1416,
+    "allBaselineFilesOutsideExtensionUnchanged": true
+  }
+}
