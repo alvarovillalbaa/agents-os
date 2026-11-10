@@ -1,0 +1,10 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import { fixtureClient, need, hash } from './mission-api-client.mjs';
+const { root, save } = fixtureClient('previous-package');
+const url = 'https://github.com/alvarovillalbaa/agents-os/releases/download/agents-os-crm-v0.1.0/agents-os-0.1.0.tgz';
+const response = await fetch(url, { signal: AbortSignal.timeout(30_000) }); need(response.status === 200, 'previous_public_package_download');
+const raw = Buffer.from(await response.arrayBuffer());
+need(raw.length === 222115 && hash(raw) === '0c06262af1082bcde820d9082c42ce320310953fe609cb6c543440776ffdd5b9', 'previous_accepted_package_identity');
+fs.writeFileSync(path.join(root, 'artifacts/previous-0.1.0.tgz'), raw, { flag: 'wx' });
+save('previous-agents-os-0.1.0.tgz', raw); save('previous-package-download.json', { url, status: response.status, bytes: raw.length, sha256: hash(raw) });

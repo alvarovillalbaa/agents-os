@@ -1,8 +1,8 @@
 {
   "name": "@alvarovillalbaa/agents-os",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
-  "description": "Agents OS CRM and native task links for Paperclip",
+  "description": "Agents OS CRM and durable Missions on native Paperclip Tasks",
   "license": "MIT",
   "type": "module",
   "engines": { "node": ">=24.11.0" },

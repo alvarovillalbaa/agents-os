@@ -5,6 +5,12 @@ notes and native task links. Contact edits have optimistic revisions; stale
 writes retain the draft. Archive/restore is reversible. An unconfirmed request
 keeps its original operation ID so retry can confirm the saved result.
 
+Missions0.2.0 is implemented in source with ordered native Task checkpoints,
+version-bound evidence reviews, pause/resume, replanning, reopening and final
+completion. Its [51-case scope](checks/MISSIONS.md) is prepared; package upgrade
+and acceptance are not yet proved. CRM0.1.0 results below remain historical.
+See the [Missions plan](../../doc/plans/2026-11-10-agents-os-missions.md).
+
 CRM 0.1.0 passed its 20-case package/API/restart/browser scope in
 [run42885925784](https://github.com/alvarovillalbaa/agents-os/actions/runs/42885925784).
 The [verified download and evidence](https://github.com/alvarovillalbaa/agents-os/releases/tag/agents-os-crm-v0.1.0)
