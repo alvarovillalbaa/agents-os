@@ -93,3 +93,11 @@ Evaluation-only push commits use GitHub's documented
 [skip marker](https://docs.github.com/en/actions/how-tos/manage-workflow-runs/skip-workflow-runs)
 to avoid the inherited npm-release/lockfile push side effects; the explicit
 evaluation workflow ran all required checks.
+
+After publication,all six owned QA refs were retired with atomic exact-lease
+deletion;their source commits remain ancestors of the accepted evaluation.
+The [cleanup receipt](paperclip-evaluation/cleanup.json) records removal of
+190 verified duplicate/reproducible files (15,851,545 bytes). All 169 original
+packet files (4,738,543 bytes) remain in this repository,including every failure.
+The unpublished initial preparation remains preserved. See also the
+[native-package inspection](paperclip-evaluation/native-package-inspection.json).

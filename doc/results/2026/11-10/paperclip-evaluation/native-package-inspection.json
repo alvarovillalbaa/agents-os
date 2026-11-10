@@ -1,0 +1,64 @@
+{
+  "kind": "metadata and binary equality from bounded source-archive inspection; no archive execution",
+  "packages": [
+    {
+      "package": "@img/sharp-linux-x64",
+      "integrity": "sha512-SxFtLTeJInhAA9Q836kux2vZNeOBQEx658qvbboZScr0wIARym3IcGmW7KpVD5sbVg0Ojy+udFQdayYIZyoNog==",
+      "archiveBytes": 186507,
+      "archiveSha256": "556787285d3244c07686a355de5b5a4c4d0019a12785bf24764e756a96ea3334",
+      "members": [
+        {
+          "path": "LICENSE",
+          "bytes": 10273,
+          "sha256": "73ba74dfaa520b49a401b5d21459a8523a146f3b7518a833eea5efa85130bf68"
+        },
+        {
+          "path": "index.cjs",
+          "bytes": 135,
+          "sha256": "01ae7daa0380ea031c8c5133808f5afb5a42ca00ee9057139e28c5b885705c4a"
+        },
+        {
+          "path": "package.json",
+          "bytes": 921,
+          "sha256": "181c58413d16ac3ce035f39c94c614031e03c023d88315712a81ed210c9fa04c"
+        },
+        {
+          "path": "README.md",
+          "bytes": 697,
+          "sha256": "8f8f907a15368c3ab82e675dde406263c321e1d14533285f6827da72b2bb7f55"
+        },
+        {
+          "path": "lib/sharp-linux-x64-0.35.5.node",
+          "bytes": 415112,
+          "sha256": "cf896cc1b7f3ae9c3e8eb3d7b2b198b8de2824ff7d0681d684bab5a825def335"
+        }
+      ],
+      "matchesAcceptedInstalledBinary": true
+    },
+    {
+      "package": "@esbuild/linux-x64",
+      "integrity": "sha512-4xTZr1FUmSoQW4XIWmit3tzQrUTZM+N3P0XV8xROKYF50XfI7xeO90+1bZvNwxIufQ9hDQVRJH5YhgPVF8A/HQ==",
+      "archiveBytes": 4741809,
+      "archiveSha256": "9573bb2233aab0f9ea7647d5cca9726113cc1768de61d66b17267f4db84488f6",
+      "members": [
+        {
+          "path": "bin/esbuild",
+          "bytes": 11427952,
+          "sha256": "e1698a3d5c6c0798fee4fd3b5cc816651f460c63d390a7a26ea4beb0b1884100"
+        },
+        {
+          "path": "package.json",
+          "bytes": 372,
+          "sha256": "a3924c1835c7849adeb3d82ac24525da0d4190607b60d05265dc6746bde2ddb8"
+        },
+        {
+          "path": "README.md",
+          "bytes": 141,
+          "sha256": "3b0ebdffe92e5b77c948c4ac0bf4bc4a38803b15405d0425b517705221c27a2f"
+        }
+      ],
+      "matchesAcceptedInstalledBinary": true
+    }
+  ],
+  "scratchRemoved": true
+}

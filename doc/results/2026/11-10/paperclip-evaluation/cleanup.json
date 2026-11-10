@@ -1,0 +1,1188 @@
+{
+  "recordedAt": "2026-11-10T18:01:20.899742+00:00",
+  "acceptedEvaluation": "5a25d213a1f448d02fe68205791d5704a0643a75",
+  "canonicalPacketsRetained": {
+    "files": 169,
+    "bytes": 4738543
+  },
+  "allBaselineBlobsAndModesPreserved": 1203,
+  "workflow": {
+    "id": 413582333,
+    "disabledBeforeRemoval": "2026-11-10T17:53:02Z",
+    "observedStateAfterPublication": "deleted",
+    "definitionAbsentFromAcceptedTree": true
+  },
+  "qaRefs": {
+    "expectedBeforeAtomicLeaseDeletion": {
+      "refs/heads/qa/agents-os-paperclip-20261110-c1": "e201c98a029a866be5c5ddeb76a0515dff602d69",
+      "refs/heads/qa/agents-os-paperclip-20261110-c2": "b519da2c8fe6ad7514f6bba1ccd36f88ffa42f4b",
+      "refs/heads/qa/agents-os-paperclip-20261110-c3": "b3cfa7cdb6c374e1d65cdcc94803cf2892511472",
+      "refs/heads/qa/agents-os-paperclip-20261110-c4": "ff94e51f0c1f7bb89a26b780205662b54ed70436",
+      "refs/heads/qa/agents-os-paperclip-20261110-c5": "ce86d576295c8fbf8ae9510d389b23e896fcc56c",
+      "refs/heads/qa/agents-os-paperclip-20261110-c6": "437831ce0d5f5637ec581d949a9cb6c3401b7dd2"
+    },
+    "remaining": 0,
+    "checkedSourceAncestorsPreserved": true
+  },
+  "localCleanup": {
+    "noOpenHandlesObserved": true,
+    "removedFiles": 190,
+    "removedBytes": 15851545,
+    "removed": [
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42865528995-1/chromium-install.stderr.txt",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42865528995-1/chromium-install.stdout.txt",
+        "bytes": 6922,
+        "sha256": "9687cc084ce9ccb15a06be59f21d5024f4ce7238b11f3a1207fbbfec7ae39085"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42865528995-1/controller-error.txt",
+        "bytes": 412,
+        "sha256": "85e05f2fe3dbf135b94f7bf76f0ffd9143d8cc95fa23ed14b8027e5fa3019f31"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42865528995-1/package-identities.json",
+        "bytes": 779,
+        "sha256": "22966e280989d8cdd4bc35c948d4f63ac32afb39be7b2839f64a9bfef9762b6e"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42865528995-1/packet-manifest.json",
+        "bytes": 1718,
+        "sha256": "ec7722cebb7f5309173c7aee6ceb6f2596c819c23868a620f815a43a4ec40bef"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42865528995-1/paperclip-first.stderr.txt",
+        "bytes": 1046,
+        "sha256": "0625b359f82397414d5b85251cab045d1af693e5bab22f8aba3f08ac12f5b593"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42865528995-1/paperclip-first.stdout.txt",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42865528995-1/receipt.json",
+        "bytes": 6650,
+        "sha256": "dc686a779c5b64fefb9f18fd6e9a86a9e79b0d332578138b828d02978cb9c644"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42865528995-1/tool-package-lock.json",
+        "bytes": 398964,
+        "sha256": "2555d05caccc8e896270289b7bce014d016220b6ccd097c075dd93804f9f8239"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42865528995-1/tools-install.stderr.txt",
+        "bytes": 218,
+        "sha256": "09787a8109dd6c244c7a5b53e1a3d6cf10893d91435a2e411cebfe0b37f0dd98"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42865528995-1/tools-install.stdout.txt",
+        "bytes": 26,
+        "sha256": "b012e66ca0be4c0841a84aa65c6e108a08c459bc0126a6b31a6a6ffc01ff6206"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42866117008-1/controller-error.txt",
+        "bytes": 1277,
+        "sha256": "1722f8575bc49c4ce360eebb14e0da9ee1978e14b48acbdaf659a71bc7607d79"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42866117008-1/package-identities.json",
+        "bytes": 779,
+        "sha256": "22966e280989d8cdd4bc35c948d4f63ac32afb39be7b2839f64a9bfef9762b6e"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42866117008-1/packet-manifest.json",
+        "bytes": 1079,
+        "sha256": "bb1d0b4057f91a0b4d9f9baddf1df65c88d8f392e67c37e657fceb182cec4c5b"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42866117008-1/receipt.json",
+        "bytes": 4325,
+        "sha256": "432e23aa2aa456da19b46c1412c70b46806928934d5a43b293f56de67a339c8f"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42866117008-1/tool-package-lock.json",
+        "bytes": 398964,
+        "sha256": "2555d05caccc8e896270289b7bce014d016220b6ccd097c075dd93804f9f8239"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42866117008-1/tools-install.stderr.txt",
+        "bytes": 218,
+        "sha256": "09787a8109dd6c244c7a5b53e1a3d6cf10893d91435a2e411cebfe0b37f0dd98"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42866117008-1/tools-install.stdout.txt",
+        "bytes": 26,
+        "sha256": "fda3c3d1fdbca625ec18d35f44194c728155682cc16ac8e36e17e54b47a6e56a"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42866928912-1/controller-error.txt",
+        "bytes": 598,
+        "sha256": "92c251101805a0b64100feb362f317a8134df6a81163aa3e31cd30088f5285de"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42866928912-1/packet-manifest.json",
+        "bytes": 762,
+        "sha256": "34be8e20ccce0b9140599a691948d8fa67b7939ca1fb66f11ae99988fdb753c5"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42866928912-1/receipt.json",
+        "bytes": 3103,
+        "sha256": "e918d26b799082a0b8920c26038543d5ddad59e90dd901f38b68d11b5d674b8c"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42866928912-1/tools-install.stderr.txt",
+        "bytes": 218,
+        "sha256": "09787a8109dd6c244c7a5b53e1a3d6cf10893d91435a2e411cebfe0b37f0dd98"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42866928912-1/tools-install.stdout.txt",
+        "bytes": 27,
+        "sha256": "b269c8df588af67eda076e6803fad9c822db85f05c6da9558c9d1fde0db2a1cc"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42867501529-1/api-core-001.json",
+        "bytes": 616,
+        "sha256": "606fdc2b453fade43851ee460bc05b533f13f5f89b5cc3ac2938119d4922fead"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42867501529-1/api-core-002.json",
+        "bytes": 355,
+        "sha256": "6c74e3cbea1828f26fad0b3bab6b1569921e82c3d24d1db3e420f786a6370aac"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42867501529-1/api-core-003.json",
+        "bytes": 1456,
+        "sha256": "8db0ad5372a37775fcbf6c123178b4b03cb1d5ea31d429709671bb8e223d65eb"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42867501529-1/api-core-004.json",
+        "bytes": 2018,
+        "sha256": "febb2b5fcc6368858820ca55bc41aa3612a02d97db639c5f00c15259f17e00d4"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42867501529-1/api-core-005.json",
+        "bytes": 50,
+        "sha256": "1ef1ff75315071a7fc721ec1bc6db8e0bae91d4631b315a924b3f41f5b16550d"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42867501529-1/chromium-install.stderr.txt",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42867501529-1/chromium-install.stdout.txt",
+        "bytes": 6922,
+        "sha256": "1cf2de422eeaff90230172d1880ddc85137d941e7a574d4668e8b92dbbad86cd"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42867501529-1/controller-error.txt",
+        "bytes": 484,
+        "sha256": "b4c1cac94c54d3d6de5deb40cfde5f62e690efb18a91d5f88ca2103effff0581"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42867501529-1/package-identities.json",
+        "bytes": 1757,
+        "sha256": "2175e5fcac8f0295977afef2e926dbf1a9fd616a15ef972afe30ae2fda5ec52c"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42867501529-1/packet-manifest.json",
+        "bytes": 3278,
+        "sha256": "169eecbfa4609851a218c3c70c88a3e7dfaffde28d338deb1117a38128531cba"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42867501529-1/paperclip-api-core.json",
+        "bytes": 1934,
+        "sha256": "43ed8e58e10caa1a578106722ee787fe0ab0f26ab314f5f2dc1c2d47711ebb71"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42867501529-1/paperclip-api-core.stderr.txt",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42867501529-1/paperclip-api-core.stdout.txt",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42867501529-1/paperclip-first-health.json",
+        "bytes": 912,
+        "sha256": "082c4d48df310a3b6379a1e287fe22baae17cbf33ccf849b3beb881fd97f6085"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42867501529-1/paperclip-first-index.html",
+        "bytes": 5819,
+        "sha256": "2e0c5a05cc411fb25e8ef8ed9c332ac51359d9e3d7a2167a87d9f2cad9254ff1"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42867501529-1/paperclip-first.stderr.txt",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42867501529-1/paperclip-first.stdout.txt",
+        "bytes": 21568,
+        "sha256": "4ae8c9a18e50550b152f8a9eedc7ca8c3b348287daf4fa2a2246fdca43a6a0c6"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42867501529-1/receipt.json",
+        "bytes": 9131,
+        "sha256": "2604973b035198ef3e41b110c86268819705cbdc4964f201e561abbb21e1192a"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42867501529-1/tool-package-lock.json",
+        "bytes": 399007,
+        "sha256": "d1aa161cf81178f6b5602f1cd350c6a931d36efc45e275d76bc9cc2448a06f19"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42867501529-1/tools-install.stderr.txt",
+        "bytes": 218,
+        "sha256": "09787a8109dd6c244c7a5b53e1a3d6cf10893d91435a2e411cebfe0b37f0dd98"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42867501529-1/tools-install.stdout.txt",
+        "bytes": 26,
+        "sha256": "c8e97572175e3954281f804c65f4d89e19b8e3c792c3f65ac4289a2e4315b4f3"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868071665-1/api-core-001.json",
+        "bytes": 616,
+        "sha256": "00f1e8b86c684e106f8e1595ead1b2bf85b4a246f29d12a8593725a3ad2626b9"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868071665-1/api-core-002.json",
+        "bytes": 355,
+        "sha256": "cd42aa09d515c546ef9e340eb17f1cf3bb5b1a26a2a1ab45c16c0b256c19bbf6"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868071665-1/api-core-003.json",
+        "bytes": 1456,
+        "sha256": "55c8893669fe53ccc2d7a639196c14eddfef8fca481cb82828a80dc587675eef"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868071665-1/api-core-004.json",
+        "bytes": 2027,
+        "sha256": "3564eb4fef685f7cbac5a96732a3a378435f38955894d7286347194309a00c39"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868071665-1/api-core-005.json",
+        "bytes": 2117,
+        "sha256": "956c16a3349c240898e7c73ddbecd54c42a4764fca1611b65f181dca24aac703"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868071665-1/api-core-006.json",
+        "bytes": 2997,
+        "sha256": "308c6636a7be9662003f671eeb402168f91a06e17ea945509829d2ee4223dd79"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868071665-1/api-core-007.json",
+        "bytes": 4516,
+        "sha256": "15b6b56b1eb298b9e81b31946c279c564ae6bc495efa143485a7202d5ad19043"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868071665-1/api-core-008.json",
+        "bytes": 794,
+        "sha256": "c9747f5c42b48a8660f978abfe7c74b09097284d577a9cb0129aa3ebbf643d93"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868071665-1/api-core-009.json",
+        "bytes": 1854,
+        "sha256": "73ec7f624942f66c9d1b28a289877f2fe79bc78f8da2d78d6f729da31a9ec478"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868071665-1/api-core-010.json",
+        "bytes": 6903,
+        "sha256": "ed121bd705a54a5941bab4fc1696819d79044f34e1e952413ec47e62409cc6ef"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868071665-1/api-core-011.json",
+        "bytes": 6895,
+        "sha256": "464c0f4ef5e70d4c24a7a940cdaf4d1feb53212139fd24c26fc6ae678c147556"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868071665-1/api-core-012.json",
+        "bytes": 2144,
+        "sha256": "21739231831529743656ca957c67d14c53c4b1785e7c8283c7ab1fdc95b4e38a"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868071665-1/api-core-013.json",
+        "bytes": 3077,
+        "sha256": "f464811b7451164e4934a25e628a3e426c6d10a3bb1b55163cb81b89e67d5a9c"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868071665-1/api-core-014.json",
+        "bytes": 3844,
+        "sha256": "47984f5b00f31f81891c41cfb474121214dd6f1ec5261a86967a2e0deab34c3c"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868071665-1/api-core-015.json",
+        "bytes": 12699,
+        "sha256": "9aa0a4fd02004587a4f13ebe8f321c8cd1508572ba645b12ea92ad13c67476d9"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868071665-1/api-core-016.json",
+        "bytes": 799,
+        "sha256": "abf9f4c833d31a74a8f3dba499ec2ae9bff7e35661d7aed779477a11f8a4e9ca"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868071665-1/api-core-017.json",
+        "bytes": 1916,
+        "sha256": "a21c390b72d31bffb34d80cec9d330fb7c89717c382d6aa9351c602223382d47"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868071665-1/api-core-018.json",
+        "bytes": 6965,
+        "sha256": "ae7bfd8b184a90063c0ea47511dba71a3eb7c79df206c4470b6093ae60b9b4d2"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868071665-1/api-core-019.json",
+        "bytes": 199,
+        "sha256": "a39211e7dbb76f083b9e1b2a2b69b2ad594d57da0e3df40feb40b5ab65d93d58"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868071665-1/api-core-020.json",
+        "bytes": 3882,
+        "sha256": "0146c69b571583912e2ad381f0f64660ca19a8bffc4b75d3f9dc07970d1691c6"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868071665-1/api-restart-001.json",
+        "bytes": 616,
+        "sha256": "2176281002a18919be12f3f3f5bd86795a80c1a34fbf8726421517106e44b369"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868071665-1/api-restart-002.json",
+        "bytes": 355,
+        "sha256": "cd42aa09d515c546ef9e340eb17f1cf3bb5b1a26a2a1ab45c16c0b256c19bbf6"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868071665-1/api-restart-003.json",
+        "bytes": 1456,
+        "sha256": "55c8893669fe53ccc2d7a639196c14eddfef8fca481cb82828a80dc587675eef"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868071665-1/api-restart-004.json",
+        "bytes": 4516,
+        "sha256": "15b6b56b1eb298b9e81b31946c279c564ae6bc495efa143485a7202d5ad19043"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868071665-1/api-restart-005.json",
+        "bytes": 6964,
+        "sha256": "bb8aeb12703aefe77e28b703d9cbab31ea93ce84564cf365f9142ab639b3a1dd"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868071665-1/api-restart-006.json",
+        "bytes": 12665,
+        "sha256": "9694514f723a250e45ac7cb6064a5fba7259b1e5988d5f26ed539d5012f00d5c"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868071665-1/api-restart-007.json",
+        "bytes": 794,
+        "sha256": "c9747f5c42b48a8660f978abfe7c74b09097284d577a9cb0129aa3ebbf643d93"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868071665-1/chromium-install.stderr.txt",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868071665-1/chromium-install.stdout.txt",
+        "bytes": 6922,
+        "sha256": "8da0a42604274d92f36052f5ef348ffdf152ed0c4411238a8294fed9c0356236"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868071665-1/controller-error.txt",
+        "bytes": 483,
+        "sha256": "263af6298ea8120de852e06b894be8b71581c75e8f54e038075a97faee5d421a"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868071665-1/fixture-state.json",
+        "bytes": 1092,
+        "sha256": "5e16380a5c44b5299fef159e87efb667df1b32c2b5d61911ce4f12db23ade8aa"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868071665-1/package-identities.json",
+        "bytes": 1757,
+        "sha256": "2175e5fcac8f0295977afef2e926dbf1a9fd616a15ef972afe30ae2fda5ec52c"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868071665-1/packet-manifest.json",
+        "bytes": 9564,
+        "sha256": "6873c745abbbaa0c1dda578cbb53caf4d0a62b40eadd9c5713498a2786229903"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868071665-1/paperclip-api-core.json",
+        "bytes": 6693,
+        "sha256": "2c68ea8eddc0d193b9b24eea3bd855e6095596d6bdfda33feb5dc1cbdd049a5c"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868071665-1/paperclip-api-core.stderr.txt",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868071665-1/paperclip-api-core.stdout.txt",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868071665-1/paperclip-api-restart.json",
+        "bytes": 2179,
+        "sha256": "0ca1e5ee5aeae27d627f2b27d7ba9aa72b91e636649bd1fd1b358ddfef96c825"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868071665-1/paperclip-api-restart.stderr.txt",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868071665-1/paperclip-api-restart.stdout.txt",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868071665-1/paperclip-browser.json",
+        "bytes": 31615,
+        "sha256": "2921b359de52131740e597f32f6f5aa74b2b8553dd83a0693475e311f3f3bed3"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868071665-1/paperclip-browser.stderr.txt",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868071665-1/paperclip-browser.stdout.txt",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868071665-1/paperclip-first-health.json",
+        "bytes": 912,
+        "sha256": "8e640d554ba4b4a86053c4c4dad4af96e3ea64a787489ac827de7eadf6459494"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868071665-1/paperclip-first-index.html",
+        "bytes": 5819,
+        "sha256": "2e0c5a05cc411fb25e8ef8ed9c332ac51359d9e3d7a2167a87d9f2cad9254ff1"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868071665-1/paperclip-first.stderr.txt",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868071665-1/paperclip-first.stdout.txt",
+        "bytes": 32945,
+        "sha256": "25bf7e7aaed9ab975235223637fcee6e044a80a1bf826a42665253fa7feb6890"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868071665-1/paperclip-p07-agent-run.dom.json",
+        "bytes": 75202,
+        "sha256": "1e98f8f16d0b9c90cbf6e374e9e06e235c9e8e5e3744daaeb091bd2dd2bd640a"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868071665-1/paperclip-p07-agent-run.png",
+        "bytes": 113867,
+        "sha256": "37817233d842984063f3d73e9b45292cbb0e58e7547f306acee689ee25adbd10"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868071665-1/paperclip-p07-failed.html",
+        "bytes": 70864,
+        "sha256": "abe7f1e1d9d49b4650fbb79318dded0ab1c145289885d7e32597e717291fb5a7"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868071665-1/paperclip-p07-goals.dom.json",
+        "bytes": 37467,
+        "sha256": "8c69064b1aaf712674e0e2f4ffcdec5757c86d4ed73f55a2678e38359c426182"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868071665-1/paperclip-p07-skills.dom.json",
+        "bytes": 73460,
+        "sha256": "de025545ac0e7ddae25da9b8278509bde6f2d794e489f8eca5f049f9f83ab301"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868071665-1/paperclip-p07-task.dom.json",
+        "bytes": 82912,
+        "sha256": "f3e83c00ae8d7e37a1f96e01ad80ad8e9972b6b637a4a9d12ee9003a49f58cfc"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868071665-1/paperclip-p07-task.png",
+        "bytes": 99424,
+        "sha256": "2ad850e5e7b525ef2e301eb747fc7fff5f9b225733e2e14f9d8b4bbd0a0ec543"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868071665-1/paperclip-restarted-health.json",
+        "bytes": 912,
+        "sha256": "584063d888a45fbba1c1d5d78cb939625521f4d545299db85c8e41d2d4e0b20d"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868071665-1/paperclip-restarted-index.html",
+        "bytes": 5819,
+        "sha256": "2e0c5a05cc411fb25e8ef8ed9c332ac51359d9e3d7a2167a87d9f2cad9254ff1"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868071665-1/paperclip-restarted.stderr.txt",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868071665-1/paperclip-restarted.stdout.txt",
+        "bytes": 299621,
+        "sha256": "09bd530e4b0a1868593e71aa870798c3e2f5be0cbff757e8fea4a1c26a7dc04a"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868071665-1/receipt.json",
+        "bytes": 14187,
+        "sha256": "1baded27cf34d8efe2eb2b4ef301d76291071024a8478a46c6d3cfb45fea7081"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868071665-1/tool-package-lock.json",
+        "bytes": 399007,
+        "sha256": "d1aa161cf81178f6b5602f1cd350c6a931d36efc45e275d76bc9cc2448a06f19"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868071665-1/tools-install.stderr.txt",
+        "bytes": 218,
+        "sha256": "09787a8109dd6c244c7a5b53e1a3d6cf10893d91435a2e411cebfe0b37f0dd98"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868071665-1/tools-install.stdout.txt",
+        "bytes": 27,
+        "sha256": "e2ad53f739a2ea2f47df3739e4e0621c81eb5dba419b4adbbca5c18c53a28c15"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868725319-1/api-core-001.json",
+        "bytes": 616,
+        "sha256": "438af0e1dead8457e92965ee928ca2869b189b728b2612a10d28939842e9fc84"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868725319-1/api-core-002.json",
+        "bytes": 355,
+        "sha256": "513e29a770e0699b5b360182e1ce8a90e217d4b02152f1e2d36b34b4f05d878c"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868725319-1/api-core-003.json",
+        "bytes": 1456,
+        "sha256": "4715111d11e7209da581c535ba576866d29d887a38625f0b2f196a8d25653d81"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868725319-1/api-core-004.json",
+        "bytes": 2027,
+        "sha256": "a0ea727a7da05a4d11fd712280d96f0d1516bed4fc80923cde80ead9023c9035"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868725319-1/api-core-005.json",
+        "bytes": 2117,
+        "sha256": "39b63be92da303080fb29b9a0b7922d4832acecb8a6f507377ecac7b24ebb6a1"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868725319-1/api-core-006.json",
+        "bytes": 2997,
+        "sha256": "f88e4343e4982fa86f5bffd95f839cb8c9226378ceac30f4bf0d9c7c1acd3b66"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868725319-1/api-core-007.json",
+        "bytes": 4516,
+        "sha256": "c4e2f5974b5fff75e621917043465b61fe16ea9f40bbe3fce386fd2991c6dd02"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868725319-1/api-core-008.json",
+        "bytes": 794,
+        "sha256": "0ac2d1a1e82cdd1dd0c4f416f4d5ced0f9a941aa93114891651c549895a7e542"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868725319-1/api-core-009.json",
+        "bytes": 1846,
+        "sha256": "c5748c631fde5fa0491132f0e696ab40ed9a18401e5b76a886a787cfbb31160c"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868725319-1/api-core-010.json",
+        "bytes": 6895,
+        "sha256": "f5ff8a6347d7bd39f275804c57ee66dfe492e8ab8331ceeee9848d8397bee0a7"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868725319-1/api-core-011.json",
+        "bytes": 6887,
+        "sha256": "b39a0ff630b76e6da0952882dae5bf819a5ed32a41e83c02fd5bef91ba1b16f8"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868725319-1/api-core-012.json",
+        "bytes": 2144,
+        "sha256": "10f1832f328a2cccb7fecfbd7d373bbee0cf2376b3d035b50e6bd691b69d9357"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868725319-1/api-core-013.json",
+        "bytes": 3077,
+        "sha256": "199852d2dd7ae2d9256b1ccce748b51096482321d3757bdcd84cb7b2c02b8b82"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868725319-1/api-core-014.json",
+        "bytes": 12309,
+        "sha256": "0f3c1b3dd4adbda3397cef4b353a5d74ab2680918616a880c8bb2eae840c3f08"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868725319-1/api-core-015.json",
+        "bytes": 799,
+        "sha256": "595e54643af991b276bf48e7ff40ff90b80c67207461b0d24aa21e026e3e8ed8"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868725319-1/api-core-016.json",
+        "bytes": 1886,
+        "sha256": "7fbb27bfeeba91f0053aee1a63f766c73194cd571652d8e88e03c5f53327fa1b"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868725319-1/api-core-017.json",
+        "bytes": 6935,
+        "sha256": "0715fe8d524b2dee048173ab06c3f3e7714e3ca7d1cef630ccc325fa329a9196"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868725319-1/api-core-018.json",
+        "bytes": 199,
+        "sha256": "19534ce6c945332dc9072b8efa7f02eb02ae100c44dd40b38ce0fda2f8a0b77f"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868725319-1/api-core-019.json",
+        "bytes": 3882,
+        "sha256": "2f7812d941f363d6cc74bb25850589707a11587f8c49fdaf0c264e9ce3e1089b"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868725319-1/api-restart-001.json",
+        "bytes": 616,
+        "sha256": "10f53e3948147a1ed9ceb366598cda04e875c5f6827769be0ea417a1b78a8d0f"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868725319-1/api-restart-002.json",
+        "bytes": 355,
+        "sha256": "513e29a770e0699b5b360182e1ce8a90e217d4b02152f1e2d36b34b4f05d878c"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868725319-1/api-restart-003.json",
+        "bytes": 1456,
+        "sha256": "4715111d11e7209da581c535ba576866d29d887a38625f0b2f196a8d25653d81"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868725319-1/api-restart-004.json",
+        "bytes": 4516,
+        "sha256": "c4e2f5974b5fff75e621917043465b61fe16ea9f40bbe3fce386fd2991c6dd02"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868725319-1/api-restart-005.json",
+        "bytes": 6934,
+        "sha256": "c946404c3d0ee26f54bc5e36f272fece8a0d4909f5831a634693a75ab15f2b72"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868725319-1/api-restart-006.json",
+        "bytes": 12665,
+        "sha256": "ca9f5ed7049e9ea4f0529592a22eb5c59d6a08d810f46a96bbf08bc12e24bee6"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868725319-1/api-restart-007.json",
+        "bytes": 794,
+        "sha256": "0ac2d1a1e82cdd1dd0c4f416f4d5ced0f9a941aa93114891651c549895a7e542"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868725319-1/chromium-install.stderr.txt",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868725319-1/chromium-install.stdout.txt",
+        "bytes": 6922,
+        "sha256": "bad4fa0bb6558c7bd3cd32e521dfc1a4ac93950ac5ad2357e44b192409eb44ad"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868725319-1/fixture-state.json",
+        "bytes": 1093,
+        "sha256": "0a8c11acd884a38d3cdd01cae3acda111d23254d313e6cdc2605a9be83a14936"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868725319-1/package-identities.json",
+        "bytes": 2175,
+        "sha256": "21f637e2375b52ca11f1a003ba8bcf38606a45e620bd6bc952fca82629148aac"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868725319-1/packet-manifest.json",
+        "bytes": 10078,
+        "sha256": "6eba7503924317ff058aa569e0497fbfb843989f4ba4155bb396765f209d7000"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868725319-1/paperclip-api-core.json",
+        "bytes": 6427,
+        "sha256": "667344e2877e3e01abea5de2739812ac7dfc01275de5e146da30636e119438e5"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868725319-1/paperclip-api-core.stderr.txt",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868725319-1/paperclip-api-core.stdout.txt",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868725319-1/paperclip-api-restart.json",
+        "bytes": 2179,
+        "sha256": "3d0a106f3b498337aae1d15e64d8e8e6269918ceca009b81e6b244a609c56798"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868725319-1/paperclip-api-restart.stderr.txt",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868725319-1/paperclip-api-restart.stdout.txt",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868725319-1/paperclip-browser.json",
+        "bytes": 56149,
+        "sha256": "5363bcc51813b1fdbc9580cf765c68b4a85d4e50b4b56db5af036a5b3063058d"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868725319-1/paperclip-browser.stderr.txt",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868725319-1/paperclip-browser.stdout.txt",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868725319-1/paperclip-first-health.json",
+        "bytes": 912,
+        "sha256": "5fa7a1d89451ea360f4be0610a6802e0ede0fc1fec976d9459c954306295a0ac"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868725319-1/paperclip-first-index.html",
+        "bytes": 5819,
+        "sha256": "2e0c5a05cc411fb25e8ef8ed9c332ac51359d9e3d7a2167a87d9f2cad9254ff1"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868725319-1/paperclip-first.stderr.txt",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868725319-1/paperclip-first.stdout.txt",
+        "bytes": 32225,
+        "sha256": "0f12cd77c943ff1f56780d29fc3b39b854ed9f840d37873252d7acd977610ea8"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868725319-1/paperclip-p07-agent-run.dom.json",
+        "bytes": 75628,
+        "sha256": "304aa33fd2541ba9b8b2e6b931d5a411cb5cb9428c9a4a46133fe802a0e7ce2f"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868725319-1/paperclip-p07-agent-run.png",
+        "bytes": 119685,
+        "sha256": "215a9b9c2ca144b3cd67b7e2f6eac6ffd5b8559f207a014411ab74e306ecc36d"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868725319-1/paperclip-p07-goals.dom.json",
+        "bytes": 37678,
+        "sha256": "8aef1bc8fd10a326ad04614bb8e9a2d52be7b28da352aab179877c37456264f2"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868725319-1/paperclip-p07-skills.dom.json",
+        "bytes": 73671,
+        "sha256": "3fececac7ee98036f39bf7307831577b2b85786073c3b44344ea18ced4a91325"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868725319-1/paperclip-p07-task.dom.json",
+        "bytes": 83123,
+        "sha256": "d4acdae4ad253001ccf37f9cb3c56b417014bd2943e25b14e6adb8760d43ea0b"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868725319-1/paperclip-p07-task.png",
+        "bytes": 99065,
+        "sha256": "89a259f1a2a12dc1e84d41af3844c099b5fe8974fbb06835951e5f48ce42d2d3"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868725319-1/paperclip-p08-agent-run.dom.json",
+        "bytes": 53589,
+        "sha256": "0238ac474be2c0798cf95cd2ecfec9324ece524585676cce40204b7e7fc5518b"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868725319-1/paperclip-p08-agent-run.png",
+        "bytes": 51599,
+        "sha256": "1425817e3fa3a2fe13a12f021b5d8be39aa2734d5fa598aabfb3403a4e03365a"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868725319-1/paperclip-p08-goals.dom.json",
+        "bytes": 42205,
+        "sha256": "7bb0b07975d06593c94e67a345c075325931208f4069de24f50f32528d2b0945"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868725319-1/paperclip-p08-skills.dom.json",
+        "bytes": 78198,
+        "sha256": "222d308e5bb5bdb3038783aba33cde2cd639357981c78e5cac20e5c98bef71c6"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868725319-1/paperclip-p08-task.dom.json",
+        "bytes": 82929,
+        "sha256": "09b625d44c013a49f78c7b94ee3cf50bcdb89d2639bf4d04ef8e0cbaf54e139a"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868725319-1/paperclip-p08-task.png",
+        "bytes": 32900,
+        "sha256": "cc4fc5fef30fda14d170880fe1e2f3dc66b6b1fcb02419f7277290bdd5287eb5"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868725319-1/paperclip-restarted-health.json",
+        "bytes": 912,
+        "sha256": "bf997f5548e06a51d7a2fc0517750846d855a435625105424fc5aa2412bd81ba"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868725319-1/paperclip-restarted-index.html",
+        "bytes": 5819,
+        "sha256": "2e0c5a05cc411fb25e8ef8ed9c332ac51359d9e3d7a2167a87d9f2cad9254ff1"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868725319-1/paperclip-restarted.stderr.txt",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868725319-1/paperclip-restarted.stdout.txt",
+        "bytes": 523769,
+        "sha256": "f74815ec41008cce43eba61e8a4cd651846380a061cc884a0ed340f1f50e629b"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868725319-1/receipt.json",
+        "bytes": 15402,
+        "sha256": "0d317f6208927a1ba1eb6147afac95671ff71dc9f4edd65d21e767fcd5e7b447"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868725319-1/tool-package-lock.json",
+        "bytes": 399023,
+        "sha256": "e06eea86d10d8d421025fb869018ca75377e830d40d2e1585921d26ad5f7f343"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868725319-1/tools-install.stderr.txt",
+        "bytes": 218,
+        "sha256": "09787a8109dd6c244c7a5b53e1a3d6cf10893d91435a2e411cebfe0b37f0dd98"
+      },
+      {
+        "kind": "verified packet duplicate",
+        "path": "run-42868725319-1/tools-install.stdout.txt",
+        "bytes": 27,
+        "sha256": "0a8943fed3d320bba347bb93cd119a0c589ddde619b3cf7afd10108ec04b8de1"
+      },
+      {
+        "kind": "verified reachable private index",
+        "path": "canonical-c1.index",
+        "bytes": 133812,
+        "sha256": "89e2d22bff9401d5b3fcc0a23950ea65b6a610b8015727f32ab809f0fc87d98a",
+        "tree": "2b6cef91239d74103d51089fcf1e8596d49920cc"
+      },
+      {
+        "kind": "verified reachable private index",
+        "path": "canonical-workflow.index",
+        "bytes": 132496,
+        "sha256": "97b11632cabb3708d0eba52a128fd5a9e483ba0df5a068aa79d5f869e81208c0",
+        "tree": "9bf8d6658ce247afa7aa10aa04bc6c6227cd6af2"
+      },
+      {
+        "kind": "verified reachable private index",
+        "path": "canonical-c2.index",
+        "bytes": 133812,
+        "sha256": "3f7dd130a2492d6460cf8354df100b50159e6c56fcb588dfcc3cd2fd1e3a8cfc",
+        "tree": "f65dbe1e4cd4ec0e5e2c9f7e46ac58178b76c6be"
+      },
+      {
+        "kind": "verified reachable private index",
+        "path": "canonical-c3.index",
+        "bytes": 133812,
+        "sha256": "ba021b29a0d54ef5d7e4b5ad4afcb7d3b6938eff80bd5a6f739082fbfba3350d",
+        "tree": "e032ece026a7d916c3af42d0603a6b6da6bf8759"
+      },
+      {
+        "kind": "verified reachable private index",
+        "path": "canonical-c4.index",
+        "bytes": 133812,
+        "sha256": "7358917989c5a4a4111470f0ac88cb4dc5c84e38ee1b5180e8ae7a84e951dd0c",
+        "tree": "f57aa950d0844c19565b30e93af3ed25d1c0fc33"
+      },
+      {
+        "kind": "verified reachable private index",
+        "path": "canonical-c5.index",
+        "bytes": 133812,
+        "sha256": "8320a98c56e6743811a2672a9f525cb79f926beb7d360440316669bc59fe3693",
+        "tree": "9d7bb67cd24651a5ab2cda5e409758ccd697dae0"
+      },
+      {
+        "kind": "verified reachable private index",
+        "path": "canonical-c6.index",
+        "bytes": 133812,
+        "sha256": "7911edb2e0bc24951039a2d5a5cb1cc01192cfdbdd426dfe9411a4712572d8ef",
+        "tree": "8e313a7dd82eb7a39db078298ba1315bf8a06e12"
+      },
+      {
+        "kind": "verified reachable private index",
+        "path": "canonical-accepted.index",
+        "bytes": 158581,
+        "sha256": "98cdd4ce44ce29bac407f92e79a1ea16d9b7f6ecc86eb8151d499226deacebdf",
+        "tree": "eae678c98bcbcb12ea22aafd0b9f7dbad2948128"
+      },
+      {
+        "kind": "reproducible public package inspection",
+        "path": "cache/_cacache/content-v2/sha512/21/78/b39e687615b7695e75f390d2fe585ec6181b4452b9b8e5b646f3d09d9c3262017e4bcd72b89230c284c8f250ad7783f500e68e08a5f61cae29820b7dacd5",
+        "bytes": 105369,
+        "sha256": "bf70fdebbd67d1eb66a6c3051885994a1361791db681e74b440b2406886a9306"
+      },
+      {
+        "kind": "reproducible public package inspection",
+        "path": "cache/_cacache/content-v2/sha512/4b/11/6d2d378922784003d43cdfa92ec76bd935e381404c7ae7caaf6dba1949caf4c08011ca6dc8706996ecaa550f9b1b560d0e8f2fae74541d6b2608672a0da2",
+        "bytes": 186507,
+        "sha256": "556787285d3244c07686a355de5b5a4c4d0019a12785bf24764e756a96ea3334"
+      },
+      {
+        "kind": "reproducible public package inspection",
+        "path": "cache/_cacache/content-v2/sha512/74/21/db2ce052ff27ca99e53105a89c1d6d4a25706d108d7959a4682f57999713ffca806fe2f5f6e3414c251ed03aa0b214d17176f6b06e37fdf44f23d91e5b27",
+        "bytes": 49367,
+        "sha256": "0900fd1c732a5a39b85ff5cf168a70e21f6563c92f112679ee2d1bb008a89cf9"
+      },
+      {
+        "kind": "reproducible public package inspection",
+        "path": "cache/_cacache/content-v2/sha512/e3/14/d9af5154992a105b85c85a68addedcd0ad44d933e3773f45d5f3144e298179d177c8ef178ef74fb56d9bcdc3122e7d0f610d0551247e588603d517c03f1d",
+        "bytes": 4741809,
+        "sha256": "9573bb2233aab0f9ea7647d5cca9726113cc1768de61d66b17267f4db84488f6"
+      },
+      {
+        "kind": "reproducible public package inspection",
+        "path": "cache/_cacache/index-v5/00/43/a0ead520e951af86b0b40b3df8be3134fff253466b80c30a550f951731d6",
+        "bytes": 1590,
+        "sha256": "b64f5de671b799b32e7aebb0c600014a4499fff3ca4254aca766de89cea1be6b"
+      },
+      {
+        "kind": "reproducible public package inspection",
+        "path": "cache/_cacache/index-v5/22/c5/6556db83229020f545974c0a96daa105f2aa03edd95f7f8e2235cbeecf9e",
+        "bytes": 1584,
+        "sha256": "436bfdcd189d7abbe99ac8467f52525b2087ef6196397467cecd62cb4ab887c4"
+      },
+      {
+        "kind": "reproducible public package inspection",
+        "path": "cache/_cacache/index-v5/85/40/f8cd5ee70f0914f9a714d5d1be53a5150ef94ac0c297ec6f200e1cb1a162",
+        "bytes": 703,
+        "sha256": "a5857b2c2d7f1acb7462ed896bf6daae125852e1d504052b8a52d230b52924ad"
+      },
+      {
+        "kind": "reproducible public package inspection",
+        "path": "cache/_cacache/index-v5/9b/95/398deb0d9dc2fdb29a3f2fe5a2ca5085be0d3e3ef2965a5cd479d3bea839",
+        "bytes": 718,
+        "sha256": "6bf58e49a7c979e1eb6c1911811dff37d1a967a190858405dc5d5d5bc086925c"
+      },
+      {
+        "kind": "reproducible public package inspection",
+        "path": "cache/_logs/2026-11-10T17_40_41_050Z-debug-0.log",
+        "bytes": 1707,
+        "sha256": "9eebce87d02a4454756f700d298d9526c4f3ca9d19d9aef01ded4ae124cd7d7f"
+      },
+      {
+        "kind": "reproducible public package inspection",
+        "path": "cache/_logs/2026-11-10T17_48_17_166Z-debug-0.log",
+        "bytes": 1383,
+        "sha256": "710a6996f39585fcb8d4d0e87c4b53a7049b5247ce6e446785816fa34961e6e2"
+      },
+      {
+        "kind": "reproducible public package inspection",
+        "path": "cache/_update-notifier-last-checked",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "kind": "reproducible public package inspection",
+        "path": "esbuild-linux-x64-0.28.2.tgz",
+        "bytes": 4741809,
+        "sha256": "9573bb2233aab0f9ea7647d5cca9726113cc1768de61d66b17267f4db84488f6"
+      },
+      {
+        "kind": "reproducible public package inspection",
+        "path": "img-sharp-linux-x64-0.35.5.tgz",
+        "bytes": 186507,
+        "sha256": "556787285d3244c07686a355de5b5a4c4d0019a12785bf24764e756a96ea3334"
+      }
+    ],
+    "allSixDuplicatePacketDirectoriesRemoved": true,
+    "inspectionScratchRemoved": true,
+    "unpublishedInitialPreparationPreserved": true
+  },
+  "proofLimits": [
+    "No full Agents OS completion, production hosting or AI-quality claim."
+  ]
+}
