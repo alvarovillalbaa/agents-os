@@ -1,0 +1,60 @@
+{
+  "release": {
+    "assets": [
+      {
+        "browser_download_url": "https://github.com/alvarovillalbaa/agents-os/releases/download/agents-os-crm-v0.1.0/agents-os-0.1.0.tgz",
+        "digest": "sha256:0c06262af1082bcde820d9082c42ce320310953fe609cb6c543440776ffdd5b9",
+        "id": 732700702,
+        "name": "agents-os-0.1.0.tgz",
+        "size": 222115,
+        "state": "uploaded"
+      },
+      {
+        "browser_download_url": "https://github.com/alvarovillalbaa/agents-os/releases/download/agents-os-crm-v0.1.0/agents-os-crm-evidence.zip",
+        "digest": "sha256:df2a7ab59eb58c80abbc0b1ab526e0ef58e537e96b3c1ec6e2242eb5528bf14e",
+        "id": 732701666,
+        "name": "agents-os-crm-evidence.zip",
+        "size": 5318493,
+        "state": "uploaded"
+      },
+      {
+        "browser_download_url": "https://github.com/alvarovillalbaa/agents-os/releases/download/agents-os-crm-v0.1.0/checksums.sha256",
+        "digest": "sha256:6a71869b5272007bb001e26885b8f14f5056f0e169557c25672527fc1fc09347",
+        "id": 732701832,
+        "name": "checksums.sha256",
+        "size": 267,
+        "state": "uploaded"
+      },
+      {
+        "browser_download_url": "https://github.com/alvarovillalbaa/agents-os/releases/download/agents-os-crm-v0.1.0/release-manifest.json",
+        "digest": "sha256:824111493209aadbd8ff08e427b48f19e8772a30184aa6b201f0a2cd67377158",
+        "id": 732701788,
+        "name": "release-manifest.json",
+        "size": 257068,
+        "state": "uploaded"
+      }
+    ],
+    "draft": false,
+    "html_url": "https://github.com/alvarovillalbaa/agents-os/releases/tag/agents-os-crm-v0.1.0",
+    "id": 440823353,
+    "prerelease": true,
+    "published_at": "2026-11-10T19:38:18Z",
+    "tag_name": "agents-os-crm-v0.1.0",
+    "target_commitish": "c004d8e6718049ea0b96052c5117b54d506077b8"
+  },
+  "downloadVerification": {
+    "allFourPublicDownloadsByteEqual": true,
+    "all1338DownloadedOriginalsVerified": true,
+    "standalonePackageEqualsAcceptedPacket": true,
+    "releaseId": 440823353
+  },
+  "nativeAdoption": {
+    "accepted": "c004d8e6718049ea0b96052c5117b54d506077b8",
+    "tree": "421355f736237bcc12160965265ae36175f73fcf",
+    "allFilesAndModesMatchGit": true,
+    "clean": true,
+    "files": 1420,
+    "bytes": 21407423,
+    "baselineBlobsPreserved": 1386
+  }
+}

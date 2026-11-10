@@ -1,0 +1,46 @@
+{
+  "recordedAt": "2026-11-10T19:42:01.187487+00:00",
+  "acceptedCommit": "c004d8e6718049ea0b96052c5117b54d506077b8",
+  "releaseId": 440823353,
+  "releaseUrl": "https://github.com/alvarovillalbaa/agents-os/releases/tag/agents-os-crm-v0.1.0",
+  "allFourPublicDownloadsByteEqual": true,
+  "all1338OriginalPacketFilesRetainedInVerifiedPublicZip": true,
+  "evidenceZipSha256": "df2a7ab59eb58c80abbc0b1ab526e0ef58e537e96b3c1ec6e2242eb5528bf14e",
+  "baselineBlobsAndModesPreserved": 1386,
+  "workflow": {
+    "id": 413653648,
+    "disabledBeforeRemoval": "2026-11-10T19:34:34Z",
+    "observedStateAfterPublication": "deleted",
+    "permanentWorkflowsAllActive": true
+  },
+  "ownedQaRefs": {
+    "retired": 11,
+    "remaining": 0,
+    "atomicExactLeases": true,
+    "allCheckedSourceAncestorsRetained": true
+  },
+  "localCleanup": {
+    "noOpenHandlesObserved": true,
+    "removedFiles": 1359,
+    "removedBytes": 28434396,
+    "categories": {
+      "publicly retained original packet copy": {
+        "files": 1338,
+        "bytes": 14740707
+      },
+      "verified public release asset duplicate": {
+        "files": 8,
+        "bytes": 11595886
+      },
+      "reachable private index": {
+        "files": 13,
+        "bytes": 2097803
+      }
+    },
+    "privateInventorySha256": "c8674cb1ce7fe9328c78bd688c6c626667dcc214dd0c2fe00162d619b9739f93",
+    "onlyVerifiedDuplicatesAndReachablePrivateIndices": true
+  },
+  "limits": [
+    "CRM scope only; Missions, shared harness and production hosting remain open."
+  ]
+}

@@ -100,6 +100,18 @@ ancestry are retained. Owned QA refs are retired only after publication.
 Push commits use the documented GitHub skip marker to avoid the inherited
 npm-release/lockfile push side effects;the explicit scoped CI ran all checks.
 
+Publication was read back from GitHub and all four public assets were downloaded
+and compared byte for byte. Every downloaded evidence member matched its
+manifest;the standalone package equals attempt11's installed archive. See the
+[publication receipt](agents-os-crm/publication.json).
+
+All11 owned QA refs were retired with atomic exact leases after their commits
+became accepted ancestors. The [cleanup receipt](agents-os-crm/cleanup.json)
+records removal of1359 verified duplicate/index files (28434396 bytes),with no
+open handles observed. Every original packet and failure remains in the public
+verified evidence ZIP. Native source adoption compared all1420 files,symlinks
+and modes to the accepted Git tree before advancing the clean checkout.
+
 ## Preserved failures
 
 | Attempt | Source | Run | Failure |
