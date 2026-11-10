@@ -7,10 +7,13 @@ const routes = [
   ['archive', 'POST', '/contacts/:contactId/archive'],
   ['link', 'POST', '/contacts/:contactId/tasks'],
   ['activity', 'POST', '/contacts/:contactId/activity'], ['tasks', 'GET', '/tasks'],
+  ['missions.list', 'POST', '/missions/search'], ['missions.get', 'GET', '/missions/:missionId'],
+  ['missions.create', 'POST', '/missions'], ['missions.command', 'POST', '/missions/:missionId/commands'],
+  ['missions.activity', 'POST', '/missions/:missionId/activity'],
 ] as const;
 const manifest: PaperclipPluginManifestV1 = {
-  id: PLUGIN_ID, apiVersion: 1, version: '0.1.0', minimumHostVersion: '2026.1106.0',
-  displayName: 'Agents OS', description: 'Company contacts and native task links.', author: 'Alvaro Villalba Perez',
+  id: PLUGIN_ID, apiVersion: 1, version: '0.2.0', minimumHostVersion: '2026.1106.0',
+  displayName: 'Agents OS', description: 'Company CRM and durable Missions on native Tasks.', author: 'Alvaro Villalba Perez',
   categories: ['ui', 'automation'],
   capabilities: ['api.routes.register', 'database.namespace.migrate', 'database.namespace.read',
     'database.namespace.write', 'companies.read', 'issues.read', 'activity.log.write', 'ui.page.register'],
@@ -18,6 +21,7 @@ const manifest: PaperclipPluginManifestV1 = {
   database: { namespaceSlug: 'agents_os', migrationsDir: 'migrations', coreReadTables: ['companies'] },
   apiRoutes: routes.map(([routeKey, method, path]) => ({ routeKey, method, path, auth: 'board',
     capability: 'api.routes.register', companyResolution: { from: 'query', key: 'companyId' } })),
-  ui: { slots: [{ type: 'page', id: 'crm', displayName: 'CRM', exportName: 'CrmPage', routePath: 'crm' }] },
+  ui: { slots: [{ type: 'page', id: 'crm', displayName: 'CRM', exportName: 'CrmPage', routePath: 'crm' },
+    { type: 'page', id: 'missions', displayName: 'Missions', exportName: 'MissionsPage', routePath: 'missions' }] },
 };
 export default manifest;

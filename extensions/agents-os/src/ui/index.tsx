@@ -2,6 +2,7 @@ import { useEffect, useRef, useState, type FormEvent } from 'react';
 import { useHostContext, type PluginPageProps } from '@paperclipai/plugin-sdk/ui';
 import { PLUGIN_ID, STAGES, type Contact, type ContactDetail, type ContactFields, type MutationResult, type TaskLink } from '../model.js';
 import { styles } from './styles.js';
+export { MissionsPage } from './missions.js';
 
 const EMPTY: ContactFields = { name: '', organization: '', email: '', phone: '', stage: 'lead', notes: '', nextStep: '', followUpDate: null };
 type Operation = { path: string; method: 'POST' | 'PATCH'; body: Record<string, unknown> };
