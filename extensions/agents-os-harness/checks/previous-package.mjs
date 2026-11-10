@@ -1,0 +1,10 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import { fixtureClient, need, hash } from './api-client.mjs';
+const { root, save } = fixtureClient('previous-package');
+const url = 'https://github.com/alvarovillalbaa/agents-os/releases/download/agents-os-missions-v0.2.0/agents-os-0.2.0.tgz';
+const response = await fetch(url, { signal: AbortSignal.timeout(30_000) }); need(response.status === 200, 'previous_public_package_download');
+const raw = Buffer.from(await response.arrayBuffer());
+need(raw.length === 230638 && hash(raw) === '354c175bb5ca7739e7c0dd70e44e3b08b18762ad49fa943ea8970136264a2cda', 'previous_accepted_package_identity');
+fs.writeFileSync(path.join(root, 'artifacts/missions-0.2.0.tgz'), raw, { flag: 'wx' });
+save('previous-agents-os-0.2.0.tgz', raw); save('previous-package-download.json', { url, status: response.status, bytes: raw.length, sha256: hash(raw) });
