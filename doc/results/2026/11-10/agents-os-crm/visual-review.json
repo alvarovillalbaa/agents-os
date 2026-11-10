@@ -1,0 +1,32 @@
+{
+  "sourceCommit": "009305c4cdc199144e4d9085359c5a97fa13dd3e",
+  "run": 42885925784,
+  "inspectedAllFourOriginalPngs": true,
+  "captures": [
+    {
+      "file": "crm-b01-saved.png",
+      "bytes": 96198,
+      "sha256": "763fdda0b81e5de9318a1c1daba4f0d390bf55ddeb742d5c023fdd4ad3544b53",
+      "inspection": "Desktop saved contact and list are readable."
+    },
+    {
+      "file": "crm-b02-archived.png",
+      "bytes": 32616,
+      "sha256": "ce2f31f2e07c9a05681e5c012fe9e30c52160ce922d020f14a37d0a1504fa8c5",
+      "inspection": "390px archived editor and 120-character name wrap within the viewport."
+    },
+    {
+      "file": "crm-b03-conflict.png",
+      "bytes": 88620,
+      "sha256": "30bc018bb5c9aba16f2423b9573174574d5d093f5f6b68ac2a25681c783c7d7d",
+      "inspection": "Stale-edit alert and load-saved control are visible; authored draft remains."
+    },
+    {
+      "file": "crm-b04-uncertain.png",
+      "bytes": 92277,
+      "sha256": "a1b6b1c726cd511674577650fd9ce55fec714393ef4dea8a511975a015f99387",
+      "inspection": "Uncertain-save alert, retained draft and recovery controls are visible."
+    }
+  ],
+  "limits": "Chromium viewport emulation; no physical touch, full-page or accessibility audit."
+}

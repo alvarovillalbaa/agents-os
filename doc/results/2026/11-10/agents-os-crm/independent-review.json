@@ -1,0 +1,246 @@
+{
+  "acceptedAttempt": 11,
+  "attempts": [
+    {
+      "verified": true,
+      "status": "failed",
+      "sourceCommit": "16fbddaefdf3f0ee1bdf3df0ce2d148425b018f1",
+      "workflowCommit": "a713930b9abe0f76021562ba47fdff8c0d305d54",
+      "files": 18,
+      "bytes": 456686,
+      "cases": 5,
+      "errors": [
+        "plugin-build_failed"
+      ],
+      "cleanup": {
+        "activeChildren": 0,
+        "remainingOriginalGroups": [],
+        "remainingOwnedProcesses": 0,
+        "remainingOriginalWorkers": 0,
+        "allStreamsComplete": true,
+        "databaseRemoved": true,
+        "listenerClosed": true,
+        "rootRemoved": true
+      }
+    },
+    {
+      "verified": true,
+      "status": "failed",
+      "sourceCommit": "bd894f22f7d6aa51afae5942630d66e6a883c7fa",
+      "workflowCommit": "a713930b9abe0f76021562ba47fdff8c0d305d54",
+      "files": 88,
+      "bytes": 804005,
+      "cases": 5,
+      "errors": [
+        "crm-api-core_failed"
+      ],
+      "cleanup": {
+        "activeChildren": 0,
+        "remainingOriginalGroups": [],
+        "remainingOwnedProcesses": 0,
+        "remainingOriginalWorkers": 0,
+        "allStreamsComplete": true,
+        "databaseRemoved": true,
+        "listenerClosed": true,
+        "rootRemoved": true
+      }
+    },
+    {
+      "verified": true,
+      "status": "failed",
+      "sourceCommit": "42e70242f77fa0a90efa6ec38d9a40b8a6a448aa",
+      "workflowCommit": "a713930b9abe0f76021562ba47fdff8c0d305d54",
+      "files": 134,
+      "bytes": 1107506,
+      "cases": 16,
+      "errors": [
+        "crm-browser_failed"
+      ],
+      "cleanup": {
+        "activeChildren": 0,
+        "remainingOriginalGroups": [],
+        "remainingOwnedProcesses": 0,
+        "remainingOriginalWorkers": 0,
+        "allStreamsComplete": true,
+        "databaseRemoved": true,
+        "listenerClosed": true,
+        "rootRemoved": true
+      }
+    },
+    {
+      "verified": true,
+      "status": "failed",
+      "sourceCommit": "0323edcb53a37f5eacded6ff8e9130f21c92750c",
+      "workflowCommit": "a713930b9abe0f76021562ba47fdff8c0d305d54",
+      "files": 134,
+      "bytes": 1115123,
+      "cases": 16,
+      "errors": [
+        "crm-browser_failed"
+      ],
+      "cleanup": {
+        "activeChildren": 0,
+        "remainingOriginalGroups": [],
+        "remainingOwnedProcesses": 0,
+        "remainingOriginalWorkers": 0,
+        "allStreamsComplete": true,
+        "databaseRemoved": true,
+        "listenerClosed": true,
+        "rootRemoved": true
+      }
+    },
+    {
+      "verified": true,
+      "status": "failed",
+      "sourceCommit": "1db27756f34e79362e5a51185b18beb04e984513",
+      "workflowCommit": "a713930b9abe0f76021562ba47fdff8c0d305d54",
+      "files": 125,
+      "bytes": 989723,
+      "cases": 15,
+      "errors": [
+        "crm-api-restart_failed"
+      ],
+      "cleanup": {
+        "activeChildren": 0,
+        "remainingOriginalGroups": [],
+        "remainingOwnedProcesses": 0,
+        "remainingOriginalWorkers": 0,
+        "allStreamsComplete": true,
+        "databaseRemoved": true,
+        "listenerClosed": true,
+        "rootRemoved": true
+      }
+    },
+    {
+      "verified": true,
+      "status": "failed",
+      "sourceCommit": "c03f79e52d47b1926fb719c5ee4fb602580826ef",
+      "workflowCommit": "a713930b9abe0f76021562ba47fdff8c0d305d54",
+      "files": 136,
+      "bytes": 1318424,
+      "cases": 16,
+      "errors": [
+        "crm-browser_failed"
+      ],
+      "cleanup": {
+        "activeChildren": 0,
+        "remainingOriginalGroups": [],
+        "remainingOwnedProcesses": 0,
+        "remainingOriginalWorkers": 0,
+        "allStreamsComplete": true,
+        "databaseRemoved": true,
+        "listenerClosed": true,
+        "rootRemoved": true
+      }
+    },
+    {
+      "verified": true,
+      "status": "failed",
+      "sourceCommit": "3cc91fe17abc893b9d1b86c77d5c3616cd130fea",
+      "workflowCommit": "a713930b9abe0f76021562ba47fdff8c0d305d54",
+      "files": 140,
+      "bytes": 1730052,
+      "cases": 16,
+      "errors": [
+        "crm-browser_failed"
+      ],
+      "cleanup": {
+        "activeChildren": 0,
+        "remainingOriginalGroups": [],
+        "remainingOwnedProcesses": 0,
+        "remainingOriginalWorkers": 0,
+        "allStreamsComplete": true,
+        "databaseRemoved": true,
+        "listenerClosed": true,
+        "rootRemoved": true
+      }
+    },
+    {
+      "verified": true,
+      "status": "failed",
+      "sourceCommit": "e5bb4dbd8fc68c588beedc4ffcdf414d22efc669",
+      "workflowCommit": "a713930b9abe0f76021562ba47fdff8c0d305d54",
+      "files": 140,
+      "bytes": 1726550,
+      "cases": 16,
+      "errors": [
+        "crm-browser_failed"
+      ],
+      "cleanup": {
+        "activeChildren": 0,
+        "remainingOriginalGroups": [],
+        "remainingOwnedProcesses": 0,
+        "remainingOriginalWorkers": 0,
+        "allStreamsComplete": true,
+        "databaseRemoved": true,
+        "listenerClosed": true,
+        "rootRemoved": true
+      }
+    },
+    {
+      "verified": true,
+      "status": "failed",
+      "sourceCommit": "36e787ea5c3d4f8acef308b95df404fc8a2a7fc0",
+      "workflowCommit": "a713930b9abe0f76021562ba47fdff8c0d305d54",
+      "files": 137,
+      "bytes": 1480688,
+      "cases": 16,
+      "errors": [
+        "crm-browser_failed"
+      ],
+      "cleanup": {
+        "activeChildren": 0,
+        "remainingOriginalGroups": [],
+        "remainingOwnedProcesses": 0,
+        "remainingOriginalWorkers": 0,
+        "allStreamsComplete": true,
+        "databaseRemoved": true,
+        "listenerClosed": true,
+        "rootRemoved": true
+      }
+    },
+    {
+      "verified": true,
+      "status": "failed",
+      "sourceCommit": "737ce198c6c6f6c6910dcf634cd6095fd4cc606e",
+      "workflowCommit": "a713930b9abe0f76021562ba47fdff8c0d305d54",
+      "files": 141,
+      "bytes": 1744426,
+      "cases": 16,
+      "errors": [
+        "crm-browser_failed"
+      ],
+      "cleanup": {
+        "activeChildren": 0,
+        "remainingOriginalGroups": [],
+        "remainingOwnedProcesses": 0,
+        "remainingOriginalWorkers": 0,
+        "allStreamsComplete": true,
+        "databaseRemoved": true,
+        "listenerClosed": true,
+        "rootRemoved": true
+      }
+    },
+    {
+      "verified": true,
+      "status": "passed",
+      "sourceCommit": "009305c4cdc199144e4d9085359c5a97fa13dd3e",
+      "workflowCommit": "a713930b9abe0f76021562ba47fdff8c0d305d54",
+      "files": 145,
+      "bytes": 2267524,
+      "cases": 20,
+      "errors": [],
+      "cleanup": {
+        "activeChildren": 0,
+        "remainingOriginalGroups": [],
+        "remainingOwnedProcesses": 0,
+        "remainingOriginalWorkers": 0,
+        "allStreamsComplete": true,
+        "databaseRemoved": true,
+        "listenerClosed": true,
+        "rootRemoved": true
+      }
+    }
+  ],
+  "method": "Every packet manifest and command stream checked; accepted Git source vectors, actual tar members, hashes, modes, npm integrity, API, browser and teardown independently checked."
+}

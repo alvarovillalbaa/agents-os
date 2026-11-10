@@ -1,0 +1,844 @@
+{
+  "schemaVersion": "agents-os.crm-checks.v1",
+  "sourceCommit": "009305c4cdc199144e4d9085359c5a97fa13dd3e",
+  "workflowCommit": "a713930b9abe0f76021562ba47fdff8c0d305d54",
+  "status": "passed",
+  "startedAt": "2026-11-10T19:30:42.681Z",
+  "upstream": {
+    "version": "2026.1106.0",
+    "commit": "d69631b01b9c658f80bf8bed389863dce82643e1"
+  },
+  "commands": [
+    {
+      "label": "tools-install",
+      "command": "npm",
+      "args": [
+        "install",
+        "--prefix",
+        "/home/runner/work/_temp/agents-os-crm-QJzg3S/tools",
+        "--ignore-scripts",
+        "--omit=optional",
+        "--save-exact",
+        "--no-audit",
+        "--no-fund",
+        "paperclipai@2026.1106.0",
+        "playwright@1.65.0",
+        "postgres@3.4.9",
+        "@img/sharp-linux-x64@0.35.5",
+        "@img/sharp-libvips-linux-x64@1.3.4",
+        "@esbuild/linux-x64@0.28.2"
+      ],
+      "startedAt": "2026-11-10T19:30:42.984Z",
+      "signals": [],
+      "streams": [
+        {
+          "name": "tools-install.stdout.txt",
+          "bytes": 26,
+          "sha256": "a52f468a9176b3f63dd4d497a5d64add9c93832c635c9a36d019f6a71642751c",
+          "complete": true
+        },
+        {
+          "name": "tools-install.stderr.txt",
+          "bytes": 218,
+          "sha256": "09787a8109dd6c244c7a5b53e1a3d6cf10893d91435a2e411cebfe0b37f0dd98",
+          "complete": true
+        }
+      ],
+      "pid": 2845,
+      "identity": {
+        "pid": 2845,
+        "uid": 1001,
+        "pgid": 2845,
+        "sid": 2845,
+        "start": "3325"
+      },
+      "exitCode": 0,
+      "signal": null,
+      "closeObserved": true,
+      "completedAt": "2026-11-10T19:31:55.888Z",
+      "originalGroupAbsent": true
+    },
+    {
+      "label": "chromium-install",
+      "command": "/home/runner/work/_temp/agents-os-crm-QJzg3S/tools/node_modules/.bin/playwright",
+      "args": [
+        "install",
+        "chromium"
+      ],
+      "startedAt": "2026-11-10T19:31:56.586Z",
+      "signals": [],
+      "streams": [
+        {
+          "name": "chromium-install.stdout.txt",
+          "bytes": 6904,
+          "sha256": "b7d32fd42eb87ae670fb00f093a355797d42d338ace709ac6e5cfd73b881bd7d",
+          "complete": true
+        },
+        {
+          "name": "chromium-install.stderr.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "complete": true
+        }
+      ],
+      "pid": 3205,
+      "identity": {
+        "pid": 3205,
+        "uid": 1001,
+        "pgid": 3205,
+        "sid": 3205,
+        "start": "10685"
+      },
+      "exitCode": 0,
+      "signal": null,
+      "closeObserved": true,
+      "completedAt": "2026-11-10T19:32:06.917Z",
+      "originalGroupAbsent": true
+    },
+    {
+      "label": "plugin-dependencies",
+      "command": "npm",
+      "args": [
+        "install",
+        "--include=optional",
+        "--ignore-scripts",
+        "--no-audit",
+        "--no-fund"
+      ],
+      "startedAt": "2026-11-10T19:32:06.918Z",
+      "signals": [],
+      "streams": [
+        {
+          "name": "plugin-dependencies.stdout.txt",
+          "bytes": 25,
+          "sha256": "44a784cc08b1e73a44c0bf704e56a742f67527e48ac8e6f114f8d5124754fa77",
+          "complete": true
+        },
+        {
+          "name": "plugin-dependencies.stderr.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "complete": true
+        }
+      ],
+      "pid": 3297,
+      "identity": {
+        "pid": 3297,
+        "uid": 1001,
+        "pgid": 3297,
+        "sid": 3297,
+        "start": "11718"
+      },
+      "exitCode": 0,
+      "signal": null,
+      "closeObserved": true,
+      "completedAt": "2026-11-10T19:32:10.013Z",
+      "originalGroupAbsent": true
+    },
+    {
+      "label": "plugin-typecheck",
+      "command": "npm",
+      "args": [
+        "run",
+        "typecheck"
+      ],
+      "startedAt": "2026-11-10T19:32:10.014Z",
+      "signals": [],
+      "streams": [
+        {
+          "name": "plugin-typecheck.stdout.txt",
+          "bytes": 62,
+          "sha256": "9abb752ad21649a5e60337c4351c847c312c42e67a87ba8c83e86c639e7d01b2",
+          "complete": true
+        },
+        {
+          "name": "plugin-typecheck.stderr.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "complete": true
+        }
+      ],
+      "pid": 3328,
+      "identity": {
+        "pid": 3328,
+        "uid": 1001,
+        "pgid": 3328,
+        "sid": 3328,
+        "start": "12028"
+      },
+      "exitCode": 0,
+      "signal": null,
+      "closeObserved": true,
+      "completedAt": "2026-11-10T19:32:12.041Z",
+      "originalGroupAbsent": true
+    },
+    {
+      "label": "plugin-domain",
+      "command": "npm",
+      "args": [
+        "test"
+      ],
+      "startedAt": "2026-11-10T19:32:12.042Z",
+      "signals": [],
+      "streams": [
+        {
+          "name": "plugin-domain.stdout.txt",
+          "bytes": 1234,
+          "sha256": "9585116b72a72882a5a4b515cfa032215e381ba386b1868189094412314d0f56",
+          "complete": true
+        },
+        {
+          "name": "plugin-domain.stderr.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "complete": true
+        }
+      ],
+      "pid": 3355,
+      "identity": {
+        "pid": 3355,
+        "uid": 1001,
+        "pgid": 3355,
+        "sid": 3355,
+        "start": "12231"
+      },
+      "exitCode": 0,
+      "signal": null,
+      "closeObserved": true,
+      "completedAt": "2026-11-10T19:32:12.532Z",
+      "originalGroupAbsent": true
+    },
+    {
+      "label": "plugin-build",
+      "command": "npm",
+      "args": [
+        "run",
+        "build"
+      ],
+      "startedAt": "2026-11-10T19:32:12.533Z",
+      "signals": [],
+      "streams": [
+        {
+          "name": "plugin-build.stdout.txt",
+          "bytes": 60,
+          "sha256": "1b96e4499630562aea631f0f387a5710667bf0e3711ad7de804e885c5103e2f5",
+          "complete": true
+        },
+        {
+          "name": "plugin-build.stderr.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "complete": true
+        }
+      ],
+      "pid": 3403,
+      "identity": {
+        "pid": 3403,
+        "uid": 1001,
+        "pgid": 3403,
+        "sid": 3403,
+        "start": "12280"
+      },
+      "exitCode": 0,
+      "signal": null,
+      "closeObserved": true,
+      "completedAt": "2026-11-10T19:32:12.841Z",
+      "originalGroupAbsent": true
+    },
+    {
+      "label": "plugin-pack",
+      "command": "npm",
+      "args": [
+        "pack",
+        "--ignore-scripts",
+        "--json",
+        "--pack-destination",
+        "/home/runner/work/_temp/agents-os-crm-QJzg3S/artifacts"
+      ],
+      "startedAt": "2026-11-10T19:32:12.842Z",
+      "signals": [],
+      "streams": [
+        {
+          "name": "plugin-pack.stdout.txt",
+          "bytes": 1226,
+          "sha256": "c4efbe0c3a7d730031c46988590e82ef3d4bc8b67eacc7b19462142ea4a91d5e",
+          "complete": true
+        },
+        {
+          "name": "plugin-pack.stderr.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "complete": true
+        }
+      ],
+      "pid": 3432,
+      "identity": {
+        "pid": 3432,
+        "uid": 1001,
+        "pgid": 3432,
+        "sid": 3432,
+        "start": "12311"
+      },
+      "exitCode": 0,
+      "signal": null,
+      "closeObserved": true,
+      "completedAt": "2026-11-10T19:32:13.272Z",
+      "originalGroupAbsent": true
+    },
+    {
+      "label": "package-list",
+      "command": "tar",
+      "args": [
+        "-tzf",
+        "/home/runner/work/_temp/agents-os-crm-QJzg3S/artifacts/alvarovillalbaa-agents-os-0.1.0.tgz"
+      ],
+      "startedAt": "2026-11-10T19:32:13.273Z",
+      "signals": [],
+      "streams": [
+        {
+          "name": "package-list.stdout.txt",
+          "bytes": 202,
+          "sha256": "3a5ee6737bad50b619bdaf3cb249a9afa4598cc5f7432fe18270c7234b1b3048",
+          "complete": true
+        },
+        {
+          "name": "package-list.stderr.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "complete": true
+        }
+      ],
+      "pid": 3444,
+      "identity": {
+        "pid": 3444,
+        "uid": 1001,
+        "pgid": 3444,
+        "sid": 3444,
+        "start": "12354"
+      },
+      "exitCode": 0,
+      "signal": null,
+      "closeObserved": true,
+      "completedAt": "2026-11-10T19:32:13.284Z",
+      "originalGroupAbsent": true
+    },
+    {
+      "label": "package-extract",
+      "command": "tar",
+      "args": [
+        "-xzf",
+        "/home/runner/work/_temp/agents-os-crm-QJzg3S/artifacts/alvarovillalbaa-agents-os-0.1.0.tgz",
+        "-C",
+        "/home/runner/work/_temp/agents-os-crm-QJzg3S/installed"
+      ],
+      "startedAt": "2026-11-10T19:32:13.285Z",
+      "signals": [],
+      "streams": [
+        {
+          "name": "package-extract.stdout.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "complete": true
+        },
+        {
+          "name": "package-extract.stderr.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "complete": true
+        }
+      ],
+      "pid": 3446,
+      "identity": {
+        "pid": 3446,
+        "uid": 1001,
+        "pgid": 3446,
+        "sid": 3446,
+        "start": "12355"
+      },
+      "exitCode": 0,
+      "signal": null,
+      "closeObserved": true,
+      "completedAt": "2026-11-10T19:32:13.295Z",
+      "originalGroupAbsent": true
+    },
+    {
+      "label": "paperclip-first",
+      "command": "/opt/hostedtoolcache/node/24.22.2/x64/bin/node",
+      "args": [
+        "/home/runner/work/_temp/agents-os-crm-QJzg3S/tools/start-paperclip.mjs"
+      ],
+      "startedAt": "2026-11-10T19:32:13.522Z",
+      "signals": [
+        "SIGTERM"
+      ],
+      "streams": [
+        {
+          "name": "paperclip-first.stdout.txt",
+          "bytes": 91220,
+          "sha256": "6695b2d2662f9db594f4013e23ee3c594ff5d2e586dd8dd05dae4da18e6ddb6a",
+          "complete": true
+        },
+        {
+          "name": "paperclip-first.stderr.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "complete": true
+        }
+      ],
+      "pid": 3455,
+      "identity": {
+        "pid": 3455,
+        "uid": 1001,
+        "pgid": 3455,
+        "sid": 3455,
+        "start": "12379"
+      },
+      "exitCode": 0,
+      "signal": null,
+      "closeObserved": true,
+      "completedAt": "2026-11-10T19:32:29.812Z",
+      "originalGroupAbsent": true
+    },
+    {
+      "label": "crm-api-core",
+      "command": "/opt/hostedtoolcache/node/24.22.2/x64/bin/node",
+      "args": [
+        "checks/api.mjs",
+        "core"
+      ],
+      "startedAt": "2026-11-10T19:32:26.317Z",
+      "signals": [],
+      "streams": [
+        {
+          "name": "crm-api-core.stdout.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "complete": true
+        },
+        {
+          "name": "crm-api-core.stderr.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "complete": true
+        }
+      ],
+      "pid": 3549,
+      "identity": {
+        "pid": 3549,
+        "uid": 1001,
+        "pgid": 3549,
+        "sid": 3549,
+        "start": "13658"
+      },
+      "exitCode": 0,
+      "signal": null,
+      "closeObserved": true,
+      "completedAt": "2026-11-10T19:32:29.580Z",
+      "originalGroupAbsent": true
+    },
+    {
+      "label": "paperclip-restarted",
+      "command": "/opt/hostedtoolcache/node/24.22.2/x64/bin/node",
+      "args": [
+        "/home/runner/work/_temp/agents-os-crm-QJzg3S/tools/start-paperclip.mjs"
+      ],
+      "startedAt": "2026-11-10T19:32:29.814Z",
+      "signals": [
+        "SIGTERM"
+      ],
+      "streams": [
+        {
+          "name": "paperclip-restarted.stdout.txt",
+          "bytes": 496181,
+          "sha256": "5b0580e0671fac9ba8c8990506cc86a9276652a57d6d53943d5f00ac30185e79",
+          "complete": true
+        },
+        {
+          "name": "paperclip-restarted.stderr.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "complete": true
+        }
+      ],
+      "pid": 3573,
+      "identity": {
+        "pid": 3573,
+        "uid": 1001,
+        "pgid": 3573,
+        "sid": 3573,
+        "start": "14008"
+      },
+      "exitCode": 0,
+      "signal": null,
+      "closeObserved": true,
+      "completedAt": "2026-11-10T19:33:14.619Z",
+      "originalGroupAbsent": true
+    },
+    {
+      "label": "crm-api-restart",
+      "command": "/opt/hostedtoolcache/node/24.22.2/x64/bin/node",
+      "args": [
+        "checks/api.mjs",
+        "restart"
+      ],
+      "startedAt": "2026-11-10T19:32:37.452Z",
+      "signals": [],
+      "streams": [
+        {
+          "name": "crm-api-restart.stdout.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "complete": true
+        },
+        {
+          "name": "crm-api-restart.stderr.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "complete": true
+        }
+      ],
+      "pid": 3646,
+      "identity": {
+        "pid": 3646,
+        "uid": 1001,
+        "pgid": 3646,
+        "sid": 3646,
+        "start": "14772"
+      },
+      "exitCode": 0,
+      "signal": null,
+      "closeObserved": true,
+      "completedAt": "2026-11-10T19:32:37.772Z",
+      "originalGroupAbsent": true
+    },
+    {
+      "label": "crm-browser",
+      "command": "/opt/hostedtoolcache/node/24.22.2/x64/bin/node",
+      "args": [
+        "checks/browser.mjs"
+      ],
+      "startedAt": "2026-11-10T19:32:37.912Z",
+      "signals": [],
+      "streams": [
+        {
+          "name": "crm-browser.stdout.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "complete": true
+        },
+        {
+          "name": "crm-browser.stderr.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "complete": true
+        }
+      ],
+      "pid": 3663,
+      "identity": {
+        "pid": 3663,
+        "uid": 1001,
+        "pgid": 3663,
+        "sid": 3663,
+        "start": "14818"
+      },
+      "exitCode": 0,
+      "signal": null,
+      "closeObserved": true,
+      "completedAt": "2026-11-10T19:33:14.351Z",
+      "originalGroupAbsent": true
+    }
+  ],
+  "cases": [
+    {
+      "id": "D01",
+      "passed": true
+    },
+    {
+      "id": "D02",
+      "passed": true
+    },
+    {
+      "id": "D03",
+      "passed": true
+    },
+    {
+      "id": "D04",
+      "passed": true
+    },
+    {
+      "id": "D05",
+      "passed": true
+    },
+    {
+      "id": "I01",
+      "passed": true,
+      "pluginId": "b7334181-2cbe-421c-a930-d11029823449",
+      "pluginKey": "alvarovillalbaa.agents-os",
+      "worker": {
+        "pid": 3561,
+        "start": "13708",
+        "pgid": 3455,
+        "sid": 3455
+      }
+    },
+    {
+      "id": "I02",
+      "passed": true,
+      "contactId": "1dc30a18-46e0-440e-af5b-b6f57033d916",
+      "revision": 1
+    },
+    {
+      "id": "I03",
+      "passed": true,
+      "rejectedInputs": 4,
+      "noRowsCreated": true
+    },
+    {
+      "id": "I04",
+      "passed": true,
+      "createAndEditReplay": true,
+      "changedReplayRejected": true
+    },
+    {
+      "id": "I05",
+      "passed": true,
+      "staleRejected": true,
+      "concurrentWinners": 1,
+      "revision": 3
+    },
+    {
+      "id": "I06",
+      "passed": true,
+      "companyScope404s": 3,
+      "validAgentRead": true,
+      "agentCrm403s": 2,
+      "disposableKeyRevoked": true,
+      "sensitiveKeyBodyWithheld": true
+    },
+    {
+      "id": "I07",
+      "passed": true,
+      "nativeTaskId": "2dba68e5-27ec-419a-986c-fac6ade16a2d",
+      "otherCompanyTaskRejected": true,
+      "unlinkPreservedTask": true
+    },
+    {
+      "id": "I08",
+      "passed": true,
+      "archiveAndRestore": true,
+      "archivedEditRejected": true
+    },
+    {
+      "id": "I09",
+      "passed": true,
+      "created": 31,
+      "pageSizes": [
+        30,
+        1
+      ],
+      "distinct": 31,
+      "searchLiteral": true
+    },
+    {
+      "id": "I10",
+      "passed": true,
+      "journalEvents": 8,
+      "delivered": true,
+      "noContactFieldsInActivity": true
+    },
+    {
+      "id": "I11",
+      "passed": true,
+      "actualServerRestart": true,
+      "sameContactAndTaskLink": true,
+      "seededContacts": 31,
+      "journalRetained": true,
+      "originalWorkerAbsent": true
+    },
+    {
+      "id": "B01",
+      "passed": true,
+      "width": 1280,
+      "contextsClosed": 1
+    },
+    {
+      "id": "B02",
+      "passed": true,
+      "width": 390,
+      "contextsClosed": 1
+    },
+    {
+      "id": "B03",
+      "passed": true,
+      "width": 1280,
+      "contextsClosed": 2
+    },
+    {
+      "id": "B04",
+      "passed": true,
+      "width": 1280,
+      "contextsClosed": 1
+    }
+  ],
+  "guards": [
+    {
+      "label": "before-install",
+      "canonicalFiles": 1409,
+      "canonicalVectorSha256": "890f02e3094ec249b2044a97600750e429acc0cfe7f80e3f80b08f992ffbac20",
+      "protectedFiles": 22,
+      "protectedVectorSha256": "213a5bfcba34502de2125e40073fc39ae37db22763cb6b217b0d3e5570a6a40a",
+      "workingSourceVectorSha256": "213a5bfcba34502de2125e40073fc39ae37db22763cb6b217b0d3e5570a6a40a"
+    },
+    {
+      "label": "after-host-install",
+      "canonicalFiles": 1409,
+      "canonicalVectorSha256": "890f02e3094ec249b2044a97600750e429acc0cfe7f80e3f80b08f992ffbac20",
+      "protectedFiles": 22,
+      "protectedVectorSha256": "213a5bfcba34502de2125e40073fc39ae37db22763cb6b217b0d3e5570a6a40a",
+      "workingSourceVectorSha256": "213a5bfcba34502de2125e40073fc39ae37db22763cb6b217b0d3e5570a6a40a"
+    },
+    {
+      "label": "after-package-build",
+      "canonicalFiles": 1409,
+      "canonicalVectorSha256": "890f02e3094ec249b2044a97600750e429acc0cfe7f80e3f80b08f992ffbac20",
+      "protectedFiles": 22,
+      "protectedVectorSha256": "213a5bfcba34502de2125e40073fc39ae37db22763cb6b217b0d3e5570a6a40a",
+      "workingSourceVectorSha256": "213a5bfcba34502de2125e40073fc39ae37db22763cb6b217b0d3e5570a6a40a"
+    },
+    {
+      "label": "after-api",
+      "canonicalFiles": 1409,
+      "canonicalVectorSha256": "890f02e3094ec249b2044a97600750e429acc0cfe7f80e3f80b08f992ffbac20",
+      "protectedFiles": 22,
+      "protectedVectorSha256": "213a5bfcba34502de2125e40073fc39ae37db22763cb6b217b0d3e5570a6a40a",
+      "workingSourceVectorSha256": "213a5bfcba34502de2125e40073fc39ae37db22763cb6b217b0d3e5570a6a40a"
+    },
+    {
+      "label": "after-restart",
+      "canonicalFiles": 1409,
+      "canonicalVectorSha256": "890f02e3094ec249b2044a97600750e429acc0cfe7f80e3f80b08f992ffbac20",
+      "protectedFiles": 22,
+      "protectedVectorSha256": "213a5bfcba34502de2125e40073fc39ae37db22763cb6b217b0d3e5570a6a40a",
+      "workingSourceVectorSha256": "213a5bfcba34502de2125e40073fc39ae37db22763cb6b217b0d3e5570a6a40a"
+    },
+    {
+      "label": "after-browser",
+      "canonicalFiles": 1409,
+      "canonicalVectorSha256": "890f02e3094ec249b2044a97600750e429acc0cfe7f80e3f80b08f992ffbac20",
+      "protectedFiles": 22,
+      "protectedVectorSha256": "213a5bfcba34502de2125e40073fc39ae37db22763cb6b217b0d3e5570a6a40a",
+      "workingSourceVectorSha256": "213a5bfcba34502de2125e40073fc39ae37db22763cb6b217b0d3e5570a6a40a"
+    },
+    {
+      "label": "terminal-source-check",
+      "canonicalFiles": 1409,
+      "canonicalVectorSha256": "890f02e3094ec249b2044a97600750e429acc0cfe7f80e3f80b08f992ffbac20",
+      "protectedFiles": 22,
+      "protectedVectorSha256": "213a5bfcba34502de2125e40073fc39ae37db22763cb6b217b0d3e5570a6a40a",
+      "workingSourceVectorSha256": "213a5bfcba34502de2125e40073fc39ae37db22763cb6b217b0d3e5570a6a40a"
+    }
+  ],
+  "errors": [],
+  "database": {
+    "created": true,
+    "removed": true,
+    "name": "agents_os_crm_42885925784_1",
+    "ownerMarkerSha256": "74361a9284c2dfa6d55d01ede683a471a6b2d5cb62b6b65eee3f18d682b71c2c",
+    "bytes": 30272659
+  },
+  "cleanup": {
+    "activeChildren": 0,
+    "remainingOriginalGroups": [],
+    "remainingOwnedProcesses": 0,
+    "remainingOriginalWorkers": 0,
+    "allStreamsComplete": true,
+    "databaseRemoved": true,
+    "listenerClosed": true,
+    "rootRemoved": true
+  },
+  "proofLimits": [
+    "CRM package/API/DB/UI acceptance only; Missions, model quality and finished Agents OS remain open.",
+    "Loopback local_trusted/private authored fixture only; no public deployment, real account/contact data, model/provider call or paid resource.",
+    "One generated disposable key body is explicitly withheld; all other safe originals and full command streams are retained."
+  ],
+  "export": {
+    "files": 22,
+    "bytes": 124653
+  },
+  "host": {
+    "packages": [
+      {
+        "name": "paperclipai",
+        "version": "2026.1106.0",
+        "integrity": "sha512-jcZrSB5DItxeDJGO7TccI0WcYca2IbBJxpbaKZN6kZp+isNIbVF2AgmfFQq394mjXD+TTHwS5P3AT6jjpqXbng==",
+        "resolved": "https://registry.npmjs.org/paperclipai/-/paperclipai-2026.1106.0.tgz",
+        "entryFile": "dist/index.js",
+        "entryBytes": 2602496,
+        "entrySha256": "56dbf3a353f1dff7fb8ba12fa5805d07c4673a090e842303f51ca5c1d97023b4"
+      },
+      {
+        "name": "@paperclipai/server",
+        "version": "2026.1106.0",
+        "integrity": "sha512-OqG0qydn5Pky3iHmTgL3fvAh47m77CYgkuM3CgV6ciw6tY/AmBgkO3greyr0LinLFk7x1FdLkF1sfVVukZo/YA==",
+        "resolved": "https://registry.npmjs.org/@paperclipai/server/-/server-2026.1106.0.tgz",
+        "entryFile": "dist/index.js",
+        "entryBytes": 110287,
+        "entrySha256": "cde8cd927214edb31edf173aec7667dd86b174799a58c822f6abf41089786480"
+      },
+      {
+        "name": "@img/sharp-linux-x64",
+        "version": "0.35.5",
+        "integrity": "sha512-SxFtLTeJInhAA9Q836kux2vZNeOBQEx658qvbboZScr0wIARym3IcGmW7KpVD5sbVg0Ojy+udFQdayYIZyoNog==",
+        "resolved": "https://registry.npmjs.org/@img/sharp-linux-x64/-/sharp-linux-x64-0.35.5.tgz",
+        "entryFile": "lib/sharp-linux-x64-0.35.5.node",
+        "entryBytes": 415112,
+        "entrySha256": "cf896cc1b7f3ae9c3e8eb3d7b2b198b8de2824ff7d0681d684bab5a825def335"
+      },
+      {
+        "name": "@img/sharp-libvips-linux-x64",
+        "version": "1.3.4",
+        "integrity": "sha512-GJ//SSXbnwSDes02umB3nDJLFcQzw8a18V8fyhqr6tV515tOEMdImjjxj1AoafMRz56F3PHgftnj1QEKSU1zkw==",
+        "resolved": "https://registry.npmjs.org/@img/sharp-libvips-linux-x64/-/sharp-libvips-linux-x64-1.3.4.tgz",
+        "entryFile": "lib/libvips-cpp.so.8.18.7",
+        "entryBytes": 18699288,
+        "entrySha256": "4aa73553408c3964071728f4a231a8e86918e39bc49f1fbae75355f7ea933ea9"
+      },
+      {
+        "name": "@esbuild/linux-x64",
+        "version": "0.28.2",
+        "integrity": "sha512-4xTZr1FUmSoQW4XIWmit3tzQrUTZM+N3P0XV8xROKYF50XfI7xeO90+1bZvNwxIufQ9hDQVRJH5YhgPVF8A/HQ==",
+        "resolved": "https://registry.npmjs.org/@esbuild/linux-x64/-/linux-x64-0.28.2.tgz",
+        "entryFile": "bin/esbuild",
+        "entryBytes": 11427952,
+        "entrySha256": "e1698a3d5c6c0798fee4fd3b5cc816651f460c63d390a7a26ea4beb0b1884100"
+      }
+    ],
+    "unmodifiedPublishedEntrypoint": true,
+    "origin": "http://127.0.0.1:4315",
+    "mode": "local_trusted/private"
+  },
+  "runtime": {
+    "bytes": 2796459128,
+    "files": 78175
+  },
+  "unit": {
+    "tests": 5,
+    "passed": 5,
+    "failed": 0
+  },
+  "package": {
+    "archive": "agents-os-0.1.0.tgz",
+    "integrity": "sha512-xrajXFQrsd6Ca6gW8TgxKMvjZGZJZouOyjEAgBvcmzVbId8h8oGXZiIpkCAvl5Ek+O0zFVPXbuPlrv/Rq827FQ==",
+    "files": 8,
+    "sha256": "0c06262af1082bcde820d9082c42ce320310953fe609cb6c543440776ffdd5b9",
+    "actualExtractedPackage": true
+  },
+  "browser": {
+    "version": "158.0.8127.18",
+    "cases": 4,
+    "dom": 8,
+    "png": 4,
+    "browserClosed": true
+  },
+  "completedAt": "2026-11-10T19:33:22.700Z"
+}

@@ -1,0 +1,26 @@
+{
+  "name": "@alvarovillalbaa/agents-os",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Agents OS CRM and native task links for Paperclip",
+  "license": "MIT",
+  "type": "module",
+  "engines": { "node": ">=24.11.0" },
+  "files": ["dist", "migrations", "README.md", "LICENSE"],
+  "paperclipPlugin": { "manifest": "./dist/manifest.js", "worker": "./dist/worker.js", "ui": "./dist/ui" },
+  "scripts": {
+    "build": "node build.mjs",
+    "typecheck": "tsc --noEmit",
+    "test": "tsx --test --test-reporter=tap tests/*.test.ts"
+  },
+  "dependencies": { "@paperclipai/plugin-sdk": "2026.1106.0" },
+  "devDependencies": {
+    "@types/node": "24.19.2",
+    "@types/react": "19.2.18",
+    "esbuild": "0.28.2",
+    "react": "19.3.1",
+    "tsx": "4.23.15",
+    "typescript": "7.0.2"
+  },
+  "peerDependencies": { "react": ">=18" }
+}
